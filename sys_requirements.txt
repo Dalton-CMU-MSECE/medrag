@@ -1,0 +1,19 @@
+# System-level requirements (not pip installable)
+# Install these using system package manager before running pip install
+
+# For Elasticsearch
+# - Docker (for running Elasticsearch container)
+# - Java 11+ (if running Elasticsearch natively)
+
+# For PDF generation (docs)
+# - wkhtmltopdf OR
+# - Google Chrome / Chromium
+
+# For SciSpacy models
+# After pip install, run:
+# python -m spacy download en_core_sci_sm
+# python -m spacy download en_core_sci_md
+
+# Optional: CUDA for GPU acceleration
+# - CUDA Toolkit 11.8+ (for PyTorch GPU support)
+# - cuDNN 8.x

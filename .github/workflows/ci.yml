@@ -1,0 +1,93 @@
+# GitHub Actions CI tailored for the RAG pipeline
+# - Linting (flake8)
+# - Unit tests (pytest tests/unit)
+# - Integration smoke (pytest tests/integration runs the small run pipeline)
+# - Upload reproducibility artifacts (run_manifest.json, results.jsonl) + test reports
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: .
+      CI: "true"
+      # Ensure pipeline uses the stub LLM provider in CI to avoid external API calls
+      LLM_PROVIDER: "stub"
+      OPENAI_API_KEY: ""
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          fi
+          # Add test-only tools
+          pip install pytest flake8 pytest-cov
+
+      - name: Make run script executable
+        run: |
+          if [ -f "./run_pipeline.sh" ]; then
+            chmod +x ./run_pipeline.sh
+          fi
+
+      - name: Lint (flake8)
+        continue-on-error: false
+        run: |
+          # allow flake8 to fail the job if linting errors exist
+          pip install flake8
+          flake8 .
+
+      - name: Run unit tests
+        run: |
+          mkdir -p test-reports
+          pytest tests/unit -q --maxfail=1 --junitxml=test-reports/unit-results.xml
+
+      - name: Run integration smoke tests (small end-to-end)
+        # This runs the tests that execute the small run (uses stub LLM)
+        run: |
+          mkdir -p test-reports
+          pytest tests/integration -q --maxfail=1 --junitxml=test-reports/integration-results.xml
+
+      - name: Collect reproducibility artifacts (run manifests & results)
+        # Upload the runs/ directory (created by run_pipeline.sh) to GitHub Actions artifacts.
+        uses: actions/upload-artifact@v4
+        with:
+          name: rag-ci-artifacts
+          path: |
+            runs/**
+            test-reports/**
+          retention-days: "30"
+
+      - name: Optional: Print brief artifact listing for logs
+        if: always()
+        run: |
+          echo "==== runs directory listing ===="
+          if [ -d "runs" ]; then
+            find runs -maxdepth 3 -type f -print || true
+          else
+            echo "No runs directory present"
+          fi
+          echo "==== test-reports listing ===="
+          find test-reports -type f -print || true

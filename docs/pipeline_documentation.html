@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>RAG Pipeline Documentation</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 28px; color: #f2f2f2; background: #111; line-height: 1.5;}
+    header h1 { margin: 0 0 6px 0; color: #fff; }
+    header p { margin: 0 0 18px 0; color: #cfcfcf; }
+    nav { margin-bottom: 18px; }
+    nav a { color: #9ad0ff; text-decoration: none; margin-right: 12px; }
+    section { margin-bottom: 28px; padding-bottom: 6px; border-bottom: 1px solid #222; }
+    h2 { color: #dfefff; margin-top: 8px; }
+    h3 { color: #cfeaff; margin-top: 6px; }
+    pre, code { background: #0b0b0b; color: #dcdcdc; padding: 8px; border-radius: 6px; overflow: auto; }
+    .box { background: #0f1720; padding: 12px; border-radius: 8px; border: 1px solid #1c2330; }
+    .diagram { text-align: center; margin: 12px 0; }
+    table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+    td, th { border: 1px solid #222; padding: 8px; color: #d9d9d9; }
+    .note { color: #bcd; font-size: 0.94em; }
+    footer { margin-top: 40px; color: #999; font-size: 0.9em; }
+    a.external { color: #9ad0ff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAG Pipeline — Implementation & Reproducibility Plan</h1>
+    <p>Documentation for the Retrieval-Augmented Generation (RAG) pipeline that matches your architecture diagram (NER → PubMed → Temporal embeddings → FAISS → Rerank → MMR → Prompt → LLM → Judge).</p>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#components">Components</a>
+      <a href="#data">Data & Formats</a>
+      <a href="#temporal">Temporal Strategies</a>
+      <a href="#ops">Operational Design</a>
+      <a href="#testing">Testing & CI</a>
+      <a href="#repro">Reproducibility</a>
+    </nav>
+  </header>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <div class="box">
+      <p>This document records a concrete implementation plan for the RAG pipeline shown in your diagram. It maps each diagram block to code modules, storage schemas, runtime commands, and CI/testing strategies. Use the HTML version for reading; convert to PDF for sharing.</p>
+    </div>
+    <div class="diagram">
+      <p class="note">Put your diagram image file in the same folder as this HTML and name it <strong>diagram.png</strong>. The image will be embedded below when present.</p>
+      <img src="diagram.png" alt="Pipeline diagram (place diagram.png in this folder)" style="max-width:100%; border-radius:8px;">
+    </div>
+  </section>
+
+  <section id="components">
+    <h2>Components & Responsibilities</h2>
+
+    <h3>1. Query service / Intake</h3>
+    <div class="box">
+      <p>Accepts user questions and triggers the pipeline. Normalizes text, records run_manifest_id, and orchestrates subsequent services.</p>
+      <p>Key outputs: normalized_text, run_manifest_id.</p>
+    </div>
+
+    <h3>2. NER (Biomedical)</h3>
+    <div class="box">
+      <p>Extracts entities to guide PubMed queries and snippet focus windows. Recommended models: SciSpacy (en_core_sci_sm/md) or fine-tuned BioBERT NER.</p>
+      <p>Output: entities = [{text, type, start, end, confidence}].</p>
+    </div>
+
+    <h3>3. PubMed Lookup & DocID Cache</h3>
+    <div class="box">
+      <p>Query PubMed APIs (Entrez or PubMed REST) using the user query + entities. Cache doc metadata locally (doc_id -> title/abstract/pub_date) and maintain TTL and retry/backoff.</p>
+      <p>Output: list of doc_ids and metadata JSONL entries.</p>
+    </div>
+
+    <h3>4. Encoder / Temporal Embeddings</h3>
+    <div class="box">
+      <p>Encode documents/snippets with domain encoder (MedCPT / BioBERT embeddings). Save vectors and metadata (include timestamp). Build a FAISS index; support time-aware retrieval (time-stamp per vector).</p>
+      <p>Artifact examples: embeddings.npy, faiss.index, embeddings_manifest.json</p>
+    </div>
+
+    <h3>5. Retriever (FAISS + BM25)</h3>
+    <div class="box">
+      <p>FAISS for dense retrieval; BM25 (Elasticsearch / Pyserini) for lexical retrieval. Combine results for candidate pool.</p>
+    </div>
+
+    <h3>6. Cross-encoder Reranker & MMR</h3>
+    <div class="box">
+      <p>Rerank candidates with S-PubMedBERT-MS-MARCO cross-encoder. Apply MMR for novelty and diversity, optionally boosting recency.</p>
+    </div>
+
+    <h3>7. Prompt Builder & LLM</h3>
+    <div class="box">
+      <p>Assemble system prompt + top snippets (with citations & pubdates), enforce token budget, and call LLM (OpenAI or local). Provide stub LLM in tests/CI to keep runs deterministic.</p>
+    </div>
+
+    <h3>8. Evaluation & LLM Judge</h3>
+    <div class="box">
+      <p>Compute retrieval metrics (recall@k, MRR) and answer metrics (ROUGE, factuality). Optionally use a judge LLM to score factuality and evidence alignment.</p>
+    </div>
+  </section>
+
+  <section id="data">
+    <h2>Data Schemas & Artifacts</h2>
+    <h3>docs.jsonl (per-document)</h3>
+    <pre>{
+  "doc_id": "string",
+  "title": "string",
+  "abstract": "string",
+  "pub_date": "YYYY-MM-DD",
+  "doi": "string",
+  "source": "pubmed"
+}</pre>
+
+    <h3>embeddings_manifest.json</h3>
+    <pre>{
+  "git_sha": "abc123",
+  "encoder": "medcpt/encoder-v1",
+  "embedding_dim": 1024,
+  "created_at": "ISO-8601",
+  "data_sha256": "..."
+}</pre>
+
+    <h3>results.jsonl (per query)</h3>
+    <pre>{
+  "query_id": "string",
+  "query_text": "string",
+  "prompt": "string",
+  "answer": "string",
+  "retrieved": [{"doc_id":"", "snippet_id":"", "score":0.0, "pub_date":""}],
+  "run_manifest_id": "string"
+}</pre>
+    <p class="note">Always save run_manifest.json for every experiment run (see Reproducibility section).</p>
+  </section>
+
+  <section id="temporal">
+    <h2>Temporal Embedding Strategies</h2>
+    <h3>Option A: Time-Bucket Indices</h3>
+    <div class="box">
+      <p>Maintain FAISS indices by time window (e.g., per-year or per-quarter). Query recent buckets first. Pros: simple recency bias; Cons: complexity merging results.</p>
+    </div>
+
+    <h3>Option B: Single Index + Recency Boost</h3>
+    <div class="box">
+      <p>Store timestamp in metadata and combine score = sim + beta * recency_weight(pub_date). Simpler to implement; tune beta to preference recency.</p>
+    </div>
+  </section>
+
+  <section id="ops">
+    <h2>Operational Design</h2>
+    <h3>Containers & Services</h3>
+    <ul>
+      <li>FAISS (index service) — GPU-enabled worker if using large embeddings</li>
+      <li>Elasticsearch — BM25 index</li>
+      <li>API (FastAPI) — query intake & orchestration</li>
+      <li>Encoder & Reranker workers — batch inference</li>
+      <li>Optional local LLM service or external API client</li>
+    </ul>
+
+    <h3>Secrets & Keys</h3>
+    <p class="note">Use environment variables or a secret manager for LLM keys; never store secrets in repo or logs.</p>
+
+    <h3>Monitoring</h3>
+    <p>Implement metrics for query latency per stage, FAISS query time, rerank throughput, and LLM token usage. Use structured JSON logs keyed by run_manifest_id.</p>
+  </section>
+
+  <section id="testing">
+    <h2>Testing & CI</h2>
+    <h3>Unit Tests</h3>
+    <ul>
+      <li>Normalization functions, MMR util, prompt builder, checksum utilities</li>
+    </ul>
+
+    <h3>Integration Smoke</h3>
+    <p>Small sample run (10–100 docs) using stub LLM. The CI workflow runs an end-to-end smoke run and uploads artifacts (run_manifest.json, results.jsonl).</p>
+
+    <h3>Stubbing LLMs</h3>
+    <p>Provide a deterministic stub backend for LLM (echo or fixed template) so CI and tests do not require external calls. Environment variable LLM_PROVIDER controls behavior.</p>
+  </section>
+
+  <section id="repro">
+    <h2>Reproducibility Checklist</h2>
+    <ol>
+      <li>Save run_manifest.json per run: git_sha, model ids & versions, dataset checksums, index versions, seed</li>
+      <li>Fix random seeds in code paths (NumPy, PyTorch) and record them</li>
+      <li>Save index snapshots (FAISS .index files, ES snapshots)</li>
+      <li>Store embeddings files and manifest (embedding dimensions and encoder name)</li>
+      <li>Upload artifacts to CI artifacts or S3 for long-term retention</li>
+    </ol>
+
+    <h3>Sample run_manifest.json</h3>
+    <pre>{
+  "git_sha": "abc123",
+  "run_id": "2025-11-27T12:00:00Z-small",
+  "seed": 42,
+  "models": {
+    "encoder": "medcpt/encoder@sha:abcd1234",
+    "reranker": "S-PubMedBERT-MS-MARCO@sha:abcd9999"
+  },
+  "data_sha256": "..."
+}</pre>
+  </section>
+
+  <section id="conversion">
+    <h2>Convert HTML to PDF (local)</h2>
+    <p>Two common options:</p>
+    <h3>Using Google Chrome / Chromium (recommended)</h3>
+    <pre>google-chrome --headless --disable-gpu --print-to-pdf=./pipeline_documentation.pdf ./pipeline_documentation.html</pre>
+
+    <h3>Using wkhtmltopdf</h3>
+    <pre>wkhtmltopdf pipeline_documentation.html pipeline_documentation.pdf</pre>
+
+    <p class="note">Alternatively, use the provided <code>convert_to_pdf.sh</code> script that tries Chrome, then wkhtmltopdf.</p>
+  </section>
+
+  <footer>
+    <p>Document generated from the pipeline plan. To get a PDF version created for you, upload the diagram image (diagram.png) and I can convert and return a PDF.</p>
+    <p>Last updated: 2025-11-27</p>
+  </footer>
+</body>
+</html>

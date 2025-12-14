@@ -1,0 +1,129 @@
+# Pipeline Configuration for Medical RAG System
+# This file contains all configuration parameters for the pipeline
+
+# Pipeline metadata
+pipeline:
+  name: "Medical RAG Pipeline"
+  version: "1.0.0"
+  seed: 42
+
+# NER configuration
+ner:
+  model: "en_core_sci_sm"  # SciSpacy model
+  confidence_threshold: 0.7
+  enabled: true
+
+# PubMed configuration
+pubmed:
+  api_base: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+  max_results: 100
+  cache_ttl: 86400  # 24 hours in seconds
+  retry_attempts: 3
+  retry_delay: 1.0
+
+# Encoder configuration
+encoder:
+  model: "ncbi/MedCPT-Query-Encoder"
+  embedding_dim: 768
+  batch_size: 32
+  device: "cuda"  # or "cpu"
+
+# FAISS index configuration
+faiss:
+  index_type: "IndexFlatIP"  # Inner Product (cosine similarity)
+  nprobe: 32
+  save_path: "runs/faiss.index"
+
+# BM25 configuration
+bm25:
+  elasticsearch_host: "localhost"
+  elasticsearch_port: 9200
+  index_name: "medical_docs"
+  k1: 1.2
+  b: 0.75
+
+# Retrieval configuration
+retrieval:
+  top_k_dense: 100
+  top_k_sparse: 100
+  top_k_final: 50
+
+# Reranker configuration
+reranker:
+  model: "pritamdeka/S-PubMedBert-MS-MARCO"
+  batch_size: 16
+  top_k: 20
+
+# MMR configuration
+mmr:
+  lambda_param: 0.7  # Trade-off between relevance and diversity (0-1)
+  top_k: 10
+  recency_weight: 0.3  # Weight for temporal boosting
+
+# LLM configuration
+llm:
+  provider: "openai"  # or "stub" for testing
+  model: "gpt-4"
+  temperature: 0.7
+  max_tokens: 1024
+  system_prompt: |
+    You are a medical AI assistant. Answer the user's question based on the provided scientific evidence.
+    Always cite your sources using [doc_id] format.
+
+# Prompt configuration
+prompt:
+  max_context_tokens: 3000
+  include_citations: true
+  include_pub_dates: true
+
+# Evaluation configuration
+evaluation:
+  metrics:
+    - "recall@5"
+    - "recall@10"
+    - "recall@20"
+    - "recall@50"
+    - "precision@5"
+    - "precision@10"
+    - "mrr"
+    - "rouge1"
+    - "rouge2"
+    - "rougeL"
+  llm_judge:
+    enabled: true  # Enable LLM-as-a-judge evaluation (NEW)
+    model: "gpt-4"
+    temperature: 0.0  # Deterministic for evaluation
+    aspects:
+      - "factuality"
+      - "completeness"
+      - "relevance"
+      - "evidence_support"
+
+# BioASQ-specific configuration (NEW)
+bioasq:
+  data_dir: "data/bioasq"
+  rounds: [1, 2, 3, 4]
+  question_types: ["yesno", "factoid", "list", "summary"]
+  pubmed_email: "your.email@example.com"  # Required for NCBI Entrez
+  cache_pubmed: true
+  pubmed_cache_dir: "data/pubmed_cache"
+
+# Temporal strategy
+temporal:
+  strategy: "recency_boost"  # or "time_bucket"
+  recency_decay: 0.1
+  time_bucket_windows: ["2020-2025", "2015-2019", "2010-2014"]
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "json"
+  output_dir: "runs/logs"
+
+# Data paths
+data:
+  docs_path: "data/docs.jsonl"
+  embeddings_path: "runs/embeddings.npy"
+  embeddings_manifest: "runs/embeddings_manifest.json"
+  results_path: "runs/results.jsonl"
+  run_manifest: "runs/run_manifest.json"
