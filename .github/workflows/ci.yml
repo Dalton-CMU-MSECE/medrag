@@ -64,13 +64,13 @@ jobs:
           mkdir -p test-reports
           pytest tests/unit -q --maxfail=1 --junitxml=test-reports/unit-results.xml
 
-      - name: Run integration smoke tests (small end-to-end)
+      - name: "Run integration smoke tests (small end-to-end)"
         # This runs the tests that execute the small run (uses stub LLM)
         run: |
           mkdir -p test-reports
           pytest tests/integration -q --maxfail=1 --junitxml=test-reports/integration-results.xml
 
-      - name: Collect reproducibility artifacts (run manifests & results)
+      - name: "Collect reproducibility artifacts (run manifests & results)"
         # Upload the runs/ directory (created by run_pipeline.sh) to GitHub Actions artifacts.
         uses: actions/upload-artifact@v4
         with:
@@ -78,9 +78,9 @@ jobs:
           path: |
             runs/**
             test-reports/**
-          retention-days: "30"
+          retention-days: 30
 
-      - name: Optional: Print brief artifact listing for logs
+      - name: "Optional: Print brief artifact listing for logs"
         if: always()
         run: |
           echo "==== runs directory listing ===="
