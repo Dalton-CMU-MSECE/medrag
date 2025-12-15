@@ -15,6 +15,46 @@ The pipeline follows this flow:
 7. **Generation** → LLM answer generation with citations
 8. **Evaluation** → Retrieval metrics and answer quality assessment
 
+### Diagram
+
+```mermaid
+flowchart TD
+  subgraph Scripts
+    R[run_bioasq_pipeline.py]
+  end
+
+  subgraph Core
+    Ldr[BioASQDataLoader]
+    PM[PubMedFetcher]
+  end
+
+  subgraph Pipeline
+    P[MedicalRAGPipeline]
+    NER[NERService (spaCy/HF)]
+    ENC[MedCPTEncoder]
+    FAISS[FAISSIndex]
+    ES[(Elasticsearch\nBM25Retriever)]
+    HY[HybridRetriever]
+    RER[CrossEncoderReranker]
+    MMR[MMR + Recency]
+    LLM[LLM (OpenAI/Stub)]
+  end
+
+  subgraph Outputs
+    PR[predictions.json]
+    MT[metrics.json]
+  end
+
+  R --> Ldr --> PM --> D{{Documents}}
+  R -->|config.yaml| P
+  P --> NER
+  P --> ENC --> FAISS
+  D --> ES
+  P --> HY
+  HY --> RER --> MMR --> LLM --> PR
+  R -->|evaluate| MT
+```
+
 ## 📁 Project Structure
 
 ```

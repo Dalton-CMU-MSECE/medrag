@@ -1,0 +1,12 @@
+{
+  "avg_recall@5": 0.0,
+  "avg_recall@10": 0.0,
+  "avg_recall@20": 0.0,
+  "avg_mrr": 0.0,
+  "avg_precision@5": 0.0,
+  "avg_precision@10": 0.0,
+  "avg_precision@20": 0.0,
+  "avg_rouge1": 0.002098635886673662,
+  "avg_rouge2": 0.0,
+  "avg_rougeL": 0.002098635886673662
+}

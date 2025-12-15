@@ -1,0 +1,992 @@
+[
+  {
+    "question_id": "677eda7e592fa4887300002f",
+    "question_text": "Is CD177 gene associated with paediatric sepsis?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "249",
+        "score": 0.510336697101593,
+        "dense_score": 0.9364378429929358,
+        "sparse_score": 0.0,
+        "index": 249,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.4682189214964679
+      },
+      {
+        "doc_id": "445",
+        "score": 0.510336697101593,
+        "dense_score": 0.736665829034349,
+        "sparse_score": 0.0,
+        "index": 445,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.3683329145171745
+      },
+      {
+        "doc_id": "121",
+        "score": 0.510336697101593,
+        "dense_score": 0.6561249427187129,
+        "sparse_score": 0.0,
+        "index": 121,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.32806247135935646
+      },
+      {
+        "doc_id": "57",
+        "score": 0.510336697101593,
+        "dense_score": 0.6754565450672492,
+        "sparse_score": 0.0,
+        "index": 57,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.3377282725336246
+      },
+      {
+        "doc_id": "262",
+        "score": 0.510336697101593,
+        "dense_score": 0.6355315394643536,
+        "sparse_score": 0.0,
+        "index": 262,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.3177657697321768
+      },
+      {
+        "doc_id": "332",
+        "score": 0.510336697101593,
+        "dense_score": 1.0,
+        "sparse_score": 0.0,
+        "index": 332,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.5
+      },
+      {
+        "doc_id": "235",
+        "score": 0.510336697101593,
+        "dense_score": 0.7071781978809595,
+        "sparse_score": 0.0,
+        "index": 235,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.35358909894047974
+      },
+      {
+        "doc_id": "335",
+        "score": 0.510336697101593,
+        "dense_score": 0.7522341245916543,
+        "sparse_score": 0.0,
+        "index": 335,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.37611706229582714
+      },
+      {
+        "doc_id": "297",
+        "score": 0.510336697101593,
+        "dense_score": 0.7542550097709284,
+        "sparse_score": 0.0,
+        "index": 297,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.3771275048854642
+      },
+      {
+        "doc_id": "391",
+        "score": 0.510336697101593,
+        "dense_score": 0.6493101336172226,
+        "sparse_score": 0.0,
+        "index": 391,
+        "rerank_score": 0.510336697101593,
+        "original_score": 0.3246550668086113
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6593de2f06a2ea257c00001e",
+    "question_text": "What is the burden of human trypanosomiases in European hospitals?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "502",
+        "score": 0.47259220480918884,
+        "dense_score": 0.9054807665738955,
+        "sparse_score": 0.0,
+        "index": 502,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.45274038328694777
+      },
+      {
+        "doc_id": "432",
+        "score": 0.47259220480918884,
+        "dense_score": 0.9244382746149826,
+        "sparse_score": 0.0,
+        "index": 432,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.4622191373074913
+      },
+      {
+        "doc_id": "66",
+        "score": 0.47259220480918884,
+        "dense_score": 0.9559331906740632,
+        "sparse_score": 0.0,
+        "index": 66,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.4779665953370316
+      },
+      {
+        "doc_id": "343",
+        "score": 0.47259220480918884,
+        "dense_score": 0.6929047466203554,
+        "sparse_score": 0.0,
+        "index": 343,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.3464523733101777
+      },
+      {
+        "doc_id": "87",
+        "score": 0.47259220480918884,
+        "dense_score": 1.0,
+        "sparse_score": 0.0,
+        "index": 87,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.5
+      },
+      {
+        "doc_id": "571",
+        "score": 0.47259220480918884,
+        "dense_score": 0.7229082117385622,
+        "sparse_score": 0.0,
+        "index": 571,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.3614541058692811
+      },
+      {
+        "doc_id": "574",
+        "score": 0.47259220480918884,
+        "dense_score": 0.6464517456497905,
+        "sparse_score": 0.0,
+        "index": 574,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.32322587282489523
+      },
+      {
+        "doc_id": "312",
+        "score": 0.47259220480918884,
+        "dense_score": 0.7411445596381617,
+        "sparse_score": 0.0,
+        "index": 312,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.37057227981908086
+      },
+      {
+        "doc_id": "259",
+        "score": 0.47259220480918884,
+        "dense_score": 0.8604829276735393,
+        "sparse_score": 0.0,
+        "index": 259,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.43024146383676964
+      },
+      {
+        "doc_id": "80",
+        "score": 0.47259220480918884,
+        "dense_score": 0.7508228663749272,
+        "sparse_score": 0.0,
+        "index": 80,
+        "rerank_score": 0.47259220480918884,
+        "original_score": 0.3754114331874636
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "677e8319592fa4887300001e",
+    "question_text": "What disease can be treated with vorasidenib?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "372",
+        "score": 0.4346596598625183,
+        "dense_score": 0.6726207881370186,
+        "sparse_score": 0.0,
+        "index": 372,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.3363103940685093
+      },
+      {
+        "doc_id": "325",
+        "score": 0.4346596598625183,
+        "dense_score": 0.9175019969342888,
+        "sparse_score": 0.0,
+        "index": 325,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.4587509984671444
+      },
+      {
+        "doc_id": "380",
+        "score": 0.4346596598625183,
+        "dense_score": 1.0,
+        "sparse_score": 0.0,
+        "index": 380,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.5
+      },
+      {
+        "doc_id": "169",
+        "score": 0.4346596598625183,
+        "dense_score": 0.7534389149207252,
+        "sparse_score": 0.0,
+        "index": 169,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.3767194574603626
+      },
+      {
+        "doc_id": "104",
+        "score": 0.4346596598625183,
+        "dense_score": 0.9504772553781032,
+        "sparse_score": 0.0,
+        "index": 104,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.4752386276890516
+      },
+      {
+        "doc_id": "35",
+        "score": 0.4346596598625183,
+        "dense_score": 0.6562039113354367,
+        "sparse_score": 0.0,
+        "index": 35,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.3281019556677183
+      },
+      {
+        "doc_id": "429",
+        "score": 0.4346596598625183,
+        "dense_score": 0.7500931902668095,
+        "sparse_score": 0.0,
+        "index": 429,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.37504659513340477
+      },
+      {
+        "doc_id": "121",
+        "score": 0.4346596598625183,
+        "dense_score": 0.765933765111498,
+        "sparse_score": 0.0,
+        "index": 121,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.382966882555749
+      },
+      {
+        "doc_id": "282",
+        "score": 0.4346596598625183,
+        "dense_score": 0.6919953067788173,
+        "sparse_score": 0.0,
+        "index": 282,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.34599765338940863
+      },
+      {
+        "doc_id": "350",
+        "score": 0.4346596598625183,
+        "dense_score": 0.6845813520045271,
+        "sparse_score": 0.0,
+        "index": 350,
+        "rerank_score": 0.4346596598625183,
+        "original_score": 0.34229067600226354
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6772bdf0592fa48873000002",
+    "question_text": "What is the cause of vestibular migrane?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "313",
+        "score": 0.4688858091831207,
+        "dense_score": 0.8991120663505916,
+        "sparse_score": 0.0,
+        "index": 313,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.4495560331752958
+      },
+      {
+        "doc_id": "405",
+        "score": 0.4688858091831207,
+        "dense_score": 0.6917992637052637,
+        "sparse_score": 0.0,
+        "index": 405,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.34589963185263184
+      },
+      {
+        "doc_id": "230",
+        "score": 0.4688858091831207,
+        "dense_score": 0.7302475858651329,
+        "sparse_score": 0.0,
+        "index": 230,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.36512379293256647
+      },
+      {
+        "doc_id": "197",
+        "score": 0.4688858091831207,
+        "dense_score": 0.6761759578966419,
+        "sparse_score": 0.0,
+        "index": 197,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.33808797894832093
+      },
+      {
+        "doc_id": "558",
+        "score": 0.4688858091831207,
+        "dense_score": 0.850454086794537,
+        "sparse_score": 0.0,
+        "index": 558,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.4252270433972685
+      },
+      {
+        "doc_id": "525",
+        "score": 0.4688858091831207,
+        "dense_score": 0.6471608263999492,
+        "sparse_score": 0.0,
+        "index": 525,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.3235804131999746
+      },
+      {
+        "doc_id": "503",
+        "score": 0.4688858091831207,
+        "dense_score": 0.7165404481540292,
+        "sparse_score": 0.0,
+        "index": 503,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.3582702240770146
+      },
+      {
+        "doc_id": "391",
+        "score": 0.4688858091831207,
+        "dense_score": 0.6364814471235593,
+        "sparse_score": 0.0,
+        "index": 391,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.3182407235617796
+      },
+      {
+        "doc_id": "467",
+        "score": 0.4688858091831207,
+        "dense_score": 0.650507644994671,
+        "sparse_score": 0.0,
+        "index": 467,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.3252538224973355
+      },
+      {
+        "doc_id": "478",
+        "score": 0.4688858091831207,
+        "dense_score": 0.8723873142697732,
+        "sparse_score": 0.0,
+        "index": 478,
+        "rerank_score": 0.4688858091831207,
+        "original_score": 0.4361936571348866
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6772c765592fa48873000009",
+    "question_text": "What biological process is associated with Vitamin K?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "502",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6260069419949061,
+        "sparse_score": 0.0,
+        "index": 502,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.31300347099745307
+      },
+      {
+        "doc_id": "157",
+        "score": 0.4928659498691559,
+        "dense_score": 0.73251781678149,
+        "sparse_score": 0.0,
+        "index": 157,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.366258908390745
+      },
+      {
+        "doc_id": "443",
+        "score": 0.4928659498691559,
+        "dense_score": 0.7033971103771706,
+        "sparse_score": 0.0,
+        "index": 443,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.3516985551885853
+      },
+      {
+        "doc_id": "232",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6459221139481299,
+        "sparse_score": 0.0,
+        "index": 232,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.32296105697406496
+      },
+      {
+        "doc_id": "63",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6483344123073334,
+        "sparse_score": 0.0,
+        "index": 63,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.3241672061536667
+      },
+      {
+        "doc_id": "223",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6146114684009356,
+        "sparse_score": 0.0,
+        "index": 223,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.3073057342004678
+      },
+      {
+        "doc_id": "367",
+        "score": 0.4928659498691559,
+        "dense_score": 0.7158547730078846,
+        "sparse_score": 0.0,
+        "index": 367,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.3579273865039423
+      },
+      {
+        "doc_id": "47",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6900197854831839,
+        "sparse_score": 0.0,
+        "index": 47,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.34500989274159194
+      },
+      {
+        "doc_id": "233",
+        "score": 0.4928659498691559,
+        "dense_score": 0.6662512180523775,
+        "sparse_score": 0.0,
+        "index": 233,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.33312560902618876
+      },
+      {
+        "doc_id": "310",
+        "score": 0.4928659498691559,
+        "dense_score": 0.7510161342551104,
+        "sparse_score": 0.0,
+        "index": 310,
+        "rerank_score": 0.4928659498691559,
+        "original_score": 0.3755080671275552
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6777be0b592fa48873000014",
+    "question_text": "What is the impact of intimate partner violence on maternal mortality?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "302",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6332076560846951,
+        "sparse_score": 0.0,
+        "index": 302,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.31660382804234755
+      },
+      {
+        "doc_id": "541",
+        "score": 0.49160459637641907,
+        "dense_score": 0.7174431663224395,
+        "sparse_score": 0.0,
+        "index": 541,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.35872158316121977
+      },
+      {
+        "doc_id": "82",
+        "score": 0.49160459637641907,
+        "dense_score": 0.7483381598656009,
+        "sparse_score": 0.0,
+        "index": 82,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.37416907993280046
+      },
+      {
+        "doc_id": "307",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6164723097458515,
+        "sparse_score": 0.0,
+        "index": 307,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.30823615487292577
+      },
+      {
+        "doc_id": "509",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6198950059243786,
+        "sparse_score": 0.0,
+        "index": 509,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.3099475029621893
+      },
+      {
+        "doc_id": "222",
+        "score": 0.49160459637641907,
+        "dense_score": 0.8014718493404769,
+        "sparse_score": 0.0,
+        "index": 222,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.40073592467023844
+      },
+      {
+        "doc_id": "539",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6780560785247922,
+        "sparse_score": 0.0,
+        "index": 539,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.3390280392623961
+      },
+      {
+        "doc_id": "65",
+        "score": 0.49160459637641907,
+        "dense_score": 0.7862438316335771,
+        "sparse_score": 0.0,
+        "index": 65,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.39312191581678857
+      },
+      {
+        "doc_id": "392",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6859851995064021,
+        "sparse_score": 0.0,
+        "index": 392,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.34299259975320107
+      },
+      {
+        "doc_id": "153",
+        "score": 0.49160459637641907,
+        "dense_score": 0.6465454069641844,
+        "sparse_score": 0.0,
+        "index": 153,
+        "rerank_score": 0.49160459637641907,
+        "original_score": 0.3232727034820922
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "63ac44c2c6c7d4d31b000011",
+    "question_text": "Which are the most common psychiatric events associated with the consumption of cannabis?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "217",
+        "score": 0.4705149233341217,
+        "dense_score": 0.5434596840118833,
+        "sparse_score": 0.0,
+        "index": 217,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.27172984200594164
+      },
+      {
+        "doc_id": "26",
+        "score": 0.4705149233341217,
+        "dense_score": 0.605346534885712,
+        "sparse_score": 0.0,
+        "index": 26,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.302673267442856
+      },
+      {
+        "doc_id": "445",
+        "score": 0.4705149233341217,
+        "dense_score": 0.5342691470009746,
+        "sparse_score": 0.0,
+        "index": 445,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.2671345735004873
+      },
+      {
+        "doc_id": "441",
+        "score": 0.4705149233341217,
+        "dense_score": 0.6345702751613542,
+        "sparse_score": 0.0,
+        "index": 441,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.3172851375806771
+      },
+      {
+        "doc_id": "454",
+        "score": 0.4705149233341217,
+        "dense_score": 0.7594810509167549,
+        "sparse_score": 0.0,
+        "index": 454,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.37974052545837744
+      },
+      {
+        "doc_id": "475",
+        "score": 0.4705149233341217,
+        "dense_score": 0.8010128696370159,
+        "sparse_score": 0.0,
+        "index": 475,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.40050643481850795
+      },
+      {
+        "doc_id": "518",
+        "score": 0.4705149233341217,
+        "dense_score": 0.772962502946775,
+        "sparse_score": 0.0,
+        "index": 518,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.3864812514733875
+      },
+      {
+        "doc_id": "212",
+        "score": 0.4705149233341217,
+        "dense_score": 0.7839046851671364,
+        "sparse_score": 0.0,
+        "index": 212,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.3919523425835682
+      },
+      {
+        "doc_id": "234",
+        "score": 0.4705149233341217,
+        "dense_score": 0.6669625170209248,
+        "sparse_score": 0.0,
+        "index": 234,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.3334812585104624
+      },
+      {
+        "doc_id": "154",
+        "score": 0.4705149233341217,
+        "dense_score": 0.6149734291782925,
+        "sparse_score": 0.0,
+        "index": 154,
+        "rerank_score": 0.4705149233341217,
+        "original_score": 0.3074867145891462
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6777b9c5592fa4887300000f",
+    "question_text": "What are the most severe adverse effects of the birth control pill?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "580",
+        "score": 0.4513872563838959,
+        "dense_score": 1.0,
+        "sparse_score": 0.0,
+        "index": 580,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.5
+      },
+      {
+        "doc_id": "163",
+        "score": 0.4513872563838959,
+        "dense_score": 0.5892296655180388,
+        "sparse_score": 0.0,
+        "index": 163,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.2946148327590194
+      },
+      {
+        "doc_id": "369",
+        "score": 0.4513872563838959,
+        "dense_score": 0.8423814926540203,
+        "sparse_score": 0.0,
+        "index": 369,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.42119074632701015
+      },
+      {
+        "doc_id": "14",
+        "score": 0.4513872563838959,
+        "dense_score": 0.5633323239718248,
+        "sparse_score": 0.0,
+        "index": 14,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.2816661619859124
+      },
+      {
+        "doc_id": "53",
+        "score": 0.4513872563838959,
+        "dense_score": 0.6276131922271497,
+        "sparse_score": 0.0,
+        "index": 53,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.31380659611357486
+      },
+      {
+        "doc_id": "498",
+        "score": 0.4513872563838959,
+        "dense_score": 0.6109964186831538,
+        "sparse_score": 0.0,
+        "index": 498,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.3054982093415769
+      },
+      {
+        "doc_id": "314",
+        "score": 0.4513872563838959,
+        "dense_score": 0.5408409386806495,
+        "sparse_score": 0.0,
+        "index": 314,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.27042046934032477
+      },
+      {
+        "doc_id": "435",
+        "score": 0.4513872563838959,
+        "dense_score": 0.5580807054798108,
+        "sparse_score": 0.0,
+        "index": 435,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.2790403527399054
+      },
+      {
+        "doc_id": "311",
+        "score": 0.4513872563838959,
+        "dense_score": 0.7793973345190137,
+        "sparse_score": 0.0,
+        "index": 311,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.38969866725950686
+      },
+      {
+        "doc_id": "136",
+        "score": 0.4513872563838959,
+        "dense_score": 0.7253089093401714,
+        "sparse_score": 0.0,
+        "index": 136,
+        "rerank_score": 0.4513872563838959,
+        "original_score": 0.3626544546700857
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "6772c6ae592fa48873000008",
+    "question_text": "What are the treatments for Adhesive Capsulitis or \"Frozen Sholder\"",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "451",
+        "score": 0.460930198431015,
+        "dense_score": 0.6151597496556965,
+        "sparse_score": 0.0,
+        "index": 451,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.30757987482784827
+      },
+      {
+        "doc_id": "372",
+        "score": 0.460930198431015,
+        "dense_score": 0.6414709971358964,
+        "sparse_score": 0.0,
+        "index": 372,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.3207354985679482
+      },
+      {
+        "doc_id": "390",
+        "score": 0.460930198431015,
+        "dense_score": 0.8494033558384373,
+        "sparse_score": 0.0,
+        "index": 390,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.42470167791921865
+      },
+      {
+        "doc_id": "265",
+        "score": 0.460930198431015,
+        "dense_score": 0.7343535353967358,
+        "sparse_score": 0.0,
+        "index": 265,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.3671767676983679
+      },
+      {
+        "doc_id": "126",
+        "score": 0.460930198431015,
+        "dense_score": 0.7492077883960128,
+        "sparse_score": 0.0,
+        "index": 126,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.3746038941980064
+      },
+      {
+        "doc_id": "351",
+        "score": 0.460930198431015,
+        "dense_score": 0.8131276575740866,
+        "sparse_score": 0.0,
+        "index": 351,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.4065638287870433
+      },
+      {
+        "doc_id": "439",
+        "score": 0.460930198431015,
+        "dense_score": 0.7176232731273052,
+        "sparse_score": 0.0,
+        "index": 439,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.3588116365636526
+      },
+      {
+        "doc_id": "298",
+        "score": 0.460930198431015,
+        "dense_score": 0.644563512881,
+        "sparse_score": 0.0,
+        "index": 298,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.3222817564405
+      },
+      {
+        "doc_id": "217",
+        "score": 0.460930198431015,
+        "dense_score": 0.5997749513763478,
+        "sparse_score": 0.0,
+        "index": 217,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.2998874756881739
+      },
+      {
+        "doc_id": "176",
+        "score": 0.460930198431015,
+        "dense_score": 1.0,
+        "sparse_score": 0.0,
+        "index": 176,
+        "rerank_score": 0.460930198431015,
+        "original_score": 0.5
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  },
+  {
+    "question_id": "65844e9b06a2ea257c000004",
+    "question_text": "Which organ dysfunction score is best for evaluating paediatric sepsis?",
+    "answer": "Error: OpenAI client not initialized",
+    "retrieved_documents": [
+      {
+        "doc_id": "128",
+        "score": 0.4954313039779663,
+        "dense_score": 0.6666744333574245,
+        "sparse_score": 0.0,
+        "index": 128,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.33333721667871224
+      },
+      {
+        "doc_id": "108",
+        "score": 0.4954313039779663,
+        "dense_score": 0.7636317351693955,
+        "sparse_score": 0.0,
+        "index": 108,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.38181586758469777
+      },
+      {
+        "doc_id": "534",
+        "score": 0.4954313039779663,
+        "dense_score": 0.7579403207069043,
+        "sparse_score": 0.0,
+        "index": 534,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.37897016035345216
+      },
+      {
+        "doc_id": "430",
+        "score": 0.4954313039779663,
+        "dense_score": 0.8086053983416918,
+        "sparse_score": 0.0,
+        "index": 430,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.4043026991708459
+      },
+      {
+        "doc_id": "450",
+        "score": 0.4954313039779663,
+        "dense_score": 0.6438334220822345,
+        "sparse_score": 0.0,
+        "index": 450,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.32191671104111724
+      },
+      {
+        "doc_id": "333",
+        "score": 0.4954313039779663,
+        "dense_score": 0.7219964890013434,
+        "sparse_score": 0.0,
+        "index": 333,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.3609982445006717
+      },
+      {
+        "doc_id": "389",
+        "score": 0.4954313039779663,
+        "dense_score": 0.7354600887422912,
+        "sparse_score": 0.0,
+        "index": 389,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.3677300443711456
+      },
+      {
+        "doc_id": "319",
+        "score": 0.4954313039779663,
+        "dense_score": 0.7874504819241943,
+        "sparse_score": 0.0,
+        "index": 319,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.39372524096209716
+      },
+      {
+        "doc_id": "551",
+        "score": 0.4954313039779663,
+        "dense_score": 0.9429839175588911,
+        "sparse_score": 0.0,
+        "index": 551,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.47149195877944555
+      },
+      {
+        "doc_id": "246",
+        "score": 0.4954313039779663,
+        "dense_score": 0.6949814185022032,
+        "sparse_score": 0.0,
+        "index": 246,
+        "rerank_score": 0.4954313039779663,
+        "original_score": 0.3474907092511016
+      }
+    ],
+    "reranked_documents": [],
+    "final_documents": []
+  }
+]

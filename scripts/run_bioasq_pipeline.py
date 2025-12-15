@@ -76,7 +76,7 @@ def fetch_pubmed_docs(golden_data: Dict[str, Any], email: str) -> Dict[str, Dict
     return {pmid: article for pmid, article in zip(all_pmids, articles) if article}
 
 
-def prepare_documents(articles: Dict[str, Dict[str, Any]]) -> List[Dict[str, Any]]:
+def prepare_documents(articles: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Convert PubMed articles to document format for indexing
     
@@ -91,24 +91,35 @@ def prepare_documents(articles: Dict[str, Dict[str, Any]]) -> List[Dict[str, Any
     for pmid, article in articles.items():
         if not article:
             continue
-            
-        # Combine title and abstract
-        title = article.get("title", "")
-        abstract = article.get("abstract", "")
-        
+
+        # Support both dict and string article formats
+        if isinstance(article, str):
+            title = ""
+            abstract = article.strip()
+            pub_date = None
+            authors = []
+        elif isinstance(article, dict):
+            title = article.get("title", "")
+            abstract = article.get("abstract", "")
+            pub_date = article.get("pub_date")
+            authors = article.get("authors", [])
+        else:
+            # Unknown format; skip
+            continue
+
         if not abstract:
             continue
-            
+
         documents.append({
             "doc_id": pmid,
-            "text": f"{title}\n\n{abstract}",
+            "text": f"{title}\n\n{abstract}".strip(),
             "title": title,
             "abstract": abstract,
-            "pub_date": article.get("pub_date"),
+            "pub_date": pub_date,
             "metadata": {
                 "pmid": pmid,
-                "authors": article.get("authors", []),
-                "pub_date": article.get("pub_date")
+                "authors": authors,
+                "pub_date": pub_date
             }
         })
     
@@ -132,7 +143,15 @@ def run_pipeline(
         List of predictions with answers and retrieved documents
     """
     logger.info("Initializing RAG pipeline...")
-    pipeline = MedicalRAGPipeline(config_path)
+    # Load YAML configuration from path
+    try:
+        import yaml
+        with open(config_path, "r") as f:
+            config = yaml.safe_load(f)
+    except Exception as e:
+        raise RuntimeError(f"Failed to load config from {config_path}: {e}")
+
+    pipeline = MedicalRAGPipeline(config)
     
     # Build indices
     logger.info(f"Indexing {len(documents)} documents...")
@@ -150,7 +169,8 @@ def run_pipeline(
         question_id = question["id"]
         
         # Run pipeline
-        result = pipeline.query(query)
+        # Use pipeline's process_query to run full RAG flow
+        result = pipeline.process_query(query)
         
         predictions.append({
             "question_id": question_id,

@@ -33,7 +33,7 @@ python scripts/build_faiss_index.py \
 echo "[3/3] Ingesting into Elasticsearch..."
 python scripts/ingest_elastic.py \
   --config "${CONFIG_PATH}" \
-  --docs "data/docs.jsonl"
+  --docs "data/processed/bioasq_round_1_docs.jsonl"
 
 echo ""
 echo "==== Pipeline complete ===="

@@ -1,0 +1,13 @@
+{
+  "round": 1,
+  "total_questions": 74,
+  "answer_ready_questions": 19,
+  "total_documents": 200,
+  "unique_pmids": 200,
+  "question_types": {
+    "yesno": 23,
+    "factoid": 14,
+    "summary": 18,
+    "list": 19
+  }
+}

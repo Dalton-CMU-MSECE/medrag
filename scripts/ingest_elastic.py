@@ -64,7 +64,7 @@ def generate_bulk_actions(documents, index_name):
 def main():
     parser = argparse.ArgumentParser(description="Ingest documents into Elasticsearch")
     parser.add_argument("--config", required=True, help="Path to config YAML")
-    parser.add_argument("--docs", required=True, help="Path to docs.jsonl")
+    parser.add_argument("--docs", required=True, help="Path to bioasq_round_1_docs.jsonl")
     args = parser.parse_args()
 
     # Load configuration

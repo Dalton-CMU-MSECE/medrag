@@ -96,6 +96,20 @@ class MedicalRAGPipeline:
                 temperature=llm_config.get("temperature", 0.7),
                 max_tokens=llm_config.get("max_tokens", 1024)
             )
+
+    def index_documents(self, documents: List[Dict[str, Any]]):
+        """Build indices for dense (FAISS) and sparse (BM25) retrieval"""
+        if not documents:
+            return
+        # Encode abstracts for FAISS
+        abstracts = [doc.get("abstract", "") for doc in documents]
+        embeddings = self.encoder.encode(abstracts)
+        self.faiss_index.add_vectors(embeddings)
+        # Index documents into Elasticsearch
+        try:
+            self.bm25_retriever.index_documents(documents)
+        except Exception as e:
+            print(f"Warning: BM25 indexing failed: {e}")
     
     def process_query(
         self,
