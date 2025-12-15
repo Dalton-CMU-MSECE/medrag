@@ -1,5 +1,5 @@
-# Pipeline Configuration for Medical RAG System
-# This file contains all configuration parameters for the pipeline
+# This is the pipeline Configuration for a Robust Medical RAG System
+# In this file, you will find all the configurations needed for the setup. 
 
 # Pipeline metadata
 pipeline:
@@ -9,7 +9,7 @@ pipeline:
 
 # NER configuration
 ner:
-  model: "en_core_sci_sm"  # SciSpacy model
+  model: "hf:d4data/biomedical-ner-all"  # Hugging Face biomedical NER model
   confidence_threshold: 0.7
   enabled: true
 
@@ -104,7 +104,7 @@ bioasq:
   data_dir: "data/bioasq"
   rounds: [1, 2, 3, 4]
   question_types: ["yesno", "factoid", "list", "summary"]
-  pubmed_email: "your.email@example.com"  # Required for NCBI Entrez
+  pubmed_email: "jgibson2@andrew.cmu.edu"  # Required for NCBI Entrez
   cache_pubmed: true
   pubmed_cache_dir: "data/pubmed_cache"
 

@@ -44,7 +44,7 @@ medical_rag_system/
 ### Prerequisites
 
 Install system dependencies (see `sys_requirements.txt`):
-- Python 3.10+
+- Python 3.12 (recommended). Use Python 3.11 if you prefer SciSpaCy.
 - Docker (for Elasticsearch)
 - wkhtmltopdf or Chrome (optional, for PDF generation)
 
@@ -57,12 +57,12 @@ cd medical_rag_system
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Download SciSpacy models
-python -m spacy download en_core_sci_sm
-
 # Set up environment variables
 export OPENAI_API_KEY="your-api-key"
 export LLM_PROVIDER="openai"  # or "stub" for testing
+
+# (Optional) Choose a spaCy model instead of the default HF NER
+# python -m pip install "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"
 ```
 
 ### Running with Docker
@@ -90,6 +90,20 @@ python scripts/encode_documents.py --config configs/pipeline_config.yaml --outpu
 python scripts/build_faiss_index.py --embeddings runs/test-run/embeddings.npy --output runs/test-run/faiss.index
 python scripts/ingest_elastic.py --config configs/pipeline_config.yaml --docs data/docs.jsonl
 ```
+
+### NER Backends
+
+By default, the pipeline uses a Hugging Face token-classification model for biomedical NER (set in `configs/pipeline_config.yaml` under `ner.model`).
+
+- Default (Python 3.12 friendly):
+  - `ner.model: "hf:d4data/biomedical-ner-all"` (no extra install steps)
+- Optional spaCy model:
+  - Install a compatible model and set `ner.model: "en_core_web_sm"`
+  - `python -m pip install "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"`
+- Optional SciSpaCy (requires Python 3.11):
+  - `pip install "scipy==1.10.1" "spacy==3.7.2" "scispacy==0.5.4"`
+  - `pip install https://github.com/allenai/scispacy/releases/download/v0.5.4/en_core_sci_sm-0.5.4.tar.gz`
+  - Set `ner.model: "en_core_sci_sm"`
 
 ### Running the API
 
@@ -130,6 +144,7 @@ jupyter notebook evaluation_pipeline.ipynb
 Edit `configs/pipeline_config.yaml` to customize:
 
 - Model selections (encoder, reranker, LLM)
+- NER backend (`ner.model`), e.g., HF model or spaCy package
 - Retrieval parameters (top_k, hybrid weights)
 - MMR settings (lambda, recency weight)
 - Temporal strategies (recency boost, time buckets)

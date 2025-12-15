@@ -7,15 +7,15 @@ pydantic==2.5.0
 pyyaml==6.0.1
 
 # ML/NLP libraries
-numpy==1.24.3
-torch==2.1.0
+numpy==1.26.4
+torch==2.9.1
 transformers==4.35.0
 sentence-transformers==2.2.2
-scispacy==0.5.3
+# scipy and scispaCy installed separately
 spacy==3.7.2
 
 # Vector search
-faiss-cpu==1.7.4
+faiss-cpu==1.8.0
 # For GPU: faiss-gpu==1.7.4
 
 # Search/IR
