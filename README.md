@@ -30,14 +30,14 @@ flowchart TD
 
   subgraph Pipeline
     P[MedicalRAGPipeline]
-    NER[NERService (spaCy/HF)]
+    NER[NERService - spaCy/HF]
     ENC[MedCPTEncoder]
     FAISS[FAISSIndex]
-    ES[(Elasticsearch\nBM25Retriever)]
+    ES[Elasticsearch/BM25Retriever]
     HY[HybridRetriever]
     RER[CrossEncoderReranker]
     MMR[MMR + Recency]
-    LLM[LLM (OpenAI/Stub)]
+    LLM[LLM - OpenAI/Stub]
   end
 
   subgraph Outputs
@@ -45,7 +45,7 @@ flowchart TD
     MT[metrics.json]
   end
 
-  R --> Ldr --> PM --> D{{Documents}}
+  R --> Ldr --> PM --> D[Documents]
   R -->|config.yaml| P
   P --> NER
   P --> ENC --> FAISS
