@@ -23,6 +23,7 @@ from src.core.bioasq_loader import BioASQDataLoader
 from src.core.pubmed_fetcher import PubMedFetcher
 from src.pipeline.med_rag import MedicalRAGPipeline
 from evaluation.evaluation_QA_system.RAG_evaluator import RAGEvaluator
+from src.llm.openai_client import OpenAIClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -72,8 +73,8 @@ def fetch_pubmed_docs(golden_data: Dict[str, Any], email: str) -> Dict[str, Dict
     
     logger.info(f"Fetching {len(all_pmids)} PubMed articles...")
     articles = fetcher.fetch_abstracts(list(all_pmids))
-    
-    return {pmid: article for pmid, article in zip(all_pmids, articles) if article}
+    # 'articles' is already a dict mapping PMID -> article dict
+    return articles
 
 
 def prepare_documents(articles: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -125,6 +126,15 @@ def prepare_documents(articles: Dict[str, Any]) -> List[Dict[str, Any]]:
     
     return documents
 
+# Ensure OpenAI API key is set
+if "OPENAI_API_KEY" not in os.environ:
+    raise RuntimeError(
+        "Environment variable OPENAI_API_KEY is not set. "
+        "Please export your key: export OPENAI_API_KEY='sk-xxxx'"
+    )
+
+# Optional: initialize OpenAIClient globally
+openai_client = OpenAIClient()
 
 def run_pipeline(
     questions: List[Dict[str, Any]],

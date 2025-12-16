@@ -22,6 +22,8 @@ class FAISSIndex:
         self.index_path = index_path
         self.embedding_dim = embedding_dim
         self.index = None
+        # Maintain an optional mapping from FAISS row index -> external doc_id
+        self.doc_ids: List[str] = []
         
         if index_path and Path(index_path).exists():
             self.load_index(index_path)
@@ -59,6 +61,7 @@ class FAISSIndex:
         normalized_vectors = vectors / (norms + 1e-8)
         
         self.index.add(normalized_vectors.astype(np.float32))
+        # Ensure doc_ids length stays in sync when caller sets mapping
     
     def search(self, query_vector: np.ndarray, top_k: int = 10) -> Tuple[np.ndarray, np.ndarray]:
         """
@@ -81,8 +84,22 @@ class FAISSIndex:
         
         # Search
         scores, indices = self.index.search(query_vector.astype(np.float32), top_k)
+        # Debug logging: FAISS search details
+        try:
+            print(f"FAISS ntotal={self.index.ntotal} top_k={top_k}")
+            # Show top-5 results
+            for i in range(min(5, len(scores[0]))):
+                print(f"FAISS result i={i} idx={indices[0][i]} score={scores[0][i]:.4f}")
+        except Exception:
+            pass
         
         return scores[0], indices[0]
+
+    def set_doc_ids(self, doc_ids: List[str]):
+        """Set external document IDs aligned to FAISS rows.
+        Caller must ensure the order matches add_vectors insertion order.
+        """
+        self.doc_ids = list(doc_ids or [])
     
     def get_num_vectors(self) -> int:
         """Get number of vectors in the index"""

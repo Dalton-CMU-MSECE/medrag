@@ -62,7 +62,14 @@ class HybridRetriever:
         
         # Add dense scores
         for idx, score in zip(dense_indices, dense_scores):
-            doc_id = str(int(idx))  # Assuming doc_id maps to index
+            # Prefer external doc_id mapping from FAISS if available
+            try:
+                if hasattr(self.faiss_index, "doc_ids") and self.faiss_index.doc_ids and int(idx) < len(self.faiss_index.doc_ids):
+                    doc_id = str(self.faiss_index.doc_ids[int(idx)])
+                else:
+                    doc_id = str(int(idx))
+            except Exception:
+                doc_id = str(int(idx))
             combined_scores[doc_id] = {
                 "dense_score": float(score),
                 "sparse_score": 0.0,
@@ -95,6 +102,14 @@ class HybridRetriever:
             max_sparse = max(sparse_values) if max(sparse_values) > 0 else 1.0
             for doc_id in combined_scores:
                 combined_scores[doc_id]["sparse_score"] /= max_sparse
+            # Debug logging: show normalization factor and a few normalized scores
+            try:
+                print(f"BM25 normalization max_sparse={max_sparse:.4f}")
+                sample = list(combined_scores.items())[:5]
+                for did, val in sample:
+                    print(f"doc_id={did} bm25_norm={val['sparse_score']:.4f} dense_norm={val['dense_score']:.4f}")
+            except Exception:
+                pass
         
         # Compute combined scores
         for doc_id in combined_scores:
@@ -108,6 +123,17 @@ class HybridRetriever:
             key=lambda x: x[1]["combined_score"],
             reverse=True
         )[:top_k_final]
+
+        # Debug logging: show top-5 combined scores
+        try:
+            head = sorted_results[:5]
+            for did, s in head:
+                print(
+                    f"combined doc_id={did} combined={s['combined_score']:.4f} "
+                    f"dense={s['dense_score']:.4f} sparse={s['sparse_score']:.4f}"
+                )
+        except Exception:
+            pass
         
         # Format results
         results = []

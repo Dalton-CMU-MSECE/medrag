@@ -68,11 +68,24 @@ class BM25Retriever:
             
             results = []
             for hit in response["hits"]["hits"]:
-                results.append({
-                    "doc_id": hit["_id"],
-                    "score": hit["_score"],
-                    "source": hit["_source"]
-                })
+                src = hit.get("_source", {}) or {}
+                # Prefer external PMID from source metadata if available; fallback to ES _id
+                try:
+                    pmid = src.get("metadata", {}).get("pmid")
+                except Exception:
+                    pmid = None
+                doc_id_val = pmid if pmid else hit.get("_id")
+                item = {
+                    "doc_id": str(doc_id_val),
+                    "score": hit.get("_score", 0.0),
+                    "source": src
+                }
+                # Debug logging: raw BM25 _score per hit
+                try:
+                    print(f"BM25 raw _score doc_id={item['doc_id']}: {item['score']}")
+                except Exception:
+                    pass
+                results.append(item)
             
             return results
         

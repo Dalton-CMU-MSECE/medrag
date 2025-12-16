@@ -229,30 +229,3 @@ flake8 src/ tests/
 black src/ tests/
 ```
 
-## 📚 Documentation
-
-- Full pipeline documentation: `docs/pipeline_documentation.html`
-- Convert to PDF: `cd docs && ./convert_to_pdf.sh pipeline_documentation.html output.pdf`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes with tests
-4. Run linter and tests
-5. Submit a pull request
-
-## 📄 License
-
-[Your License Here]
-
-## 👥 Authors
-
-[Your Name/Team]
-
-## 🙏 Acknowledgments
-
-- MedCPT for medical domain encoders
-- S-PubMedBERT for reranking
-- SciSpacy for biomedical NER
-- FAISS for efficient similarity search

@@ -93,18 +93,29 @@ class MedicalRAGPipeline:
         else:
             self.llm = OpenAIClient(
                 model=llm_config.get("model", "gpt-4"),
+                api_key=llm_config.get("api_key"),
                 temperature=llm_config.get("temperature", 0.7),
-                max_tokens=llm_config.get("max_tokens", 1024)
+                max_tokens=llm_config.get("max_tokens", 1024),
+                prompt_for_key=llm_config.get("prompt_for_key", True),
+                use_keyring=llm_config.get("use_keyring", True),
+                save_to_keyring=llm_config.get("save_to_keyring", False)
             )
 
     def index_documents(self, documents: List[Dict[str, Any]]):
         """Build indices for dense (FAISS) and sparse (BM25) retrieval"""
         if not documents:
             return
+        # Keep an in-memory store to enrich retrieval results later
+        self._doc_store = documents
         # Encode abstracts for FAISS
         abstracts = [doc.get("abstract", "") for doc in documents]
         embeddings = self.encoder.encode(abstracts)
         self.faiss_index.add_vectors(embeddings)
+        # Provide FAISS with external doc_id mapping aligned to insertion order
+        try:
+            self.faiss_index.set_doc_ids([doc.get("doc_id") for doc in documents])
+        except Exception:
+            pass
         # Index documents into Elasticsearch
         try:
             self.bm25_retriever.index_documents(documents)
@@ -150,6 +161,32 @@ class MedicalRAGPipeline:
             top_k_sparse=retrieval_config.get("top_k_sparse", 100),
             top_k_final=retrieval_config.get("top_k_final", 50)
         )
+
+        # Enrich retrieved docs with title/abstract using stored corpus or ES source
+        enriched = []
+        for item in retrieved_docs:
+            doc = {
+                "doc_id": item.get("doc_id"),
+                "score": item.get("score"),
+                "dense_score": item.get("dense_score"),
+                "sparse_score": item.get("sparse_score"),
+                "index": item.get("index")
+            }
+            # Prefer ES source if available
+            src = item.get("source")
+            if src and isinstance(src, dict):
+                doc["title"] = src.get("title", "")
+                doc["abstract"] = src.get("abstract", "")
+                doc["pub_date"] = src.get("pub_date")
+            else:
+                idx = doc.get("index")
+                if isinstance(idx, int) and hasattr(self, "_doc_store") and 0 <= idx < len(self._doc_store):
+                    store_doc = self._doc_store[idx]
+                    doc["title"] = store_doc.get("title", "")
+                    doc["abstract"] = store_doc.get("abstract", "")
+                    doc["pub_date"] = store_doc.get("pub_date")
+            enriched.append(doc)
+        retrieved_docs = enriched
         
         # 5. Rerank
         reranker_config = self.config.get("reranker", {})

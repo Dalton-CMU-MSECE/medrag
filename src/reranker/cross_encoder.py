@@ -27,6 +27,16 @@ class CrossEncoderReranker:
         try:
             from sentence_transformers import CrossEncoder
             self.model = CrossEncoder(self.model_name)
+            # Enforce safe max sequence length to prevent positional embedding overflow
+            try:
+                tok_max = getattr(self.model.tokenizer, "model_max_length", None)
+                if tok_max is None or tok_max > 100000 or tok_max == float("inf"):
+                    tok_max = 512
+                # sentence-transformers honors this attribute for internal tokenization
+                self.model.max_seq_length = int(tok_max)
+                self._max_seq_length = int(tok_max)
+            except Exception:
+                self._max_seq_length = 512
         except Exception as e:
             print(f"Warning: Could not load cross-encoder model: {e}")
             print("Using placeholder reranker")
@@ -55,10 +65,39 @@ class CrossEncoderReranker:
             # Return original documents if model not loaded
             return documents[:top_k]
         
-        # Prepare query-document pairs
-        pairs = [(query, doc.get(text_field, "")) for doc in documents]
+        # Prepare query-document pairs with safe truncation to avoid >512 token sequences
+        pairs = []
+        texts = []
+        for doc in documents:
+            txt = doc.get(text_field, "") or ""
+            texts.append(txt)
+            pairs.append((query, txt))
+
+        # Truncate long texts deterministically with tokenizer to ensure <= max_len tokens
+        try:
+            from transformers import AutoTokenizer
+            tok = AutoTokenizer.from_pretrained(self.model_name)
+            max_len = getattr(tok, "model_max_length", 512) or 512
+            if max_len > 100000 or max_len == float("inf"):
+                max_len = 512
+            reserve = 32
+            q_ids = tok.encode(query, add_special_tokens=False)
+            q_allow = max(8, min(len(q_ids), (max_len - reserve) // 3))
+            q_ids = q_ids[:q_allow]
+            q_text = tok.decode(q_ids, skip_special_tokens=True)
+            p_allow = max_len - reserve - len(q_ids)
+            def trunc_passage(p: str) -> str:
+                p_ids = tok.encode(p, add_special_tokens=False)
+                p_ids = p_ids[: max(8, p_allow)]
+                return tok.decode(p_ids, skip_special_tokens=True)
+            pairs = [(q_text, trunc_passage(t)) for t in texts]
+        except Exception:
+            # Fallback: naive char truncation to ~2048 chars
+            pairs = [(query, (t[:2048] if isinstance(t, str) else "")) for t in texts]
         
         # Get reranking scores
+        # Pass max_length to sentence-transformers predict to enforce truncation
+        # sentence-transformers v2.x uses self.model.max_seq_length; passing max_length is unsupported
         scores = self.model.predict(pairs, batch_size=self.batch_size)
         
         # Add scores to documents
@@ -90,7 +129,18 @@ class CrossEncoderReranker:
             # Return dummy scores
             return np.random.rand(len(texts))
         
-        pairs = [(query, text) for text in texts]
+        # Prepare pairs with truncation safeguards
+        try:
+            from transformers import AutoTokenizer
+            tok = AutoTokenizer.from_pretrained(self.model_name)
+            max_len = getattr(tok, "model_max_length", 512) or 512
+            if max_len > 100000 or max_len == float("inf"):
+                max_len = 512
+            def truncate(s: str, limit: int) -> str:
+                return s[: max(1, limit * 4)]
+            pairs = [(query, truncate(text, max_len)) for text in texts]
+        except Exception:
+            pairs = [(query, (text[:2048] if isinstance(text, str) else "")) for text in texts]
         scores = self.model.predict(pairs, batch_size=self.batch_size)
         
         return np.array(scores)

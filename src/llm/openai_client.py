@@ -4,6 +4,7 @@ OpenAI LLM client
 
 from typing import List, Dict, Any, Optional
 import os
+import sys
 
 
 class OpenAIClient:
@@ -14,7 +15,10 @@ class OpenAIClient:
         model: str = "gpt-4",
         api_key: Optional[str] = None,
         temperature: float = 0.7,
-        max_tokens: int = 1024
+        max_tokens: int = 1024,
+        prompt_for_key: bool = True,
+        use_keyring: bool = True,
+        save_to_keyring: bool = False,
     ):
         """
         Initialize OpenAI client
@@ -26,20 +30,46 @@ class OpenAIClient:
             max_tokens: Maximum tokens to generate
         """
         self.model = model
-        self.api_key = api_key or os.getenv("OPENAI_API_KEY")
+        # Resolve API key via explicit arg -> env -> keyring -> optional interactive prompt
+        resolved_key = api_key or os.getenv("OPENAI_API_KEY")
+        if not resolved_key and use_keyring:
+            try:
+                import keyring  # type: ignore
+                resolved_key = keyring.get_password("medical_rag_system", "openai_api_key")
+            except Exception:
+                pass
+        self.api_key = resolved_key
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.client = None
-        self._initialize_client()
+        self._initialize_client(prompt_for_key=prompt_for_key, use_keyring=use_keyring, save_to_keyring=save_to_keyring)
     
-    def _initialize_client(self):
+    def _initialize_client(self, prompt_for_key: bool = True, use_keyring: bool = True, save_to_keyring: bool = False):
         """Initialize OpenAI client"""
         if not self.api_key:
-            print("Warning: No OpenAI API key provided")
-            return
+            # Optionally prompt the user for a key if running interactively
+            if prompt_for_key and sys.stdin and sys.stdin.isatty():
+                try:
+                    import getpass
+                    print("OpenAI API key is required. It will not be printed.")
+                    entered = getpass.getpass("Paste OpenAI API key: ")
+                    if entered:
+                        self.api_key = entered.strip()
+                        if save_to_keyring:
+                            try:
+                                import keyring  # type: ignore
+                                keyring.set_password("medical_rag_system", "openai_api_key", self.api_key)
+                            except Exception:
+                                pass
+                except Exception:
+                    pass
+            if not self.api_key:
+                print("Warning: No OpenAI API key provided")
+                return
         
         try:
             from openai import OpenAI
+            # Initialize basic client; avoid unsupported kwargs
             self.client = OpenAI(api_key=self.api_key)
         except Exception as e:
             print(f"Warning: Could not initialize OpenAI client: {e}")
