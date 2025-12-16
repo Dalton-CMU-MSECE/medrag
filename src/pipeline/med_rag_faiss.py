@@ -89,7 +89,21 @@ class MedicalRAGPipelineFAISS:
         run_manifest_id = str(uuid.uuid4())
         normalized_query = normalize_medical_query(query_text)
         entities = self.ner.extract_entities(normalized_query)
-        query_embedding = self.encoder.encode_query(normalized_query)
+        # Optionally append top entities for dense retrieval signal
+        retrieval_cfg = self.config.get("retrieval", {})
+        faiss_append = retrieval_cfg.get("faiss_entity_append", True)
+        faiss_max_entities = retrieval_cfg.get("faiss_max_entities", 3)
+        entities_text = []
+        try:
+            entities_text = [e.get("text", "").strip() for e in self.ner.extract_entities(normalized_query)]
+            entities_text = [t for t in entities_text if t]
+        except Exception:
+            entities_text = []
+        if faiss_append and entities_text:
+            augmented_query = (normalized_query + " " + " ".join(entities_text[:faiss_max_entities])).strip()
+        else:
+            augmented_query = normalized_query
+        query_embedding = self.encoder.encode_query(augmented_query)
 
         retrieval_cfg = self.config.get("retrieval", {})
         top_k_final = retrieval_cfg.get("top_k_final", 50)

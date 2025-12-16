@@ -118,6 +118,11 @@ class MedicalRAGPipeline:
             pass
         # Index documents into Elasticsearch
         try:
+            # Reset ES index to avoid stale docs from previous runs
+            try:
+                self.bm25_retriever.reset_index()
+            except Exception:
+                pass
             self.bm25_retriever.index_documents(documents)
         except Exception as e:
             print(f"Warning: BM25 indexing failed: {e}")
@@ -149,17 +154,28 @@ class MedicalRAGPipeline:
         # 2. Extract entities (NER)
         entities = self.ner.extract_entities(normalized_query)
         
-        # 3. Encode query
-        query_embedding = self.encoder.encode_query(normalized_query)
+        # 3. Encode query (optionally append top entities for dense retrieval signal)
+        retrieval_config = self.config.get("retrieval", {})
+        faiss_append = retrieval_config.get("faiss_entity_append", True)
+        faiss_max_entities = retrieval_config.get("faiss_max_entities", 3)
+        ent_texts = [e.get("text", "").strip() for e in entities if isinstance(e, dict)]
+        ent_texts = [t for t in ent_texts if t]
+        if faiss_append and ent_texts:
+            augmented_query = (normalized_query + " " + " ".join(ent_texts[:faiss_max_entities])).strip()
+        else:
+            augmented_query = normalized_query
+        query_embedding = self.encoder.encode_query(augmented_query)
         
         # 4. Hybrid retrieval
-        retrieval_config = self.config.get("retrieval", {})
         retrieved_docs = self.hybrid_retriever.retrieve(
             query=normalized_query,
             query_embedding=query_embedding,
             top_k_dense=retrieval_config.get("top_k_dense", 100),
             top_k_sparse=retrieval_config.get("top_k_sparse", 100),
-            top_k_final=retrieval_config.get("top_k_final", 50)
+            top_k_final=retrieval_config.get("top_k_final", 50),
+            entities=entities,
+            entity_boost=retrieval_config.get("bm25_entity_boost", 2.0),
+            max_entities=retrieval_config.get("bm25_max_entities", 5),
         )
 
         # Enrich retrieved docs with title/abstract using stored corpus or ES source
@@ -187,6 +203,8 @@ class MedicalRAGPipeline:
                     doc["pub_date"] = store_doc.get("pub_date")
             enriched.append(doc)
         retrieved_docs = enriched
+        # Preserve the full pre-rerank set for evaluation metrics (Recall@K, etc.)
+        retrieved_pre_rerank = list(retrieved_docs)
         
         # 5. Rerank
         reranker_config = self.config.get("reranker", {})
@@ -238,10 +256,14 @@ class MedicalRAGPipeline:
             "normalized_query": normalized_query,
             "entities": entities,
             "answer": answer,
-            "retrieved_documents": final_docs,
+            # For evaluation, expose the broader pre-rerank results
+            "retrieved_documents": retrieved_pre_rerank,
+            # Also include reranked and final (MMR-selected) sets
+            "reranked_documents": reranked_docs,
+            "final_documents": final_docs,
             "run_manifest_id": run_manifest_id,
             "metadata": {
-                "num_retrieved": len(retrieved_docs),
+                "num_retrieved": len(retrieved_pre_rerank),
                 "num_reranked": len(reranked_docs),
                 "num_final": len(final_docs)
             }

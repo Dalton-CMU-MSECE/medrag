@@ -1,7 +1,7 @@
 {
-  "avg_recall@5": 0.02,
-  "avg_recall@10": 0.02,
-  "avg_recall@20": 0.02,
+  "avg_recall@5": 0.005555555555555555,
+  "avg_recall@10": 0.005555555555555555,
+  "avg_recall@20": 0.005555555555555555,
   "avg_mrr": 0.02,
   "avg_precision@5": 0.02,
   "avg_precision@10": 0.01,

@@ -93,7 +93,13 @@ class MedicalRAGPipelineBM25:
         top_k_final = retrieval_cfg.get("top_k_final", 50)
 
         # BM25 retrieval only
-        sparse_results = self.bm25_retriever.search(normalized_query, top_k=top_k_final)
+        sparse_results = self.bm25_retriever.search(
+            normalized_query,
+            top_k=top_k_final,
+            entities=entities,
+            entity_boost=retrieval_cfg.get("bm25_entity_boost", 2.0),
+            max_entities=retrieval_cfg.get("bm25_max_entities", 5),
+        )
 
         # Enrich docs
         retrieved_docs = []

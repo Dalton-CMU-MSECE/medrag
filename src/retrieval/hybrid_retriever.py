@@ -36,7 +36,10 @@ class HybridRetriever:
         query_embedding: np.ndarray,
         top_k_dense: int = 100,
         top_k_sparse: int = 100,
-        top_k_final: int = 50
+        top_k_final: int = 50,
+        entities: list | None = None,
+        entity_boost: float = 2.0,
+        max_entities: int = 5,
     ) -> List[Dict[str, Any]]:
         """
         Retrieve documents using hybrid approach
@@ -55,7 +58,13 @@ class HybridRetriever:
         dense_scores, dense_indices = self.faiss_index.search(query_embedding, top_k_dense)
         
         # Sparse retrieval (BM25)
-        sparse_results = self.bm25_retriever.search(query, top_k_sparse)
+        sparse_results = self.bm25_retriever.search(
+            query,
+            top_k_sparse,
+            entities=entities,
+            entity_boost=entity_boost,
+            max_entities=max_entities,
+        )
         
         # Combine results
         combined_scores = {}

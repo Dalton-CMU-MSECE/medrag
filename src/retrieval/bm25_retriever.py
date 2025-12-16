@@ -2,7 +2,7 @@
 BM25 retriever using Elasticsearch
 """
 
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 
@@ -37,7 +37,14 @@ class BM25Retriever:
             print(f"Warning: Elasticsearch connection failed: {e}")
             self.es = None
     
-    def search(self, query: str, top_k: int = 10) -> List[Dict[str, Any]]:
+    def search(
+        self,
+        query: str,
+        top_k: int = 10,
+        entities: Optional[List[Dict[str, Any]]] = None,
+        entity_boost: float = 2.0,
+        max_entities: int = 5,
+    ) -> List[Dict[str, Any]]:
         """
         Search using BM25
         
@@ -51,16 +58,40 @@ class BM25Retriever:
         if self.es is None:
             return []
         
-        # BM25 query on title and abstract fields
+        # BM25 query on title and abstract fields with optional entity boosts
+        should_clauses: List[Dict[str, Any]] = []
+        if entities:
+            for ent in entities[: max(0, max_entities)]:
+                ent_text = (ent.get("text") if isinstance(ent, dict) else str(ent)) or ""
+                ent_text = ent_text.strip()
+                if not ent_text:
+                    continue
+                should_clauses.append(
+                    {
+                        "multi_match": {
+                            "query": ent_text,
+                            "fields": ["title^3", "abstract^2"],
+                            "type": "best_fields",
+                            "boost": float(entity_boost),
+                        }
+                    }
+                )
+
         search_body = {
             "query": {
-                "multi_match": {
-                    "query": query,
-                    "fields": ["title^2", "abstract"],
-                    "type": "best_fields"
+                "bool": {
+                    "must": {
+                        "multi_match": {
+                            "query": query,
+                            "fields": ["title^2", "abstract"],
+                            "type": "best_fields",
+                        }
+                    },
+                    "should": should_clauses,
+                    "minimum_should_match": 0,
                 }
             },
-            "size": top_k
+            "size": top_k,
         }
         
         try:
@@ -134,6 +165,18 @@ class BM25Retriever:
         except Exception:
             # If race condition or already exists
             return self.index_exists()
+
+    def reset_index(self) -> bool:
+        """Delete the existing index (if any) and recreate it fresh for this run."""
+        if self.es is None:
+            return False
+        try:
+            if self.index_exists():
+                self.es.indices.delete(index=self.index_name, ignore=[400, 404])
+        except Exception:
+            # Best-effort delete; proceed to create
+            pass
+        return self.create_index()
 
     def index_documents(self, documents: List[Dict[str, Any]]):
         """Bulk index documents into Elasticsearch"""
