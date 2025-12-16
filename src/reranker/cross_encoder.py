@@ -9,7 +9,7 @@ from typing import List, Dict, Any, Tuple
 class CrossEncoderReranker:
     """Cross-encoder reranker using S-PubMedBERT-MS-MARCO"""
     
-    def __init__(self, model_name: str = "pritamdeka/S-PubMedBert-MS-MARCO", batch_size: int = 16):
+    def __init__(self, model_name: str = "pritamdeka/S-PubMedBert-MS-MARCO", batch_size: int = 16, device: str = "auto"):
         """
         Initialize cross-encoder reranker
         
@@ -19,6 +19,7 @@ class CrossEncoderReranker:
         """
         self.model_name = model_name
         self.batch_size = batch_size
+        self.device = device
         self.model = None
         self._load_model()
     
@@ -26,7 +27,15 @@ class CrossEncoderReranker:
         """Load cross-encoder model"""
         try:
             from sentence_transformers import CrossEncoder
-            self.model = CrossEncoder(self.model_name)
+            # Resolve device: 'auto' -> cuda if available else cpu
+            dev = self.device
+            if dev == "auto":
+                try:
+                    import torch
+                    dev = "cuda" if torch.cuda.is_available() else "cpu"
+                except Exception:
+                    dev = "cpu"
+            self.model = CrossEncoder(self.model_name, device=dev)
             # Enforce safe max sequence length to prevent positional embedding overflow
             try:
                 tok_max = getattr(self.model.tokenizer, "model_max_length", None)

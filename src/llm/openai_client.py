@@ -14,6 +14,8 @@ class OpenAIClient:
         self,
         model: str = "gpt-4",
         api_key: Optional[str] = None,
+        base_url: Optional[str] = None,
+        organization: Optional[str] = None,
         temperature: float = 0.7,
         max_tokens: int = 1024,
         prompt_for_key: bool = True,
@@ -39,6 +41,9 @@ class OpenAIClient:
             except Exception:
                 pass
         self.api_key = resolved_key
+        # Resolve optional base URL and organization for gateways (e.g., CMU AI Gateway)
+        self.base_url = base_url or os.getenv("OPENAI_BASE_URL")
+        self.organization = organization or os.getenv("OPENAI_ORGANIZATION")
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.client = None
@@ -70,7 +75,14 @@ class OpenAIClient:
         try:
             from openai import OpenAI
             # Initialize basic client; avoid unsupported kwargs
-            self.client = OpenAI(api_key=self.api_key)
+            if self.base_url and self.organization:
+                self.client = OpenAI(api_key=self.api_key, base_url=self.base_url, organization=self.organization)
+            elif self.base_url:
+                self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+            elif self.organization:
+                self.client = OpenAI(api_key=self.api_key, organization=self.organization)
+            else:
+                self.client = OpenAI(api_key=self.api_key)
         except Exception as e:
             print(f"Warning: Could not initialize OpenAI client: {e}")
     

@@ -63,7 +63,7 @@ mmr:
 # LLM configuration
 llm:
   provider: "openai"  # or "stub" for testing
-  model: "gpt-4"
+  model: "gpt-4o-mini-2024-07-18"
   temperature: 0.7
   max_tokens: 1024
   system_prompt: |
@@ -91,7 +91,7 @@ evaluation:
     - "rougeL"
   llm_judge:
     enabled: true  # Enable LLM-as-a-judge evaluation (NEW)
-    model: "gpt-4"
+    model: "gpt-4o-mini-2024-07-18"
     temperature: 0.0  # Deterministic for evaluation
     aspects:
       - "factuality"

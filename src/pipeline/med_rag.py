@@ -52,7 +52,7 @@ class MedicalRAGPipeline:
         encoder_config = self.config.get("encoder", {})
         self.encoder = MedCPTEncoder(
             model_name=encoder_config.get("model", "ncbi/MedCPT-Query-Encoder"),
-            device=encoder_config.get("device", "cpu")
+            device=encoder_config.get("device", "auto")
         )
         
         # FAISS Index
@@ -81,7 +81,8 @@ class MedicalRAGPipeline:
         reranker_config = self.config.get("reranker", {})
         self.reranker = CrossEncoderReranker(
             model_name=reranker_config.get("model", "pritamdeka/S-PubMedBert-MS-MARCO"),
-            batch_size=reranker_config.get("batch_size", 16)
+            batch_size=reranker_config.get("batch_size", 16),
+            device=reranker_config.get("device", "auto")
         )
         
         # LLM

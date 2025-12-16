@@ -9,7 +9,7 @@ from typing import List, Union
 class MedCPTEncoder:
     """MedCPT encoder for medical domain embeddings"""
     
-    def __init__(self, model_name: str = "ncbi/MedCPT-Query-Encoder", device: str = "cpu"):
+    def __init__(self, model_name: str = "ncbi/MedCPT-Query-Encoder", device: str = "auto"):
         """
         Initialize MedCPT encoder
         
@@ -18,7 +18,15 @@ class MedCPTEncoder:
             device: Device for inference (cpu/cuda)
         """
         self.model_name = model_name
-        self.device = device
+        # Resolve device: 'auto' -> cuda if available else cpu
+        if device == "auto":
+            try:
+                import torch
+                self.device = "cuda" if torch.cuda.is_available() else "cpu"
+            except Exception:
+                self.device = "cpu"
+        else:
+            self.device = device
         self.model = None
         self.tokenizer = None
         self._load_model()
