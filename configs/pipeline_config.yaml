@@ -23,6 +23,7 @@ pubmed:
 
 # Encoder configuration
 encoder:
+  backend: "medcpt"  # Options: "medcpt" or "biobert"
   model: "ncbi/MedCPT-Query-Encoder"
   embedding_dim: 768
   batch_size: 32
@@ -67,8 +68,7 @@ llm:
   temperature: 0.7
   max_tokens: 1024
   system_prompt: |
-    You are a medical AI assistant. Answer the user's question based on the provided scientific evidence.
-    Always cite your sources using [doc_id] format.
+    You are a scientific medical assistant designed to synthesize responses from specific medical documents. Only use the information provided in the documents to answer questions. The first documents should be the most relevant. Do not use any other information except for the documents provided. When answering questions, always format your response as a JSON object with fields for 'response', 'used PMIDs'. Cite all PMIDs your response is based on in the 'used PMIDs' field. Please think step-by-step before answering questions and provide the most accurate response possible. Provide your answer to the question in the 'response' field.
 
 # Prompt configuration
 prompt:

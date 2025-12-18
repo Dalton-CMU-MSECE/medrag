@@ -12,6 +12,7 @@ from src.core.mmr import compute_mmr, compute_recency_scores
 from src.core.utils import set_random_seed, save_run_manifest
 from src.ner.ner_service import NERService
 from src.encoder.medcpt_encoder import MedCPTEncoder
+from src.encoder.biobert_encoder import BioBERTEncoder
 from src.retrieval.faiss_index import FAISSIndex
 from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.hybrid_retriever import HybridRetriever
@@ -50,10 +51,17 @@ class MedicalRAGPipeline:
         
         # Encoder
         encoder_config = self.config.get("encoder", {})
-        self.encoder = MedCPTEncoder(
-            model_name=encoder_config.get("model", "ncbi/MedCPT-Query-Encoder"),
-            device=encoder_config.get("device", "auto")
-        )
+        backend = encoder_config.get("backend", "medcpt").lower()
+        if backend == "biobert":
+            self.encoder = BioBERTEncoder(
+                model_name=encoder_config.get("model", "dmis-lab/biobert-base-cased-v1.1"),
+                device=encoder_config.get("device", "auto")
+            )
+        else:
+            self.encoder = MedCPTEncoder(
+                model_name=encoder_config.get("model", "ncbi/MedCPT-Query-Encoder"),
+                device=encoder_config.get("device", "auto")
+            )
         
         # FAISS Index
         faiss_config = self.config.get("faiss", {})

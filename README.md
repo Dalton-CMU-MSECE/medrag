@@ -70,7 +70,7 @@ medical_rag_system/
 │   ├── ner/              # Named entity recognition
 │   ├── retrieval/        # FAISS, BM25, hybrid retrieval
 │   ├── reranker/         # Cross-encoder reranking
-│   ├── encoder/          # MedCPT encoder
+│   ├── encoder/          # Encoders (MedCPT, BioBERT)
 │   ├── llm/              # LLM clients (OpenAI, stub)
 │   └── pipeline/         # Main RAG pipeline orchestration
 ├── evaluation/           # Evaluation scripts and notebooks
@@ -130,6 +130,58 @@ python scripts/encode_documents.py --config configs/pipeline_config.yaml --outpu
 python scripts/build_faiss_index.py --embeddings runs/test-run/embeddings.npy --output runs/test-run/faiss.index
 python scripts/ingest_elastic.py --config configs/pipeline_config.yaml --docs data/docs.jsonl
 ```
+
+### Encoders: MedCPT vs BioBERT
+
+You can switch between encoders via `configs/pipeline_config.yaml` under the `encoder` section:
+
+- **MedCPT (default):**
+  - `encoder.backend: "medcpt"`
+  - `encoder.model: "ncbi/MedCPT-Query-Encoder"`
+
+- **BioBERT:**
+  - `encoder.backend: "biobert"`
+  - `encoder.model: "dmis-lab/biobert-base-cased-v1.1"` (or a compatible PubMedBERT model like `microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract`) 
+
+Example snippet:
+
+```yaml
+encoder:
+  backend: "biobert"
+  model: "dmis-lab/biobert-base-cased-v1.1"
+  embedding_dim: 768
+  batch_size: 32
+  device: "cuda"
+```
+
+Run commands are unchanged; the pipeline will instantiate the selected encoder:
+
+```bash
+python scripts/run_bioasq_pipeline.py --round 1 --email jgibson2@andrew.cmu.edu --config configs/pipeline_config.yaml --output results/round_1
+```
+
+### BioBERT Retriever Pipeline
+
+Use the dedicated BioBERT dense retriever pipeline to produce separate outputs:
+
+```bash
+python scripts/run_bioasq_pipeline_biobert.py \
+  --round 1 \
+  --email jgibson2@andrew.cmu.edu \
+  --config configs/pipeline_config.yaml \
+  --data-dir data/bioasq \
+  --output results \
+  --max-questions 10
+```
+
+Outputs are saved to:
+- `results/round_1/predictions_biobert.json`
+- `results/round_1/metrics_biobert.json`
+
+Notes:
+- Both encoders produce 768-d embeddings and use CLS token pooling.
+- If the HF model fails to load, the pipeline falls back to placeholder random embeddings (for dev/testing).
+- Performance and retrieval quality may differ; compare metrics under `results/round_X/metrics.json`.
 
 ### NER Backends
 

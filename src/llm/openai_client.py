@@ -5,6 +5,7 @@ OpenAI LLM client
 from typing import List, Dict, Any, Optional
 import os
 import sys
+import json
 
 
 class OpenAIClient:
@@ -143,17 +144,26 @@ class OpenAIClient:
         Returns:
             Generated answer
         """
-        # Build context from documents
-        context_parts = []
+        # Build context in the requested JSON structure
+        docs_obj: Dict[str, Any] = {}
         for i, doc in enumerate(context_documents, 1):
-            doc_text = f"[{doc['doc_id']}] {doc.get('title', '')}\n{doc.get('abstract', '')}"
-            if doc.get('pub_date'):
-                doc_text += f"\nPublished: {doc['pub_date']}"
-            context_parts.append(doc_text)
-        
-        context = "\n\n".join(context_parts)
-        
-        # Build full prompt
-        full_prompt = f"{context}\n\n---\n\nQuestion: {query}\n\nAnswer:"
-        
+            relevance = doc.get("score")
+            if relevance is None:
+                relevance = doc.get("dense_score")
+            try:
+                relevance_val = float(relevance) if relevance is not None else 0.0
+            except Exception:
+                relevance_val = 0.0
+
+            docs_obj[f"doc{i}"] = {
+                "PMID": doc.get("doc_id"),
+                "title": doc.get("title", ""),
+                "content": doc.get("abstract", ""),
+                "relevance_score": relevance_val
+            }
+
+        user_part = f"User Prompt: Answer the following question: {query}"
+        context_part = "Context Prompt: Here are the documents:\n" + json.dumps(docs_obj, ensure_ascii=False, indent=2)
+        full_prompt = user_part + "\n\n" + context_part
+
         return self.generate(full_prompt, system_prompt=system_prompt)
