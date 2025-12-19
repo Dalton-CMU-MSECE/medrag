@@ -1,0 +1,776 @@
+[
+  {
+    "question_id": "6593de2f06a2ea257c00001e",
+    "question_text": "What is the burden of human trypanosomiases in European hospitals?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The burden of human trypanosomiases in European hospitals is linked to imported cases from travelers, tourists, migrants, or expatriates who have been in endemic areas. While specific annual case numbers are not provided, Spain has the highest burden of Chagas disease (a form of trypanosomiasis) in Europe. The presence of Trypanosoma species in Europe is typically associated with travel or immigration history or infected animals. Despite progress in reducing human African trypanosomiasis in sub-Saharan Africa, its occurrence in Europe remains a consideration for differential diagnosis among certain patient groups. Additionally, the region faces broader healthcare challenges, such as primary care crises and hospital pressures post-COVID-19, which could impact the management of these diseases.",
+      "Human African Trypanosomiasis (HAT), also known as sleeping sickness, poses a significant global threat, affecting approximately 70 million people in 36 African countries. Although not explicitly stated, it can be inferred that the burden of HAT in European hospitals is relatively low or negligible, given that HAT is primarily confined to Africa and there is no mention of significant cases or outbreaks in European regions. However, it's essential to note that Chagas disease, another form of trypanosomiasis caused by Trypanosoma cruzi, has a substantial presence in Latin America, but its direct burden in European hospitals is not quantified here. Nonetheless, considering the geographical distribution and prevalence of these diseases, it appears that the primary concern regarding trypanosomiases in European hospitals relates to imported cases rather than local transmission, highlighting the importance of vigilance and preparedness among clinicians in diagnosing and managing these conditions in non-endemic settings.",
+      "Between 2011-2020, 49 cases of human African trypanosomiasis (HAT) were diagnosed in 16 non-endemic countries across five continents, with a majority caused by Trypanosoma brucei rhodesiense in tourists visiting Africa and T. b. gambiense in African migrants returning from endemic areas. The prevalence of HAT diagnosis in non-endemic countries is rare but significant, emphasizing the need for continued surveillance to support the World Health Organization's (WHO) elimination goals.",
+      "The burden of human trypanosomiases in European hospitals is primarily associated with Chagas disease and human African trypanosomiasis (HAT). Chagas disease, caused by Trypanosoma cruzi, has a prevalence of approximately 4.2% among Latin American migrants in Europe, with significant underdiagnosis and lack of screening programs. The disease can lead to severe complications such as cardiomyopathy and gastrointestinal issues. Human African trypanosomiasis, though less common, poses a risk to travelers and migrants from endemic regions. The increasing incidence of these diseases in Europe is attributed to migration and tourism, highlighting the need for improved awareness, diagnosis, and treatment in healthcare settings.",
+      "The burden of human trypanosomiases in European hospitals is relatively low. Between 2011 and 2020, there were 49 cases of Human African Trypanosomiasis (HAT) reported across multiple non-endemic countries, including those in Europe. These cases were primarily among tourists and migrants from Africa, indicating that the disease is mostly imported and not endemic to Europe."
+    ],
+    "exact_answer": [
+      [
+        "Spain has the highest burden of Chagas disease in Europe"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8319592fa4887300001e",
+    "question_text": "What disease can be treated with vorasidenib?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "39776525",
+      "39025958",
+      "39776528",
+      "37812369",
+      "39737092",
+      "39776530"
+    ],
+    "relevant_snippets": [
+      "Vorasidenib (VORANIGO®; Servier) is an orally administered, first-in-class, highly brain-penetrant dual inhibitor of mutant isocitrate dehydrogenase 1 and 2 (IDH1/2) enzymes being developed for use in IDH-mutant diffuse glioma.",
+      "The INDIGO study demonstrated that vorasidenib, a pan-mIDH inhibitor, improved progression-free survival for patients with grade 2 mIDH gliomas following surgical resection or biopsy compared to placebo and was well tolerated.",
+      "In addition to established treatments such as radiotherapy and alkylating chemotherapy, patients with an isocitrate dehydrogenase (IDH)-mutant glioma for whom additional treatment is indicated may now also have the option of receiving treatment with an mutant isocitrate dehydrogenase inhibitor such as vorasidenib or ivosidenib.",
+      "The isocitrate dehydrogenase (IDH) inhibitor, vorasidenib, may offer a promising new treatment option for patients with IDH-mutant gliomas.",
+      "The recently published INDIGO trial, demonstrating the benefit of the mutant IDH inhibitor vorasidenib in patients with low-grade IDH-mutant gliomas, introduces a new era of precision medicine in brain tumors that is poised to change standard-of-care.",
+      "Nonetheless, advances have been made with the IDH1/2 inhibitor vorasidenib for IDH-mutant grade 2 gliomas, the combination of dabrafenib and trametinib for BRAFV600E mutated gliomas, and the therapies for subsets of patients with fusions and H3K27M-altered diffuse midline gliomas.",
+      "Isocitrate dehydrogenase (IDH)-mutant grade 2 gliomas are malignant brain tumors that cause considerable disability and premature death. Vorasidenib, an oral brain-penetrant inhibitor of mutant IDH1 and IDH2 enzymes, showed preliminary activity in IDH-mutant gliomas.",
+      "ients with grade 2 IDH-mutant glioma, vorasidenib significantly improved progression-free survival and delayed the time to the next intervention. (Fund"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "IDH-mutant gliomas"
+      ]
+    ]
+  },
+  {
+    "question_id": "63ac44c2c6c7d4d31b000011",
+    "question_text": "Which are the most common psychiatric events associated with the consumption of cannabis?",
+    "question_type": "list",
+    "relevant_docs": [
+      "14722704"
+    ],
+    "relevant_snippets": [
+      "ally assaulted in the course of their lives. In addition, women are at greater risk of cannabis dependence (OR = 3.87; p < .05) for lower cannabis consumption (grams smoked per week) (OR = 0.96; p < .05).DISCUSSION AND CONCLUSIONS: French women heavy cannabis users are particularly at risk of PTSD and are more likely than men to be dependent despite consuming fewer.SCIENTIFIC SIGNIFICANCE: Further studies a",
+      "he participants, p > 0.05.Conclusion: Due to the higher frequency of anxiety and depression disorders in cannabis users in this study compared to the general population, cannabis use is likely to be a",
+      "Finally, higher levels of obsessive-compulsive behaviour, interpersonal sensitivity, depression, anxiety, phobic anxiety and paranoid ideation were significantly correlated with the duration of regular interim cannabis use.CONCLUSIONS: The present findings suggest that self-reported psychopathology in ecstasy users is predominantly attributable to concomitant use of cannabis."
+    ],
+    "ideal_answer": [
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, psychotic disorders, psychosis, paranoia, cognitive impairment, mood disorders, exacerbation of existing psychiatric disorders, withdrawal syndrome, and increased risk of developing chronic psychosis. These events can range from acute adverse mental effects to long-term negative psychiatric outcomes, especially in vulnerable individuals. Cannabis use has been consistently linked to a higher prevalence of comorbid psychiatric conditions, learning and memory impairments, and a range of mental health issues that can have significant impacts on an individual's well-being and quality of life.",
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, psychosis, and exacerbation of psychotic disorders -- particularly in vulnerable individuals. Cannabis use can lead to acute adverse effects such as anxiety, paranoia, and psychosis. Chronic use of cannabis may result in mood disorders, an increase in depressive or manic episodes, and the development of cannabis use disorders. Additionally, there is an association between cannabis use and the onset of first mania at a younger age, as well as an increase in impulsivity and sensation-seeking traits. Cannabis disorders are classified under the DSM-IV and ICD-10 criteria and include intoxication, abuse, dependence, as well as cannabis-induced psychotic and anxiety disorders.",
+      "The most common psychiatric events associated with the consumption of cannabis are anxiety, depression, and psychotic disorders, which include a range of symptoms such as paranoia, exacerbation of manic episodes in those with affective psychoses, particularly bipolar disorder, and an increased likelihood of developing schizophrenia in vulnerable populations. Cannabis use can also lead to cannabis use disorders, characterized by cannabis intoxication, abuse, and dependence as defined by DSM-IV and ICD-10 criteria. Acute adverse effects include anxiety states, cognitive impairments, tachycardia, and orthostatic hypotension, while chronic effects may involve mood disorders, neurocognitive impairments, and exacerbation of psychotic disorders. Impulsivity and sensation-seeking traits have been observed in recreational cannabis users, which are not only common in chronic drug abusers but also present in those who consume cannabis recreationally.",
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, and psychotic disorders. These conditions can range from acute reactions such as anxiety or paranoia during intoxication to more chronic effects like depression and exacerbation of pre-existing psychotic symptoms in vulnerable individuals. Cannabis use has also been linked to an increased risk of developing schizophrenia and other psychoses, particularly among those with a genetic predisposition or existing mental health conditions. Additionally, cannabis withdrawal can cause irritability, anxiety, sleep disturbances, and in some cases, more severe psychiatric symptoms.",
+      "The most common psychiatric events associated with the consumption of cannabis include an increased risk for the development and exacerbation of psychotic disorders, such as schizophrenia, particularly in individuals with a pre-existing genetic predisposition. Cannabis use is also linked to first-episode psychosis, characterized by severe symptoms that can sometimes be managed with antipsychotics and mood stabilizers. It may lead to poor treatment adherence and an increased risk of relapse in individuals with psychotic disorders. Moreover, cannabis use can be involved in the onset of comorbid mental illnesses at an earlier age. While not all experiencing psychosis from cannabis will have a negative outcome on their overall mental health trajectory, these symptoms are cause for clinical concern and require careful management to prevent progression to more severe mental health conditions.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depressive disorders, psychotic disorders such as schizophrenia, and substance use disorders. Acute adverse effects can consist of anxiety, paranoia, and psychosis, which can manifest as an acute anxiety state or even paranoid episodes. Cannabis use is also linked to exacerbation of psychotic disorders in vulnerable individuals and can affect mood, leading to disorders like depression. Additionally, there is a significant association between cannabis use and the development or worsening of psychiatric conditions such as attention deficit-hyperactivity disorder and conduct disorders, especially in adolescents and young adults. Chronic effects of cannabis can lead to cannabis use disorders, withdrawal syndrome, and neurocognitive impairments.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depressive disorders, psychotic disorders, and cannabis use disorders. Specifically, cannabis use has been linked to the exacerbation of psychotic disorders in vulnerable individuals, mood disorders, and an increased risk of psychiatric disorders such as schizophrenia, depression, anxiety, and substance use disorder. Acute adverse mental effects can mimic psychiatric disorders like schizophrenia and bipolar disorder. Additionally, cannabis use is associated with a withdrawal syndrome upon cessation in dependent individuals. Other psychiatric effects include paranoia, psychosis, and cannabis-induced anxiety, which has been observed in emergency department patients. There is also evidence suggesting a cross-sectional association between recreational cannabis use and depression, anxiety, and suicide.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety, depression, psychosis, and paranoia. Additionally, cannabis use can be linked to mania and hypomania, as well as exacerbation of existing psychiatric conditions.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depression, psychotic syndromes, cognitive impairment, and addictive behavior. Studies have shown that cannabis use is linked to an increased risk of progression to schizophrenia, particularly in individuals with a genetic loading. Additionally, research has found associations between cannabis use and mood disorders, including mania and bipolar disorder. Other psychiatric events reported include obsessive-compulsive behavior, interpersonal sensitivity, depression, anxiety, phobic anxiety, and paranoid ideation, particularly among frequent users. Furthermore, studies have also highlighted the potential for cardiovascular adverse events, such as myocardial infarction and strokes, suicidal ideas and attempts, worsening of epilepsy, and sedative disorders, all of which are concerning and warrant further investigation."
+    ],
+    "exact_answer": [
+      [
+        "panic attack psychotic states dependence abuse cognitive disorders amotival syndrome anxiety disorder suicidal idea and attempt Hallucinogenic effects Stimulant effects Aggressive behavior Addictive behaviors Bipolar Disorder"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d2e006a2ea257c000019",
+    "question_text": "Should gender-affirming surgery be performed in people under 18 years of age?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The decision to perform gender-affirming surgery (GAS) on individuals under 18 years of age involves balancing medical, psychological, and ethical considerations. Data indicates that breast and chest surgeries are the most common procedures in adolescents aged 12-18, often aimed at alleviating gender dysphoria and improving mental health outcomes. Hormonal therapy plays a preparatory role for some patients, though its long-term impact on surgical results is still under study. More complex procedures, such as genital reconstruction, are primarily performed on older patients due to additional medical and psychological considerations. The appropriateness of GAS for minors requires a multidisciplinary approach, careful assessment of individual circumstances, and comprehensive informed consent to ensure the best possible outcomes.",
+      "Gender-affirming surgery can be performed on individuals under 18 under specific circumstances, supported by international guidelines and when deemed appropriate for the individual's mental health and quality of life. While restrictions and legal guidelines often set 18 as the age of consent, there are instances where these surgeries, such as chest wall masculinization, have been provided to individuals under 18 to support their gender identity and improve mental health outcomes.",
+      "Studies suggest that gender-affirming surgeries are being increasingly performed on transgender adolescents, with many undergoing procedures such as mastectomies before the age of 18. These interventions, when conducted in accordance with international guidelines, have been associated with improvements in mental health and quality of life for gender-diverse individuals. However, the legal and regulatory landscape varies, with some regions requiring individuals to be at least 18 years old for certain surgical procedures. This highlights a tension between current medical practices and legal restrictions, underscoring the need for further discussion and clarification on the appropriate age for such interventions.",
+      "While there is a lack of consensus, current evidence suggests that gender-affirming surgeries should generally be reserved for those aged 18 and over due to the irreversible nature of the procedures and ethical concerns regarding maturity and consent. However, puberty blockers and hormone therapies are commonly used in adolescents to support gender transitions.",
+      "Gender-affirming surgery may be considered in carefully selected individuals under 18 years of age, particularly adolescents diagnosed with clear and persistent gender dysphoria, following thorough evaluation and multidisciplinary team assessment. However, the decision to proceed with surgery should take into account the individual's physical and emotional maturity, potential long-term implications, and available evidence-based guidelines. In some cases, such as clitoroplasty for clitoromegaly, surgical intervention during infancy has been shown to yield highly satisfactory outcomes, suggesting that early intervention can be beneficial when medically indicated. Nevertheless, each case requires a nuanced consideration of the unique circumstances, weighing the potential benefits against the risks and uncertainties associated with irreversible surgical interventions in minors."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593dce006a2ea257c00001d",
+    "question_text": "Which pathophysiological pathways are involved in the symptom FATIGUE?",
+    "question_type": "list",
+    "relevant_docs": [
+      "18987107",
+      "16740143",
+      "26853557"
+    ],
+    "relevant_snippets": [
+      "Physical fatigue was negatively correlated with GABA+ in SMC and PFC (r = -0.428 and -0.472 respectively, p ≤  0.04) and positively with PFC Glx (r = 0.480, p =  0.028).CONCLUSION: The associations between fatigue and GABA + and Glx suggest that there might be dysregulation of GABAergic/glutamatergic neurotransmission in the pathophysiological mechanism of central fatigue in MS.",
+      "These studies provide new insight into the diverse actions of IFN-γ in fatigue, energy metabolism, and autoimmunity.",
+      "igued than in nonfatigued patients. Serum IL-6 levels (pg/mL) were higher in the fatigued group (5.1 ± 3.4) than in the nonfatigued group (1.6 ± 1.5; P < 0.001); serum albumin and creatin",
+      "Results also replicated several specific genomic effects previously observed in fatigued cancer survivors, including upregulated expression of α-synuclein (SNCA) and hemoglobin subunits (HBA and HBB).CONCLUSIONS: Cancer survivors' heightened fatigue levels may be partially explained by activation of specific immune cell subsets, thereby providing a potential molecular biomarker for clinical interventions targeting the remediation of fatigue.",
+      "Finally, fatigue score significantly correlated with gray matter atrophy in frontal regions, specifically, the left superior frontal gyrus and bilateral middle frontal gyri (P<0.001 in all cases).CONCLUSION: Our results suggest that the symptom of fatigue is associated with a disruption of brain networks involved in cognitive/attentional processes.",
+      "These results demonstrate NR3C1 as a potential mediator of chronic fatigue, and implicate variations in the 5' region of NR3C1 as a possible mechanism through which the alterations in HPA axis regulation and behavioural characteristics of CFS may manifest.",
+      "While the causes of persistent fatigue among cancer survivors are not yet fully understood, accumulating evidence suggests that several pathways, including chronic inflammation, autonomic imbalance, HPA-axis dysfunction, and/or mitochondrial damage, could contribute towards the disruption of normal neuronal function and result in the symptom of cancer-related fatigue."
+    ],
+    "ideal_answer": [
+      "Fatigue is a complex symptom with multiple pathophysiological pathways. Key mechanisms include alterations in gut-brain axis activity, gut dysbiosis, and increased gut permeability, as seen in conditions like chronic fatigue syndrome. In fibromyalgia, metabolic disruptions such as tyrosine, purine, and pyrimidine pathway changes, as well as glutaminergic neurotransmission abnormalities, play a role. Cancer-related fatigue involves phospholipid metabolism disturbances, endocannabinoid system changes, and glycerophospholipid imbalances. Post-COVID-19 fatigue is linked to dysautonomia, micro-clotting, impaired oxygen delivery, and disruptions in cellular energy metabolism. These pathways highlight the importance of tailored therapeutic strategies to address the underlying causes of fatigue.",
+      "Fatigue involves multiple pathophysiological pathways, including central nervous system dysfunction characterized by inflammation, reduced glucose metabolism, brain atrophy, demyelination, and axonal damage. It also implicates hypofunction of the glutamatergic system due to decreased acetyl-carnitine uptake in specific brain regions. Additionally, metabolic changes, particularly in response to stress, play a role. Abnormalities in neuromuscular junctions and myotendinous junctions contribute to fatigue symptoms, especially in conditions like major depressive disorder. The involvement of inflammation, the hypothalamic-pituitary-adrenal (HPA) axis, and the autonomic nervous system is suggested, though further research is needed. In fibromyalgia, fatigue is linked to chronic widespread pain and disruptions in both ascending pain and descending inhibitory sensory pathways. These mechanisms underscore the complexity of fatigue across various chronic illnesses.",
+      "Studies suggest that fatigue is a complex symptom involving multiple pathophysiological pathways, including chronic inflammation, autonomic imbalance, HPA-axis dysfunction, and mitochondrial damage. Pro-inflammatory cytokines, such as interleukin-1 and -6, tumor necrosis factor-alpha, and tryptophan catabolites, are implicated in the mechanisms causing fatigue. Additionally, dysregulation of neurotransmitter systems, including GABAergic/glutamatergic transmission, and alterations in brain networks involved in cognitive/attentional processes are also associated with fatigue. Mitochondrial dysfunction, driven by immune dysfunction-related changes in myocyte mitochondria, is proposed as a critical role in fatigue-related pathogenesis. Furthermore, studies indicate that inflammation may be a common link between fatigue, pain, and depression, and that biologic agents targeting inflammatory cytokines can be effective in alleviating fatigue.",
+      "Fatigue involves various pathophysiological pathways, including neuromuscular and myotendinous junction aberrations, non-dopaminergic and extrastriatal dopaminergic pathways, and disruptions in networks connecting the basal ganglia, thalamus, limbic system, and cortex. It is linked with hypocortisolemia impacting the hypothalamic-pituitary-adrenal axis and increased pro-inflammatory cytokine levels. There is dysregulation involving the central and autonomic nervous systems, neurotransmitter imbalances like GABAergic/glutamatergic signaling, and alterations in metabolic pathways such as galactose metabolism and phenylalanine, tyrosine, and tryptophan biosynthesis."
+    ],
+    "exact_answer": [
+      [
+        "elevated adrenocorticotropin (ACTH) levels HPA axis dysfunction activation of proinflammatory cytokines (TNF-alpha, IL-1beta and IL-6) disturbances of astroglia metabolism decreased levels of noradrenaline decreased levels of serotonin proinflammatory cytokines (TNF-alpha, IL-1beta, IL-6) glutaminergic transmission astroglia metabolism disturbances decreased neurotransmitters noradrenaline and serotonin dysregulation of GABAergic/glutamatergic neurotransmission tyrosine metabolism purine metabolism pyrimidine metabolism glutaminergic metabolism aberrations in neuromuscular and myotendinous junctions tyrosine pathway purine pathway pyrimidine pathway p38 MAPK signaling pathway functional and structural changes of cerebral gray matter oxidative stress IO&NS pathways central serotoninergic system",
+        "Gut dysbiosis, altered gut-brain axis activity, increased gut permeability, bacterial translocation, abnormal tryptophan metabolism, and reduced activity of the kynurenine pathway",
+        "Disrupted tyrosine, purine, and pyrimidine metabolism, and glutaminergic neurotransmission abnormalities in fibromyalgia",
+        "Disruptions in phospholipid metabolism, endocannabinoid system alterations, glycerophospholipid abnormalities, and anandamide level changes in cancer-related fatigue",
+        "Dysautonomia, micro-clotting, impaired oxygen delivery, and cellular energy metabolism changes in Long COVID-related fatigue"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc949c6c7d4d31b000019",
+    "question_text": "Is Deferiprone effective for Parkinson’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Although 30 mg/kg deferiprone treated patients showed a trend for improvement in motor-UPDRS scores and quality of life, this did not reach significance."
+    ],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "677ecc12592fa48873000028",
+    "question_text": "How does Gene Set Enrichment Analysis (GSEA) work?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "21917718",
+      "18234563"
+    ],
+    "relevant_snippets": [
+      "Another way is to apply Gene Set Enrichment Analysis (GSEA) that uses predefined gene sets and ranks of genes to identify significant biological changes in microarray data sets.",
+      "GSEA is a statistical functional enrichment analysis commonly applied to identify enrichment of biological functional categories in sets of ranked differentially expressed genes from genome-wide mRNA expression data sets."
+    ],
+    "ideal_answer": [
+      "Gene Set Enrichment Analysis (GSEA) works by using predefined gene sets to analyze and identify significant biological changes in gene expression data. It ranks genes to determine which predefined sets are overrepresented at the top or bottom of a rank-ordered list of genes from microarray data, indicating potential functional categories of interest.",
+      "Gene Set Enrichment Analysis (GSEA) works by calculating the significance of the association between an annotated gene set and a differential expression signature. It typically uses a running sum statistic and permutation tests to assess the enrichment of gene sets across high-throughput expression data, identifying pathways and biological processes relevant to the data.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that evaluates whether an a priori defined set of genes displays statistically significant, concordant differences in expression between two biological states. It ranks these genes based on expression levels from genome-wide mRNA datasets, identifying significant biological changes and processes linked to specific phenotypes or conditions.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that assesses whether a predefined set of genes shows statistically significant, concordant differences between two biological states. It uses ranks of gene expression to identify significant biological changes in microarray data, aiding in the interpretation of gene set-phenotype associations and pathway-level expression changes.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that evaluates whether a predefined set of genes shows statistically significant, concordant differences between two biological states. By ranking genes based on differential expression, it identifies enrichment related to biological functions or pathways, revealing significant dependencies between gene sets and observed phenotypes.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method used to determine if a pre-defined set of genes exhibits statistically significant, concordant differences between two biological states. It achieves this by ranking genes based on differential expression and identifying enrichment in specific gene sets, enabling the discovery of significant biological processes and pathways.",
+      "Gene Set Enrichment Analysis (GSEA) works by utilizing pre-defined gene sets, ranking genes based on their expression levels, calculating an enrichment score reflecting the degree of overrepresentation, and employing permutation tests to determine statistical significance, ultimately revealing significant biological changes and patterns within genomic data."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "63adca9ec6c7d4d31b00001d",
+    "question_text": "Is Cinpanemab effective for Early Parkinson’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "ticipants with early Parkinson's disease, the effects of cinpanemab on clinical measures of disease progression and changes in DaT-SPECT imaging did not differ from those of placebo over a 52-week period. (Fund"
+    ],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "6593d3ab06a2ea257c00001a",
+    "question_text": "What is the percentage of women that have successfully undergone fertility treatment in the European Union?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "In the European Union, around 24% of women have successfully achieved at least one viable pregnancy after undergoing fertility treatment. This percentage reflects the success rate after an average of 2.48 treatment cycles per individual in a study cohort.",
+      "In the European Union, the success rate of fertility treatments such as in vitro fertilization is typically reported as around 21-22% deliveries per ART cycle and clinical pregnancy rates between 29% and 32.4% per embryo transfer, as per recent reports.",
+      "In the European Union, the clinical pregnancy rates per embryo transfer for in vitro fertilization range from approximately 29% to 35.44%, while the live birth rates per embryo transfer are around 26% to 26.78%.",
+      "According to recent studies, the clinical pregnancy rate per embryo transfer was 35.44% while the live birth rate per embryo transfer was 26.53%. Additionally, a study from our institution reported that IUI-H in women below 40 years of age resulted in 10.6% twin and 0.6% triplet pregnancies. Furthermore, it is noted that the number of ART cycles has increased in Europe over the past few years, with a reported percentage of deliveries per ART cycle being 21-22%. These statistics suggest that approximately 26.53% of women undergoing fertility treatment successfully achieve a live birth, although the overall success rate may vary depending on the specific treatment and age group.",
+      "In the European Union, the success rates for fertility treatments, such as assisted reproductive technologies (ART), show that the percentage of deliveries per ART cycle is around 21% to 22%, according to recent reports."
+    ],
+    "exact_answer": [
+      [
+        "24%",
+        ""
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc82ec6c7d4d31b000016",
+    "question_text": "Bepirovirsen was developed for treatment of which disease?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Participants with CHB infection ≥6 months and serum HBsAg ≥50 IU ml-1 were enrolled from seven centers across Hong Kong and the Republic of Korea and randomized (3:1 within each dose cohort) to receive bepirovirsen or placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (HBV) infection.",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (H",
+      ": Bepirovirsen is a novel antisense oligonucleotide in development for chronic hepatitis B virus (HBV) infection therapy. Understanding the impact that clinical characteristics may have on bepirovirsen exposure is important for determining efficacious and well-tolerated dosing regimens. This analysis evaluated demographics and clinical characteristics associated with bepirovirsen exposure using a population pharmacokinetic (PK) analysis.",
+      "Bepirovirsen, an antisense oligonucleotide (ASO) targeting all HBV RNA species, showed dose-dependent antiviral effects in the RHTC mouse model. The spatiotemporally controlled rcccDNA mouse is convenient and reliable, providing versatile small animal model for studying cccDNA-centric HBV biology as well as evaluating antiviral therapeutics.",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (HB"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "hepatitis b"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc90bc6c7d4d31b000018",
+    "question_text": "What is geniospasm?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Geniospasm is a rare and generally benign movement disorder of the chin yet with potentially debilitating complications. Due to its rarity, previous literature was limited to only case reports or series with critical knowledge gap on its natural history, prognosis, and management. We aimed to establish the natural history, prognosis, and treatment for geniospasm.",
+      "Geniospasm is a rare genetic disorder characterized by paroxysmal rhythmic or irregular movements of the chin and lower lip due to repetitive contractions of the mentalis muscle. Pathophysiology is poorly understood, and optimal treatment has not been established."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "63adc8d8c6c7d4d31b000017",
+    "question_text": "Is Lecanemab effective for early Alzheimer’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "36856953",
+      "38084203",
+      "37251789",
+      "37831471",
+      "38830549",
+      "39081336",
+      "38484213",
+      "37357276"
+    ],
+    "relevant_snippets": [
+      "In June 2021, the FDA approved aducanumab, an anti-Aβ monoclonal antibody for early AD based on its ability to reduce brain amyloid plaques, while two other amyloid-clearing antibodies (lecanemab and donanemab) have recently produced encouraging cognitive and clinical results.",
+      "BACKGROUND: Lecanemab, a humanized IgG1 monoclonal antibody that targets soluble aggregated Aβ species (protofibrils), has demonstrated robust brain fibrillar amyloid reduction and slowing of clinical decline ",
+      "BACKGROUND: Lecanemab, a humanized IgG1 monoclonal antibody that targets soluble aggregated Aβ species (protofibrils), has demonstrated robust brain fibrillar amyloid reduction and slowing of clinical decline in",
+      "2021, the FDA approved aducanumab, an anti-Aβ monoclonal antibody for early AD based on its ability to reduce brain amyloid plaques, while two other amyloid-clearing antibodies (lecanemab and donanemab) have recently produced encouraging cognitive and clinical results. We reviewed",
+      "[Mechanism of action and clinical trial results of Lecanemab (Leqembi® 200 ‍mg, 500 ‍mg for Intravenous Infusion), a novel treatment for Alzheimer's disease].",
+      "In the OLE, lecanemab 10 mg/kg biweekly treatment produced dose-dependent reductions in amyloid PET SUVr, improvements in plasma Aβ42/40 ratio, and reductions in plasma p-tau181.CONCLUSIONS: Lecanemab treatment resulted in significant reduction in amyloid plaques and a slowing of clinical decline.",
+      "Furthermore, lecanemab has been shown to effectively reduce Aβ accumulation in patients with early Alzheimer's disease, which might contribute not only to delaying the progression of cognitive decline, but also to improving the quality of life of patients and their families.",
+      "The introduction of lecanemab has dramatically changed the field of dementia medicine. Lecanemab, defined as an anti-amyloid-β (Aβ) drug, comprises an antibody against Aβ, a protein structure believed to cause Alzheimer's disease. This drug represents a new direction in dementia treatment. In a phase III study, lecanemab was found to significantly slow cognitive decline, while showing manageable levels of amyloid-related imaging abnormalities, wh",
+      "n the USA. Lecanemab is anti-Aβ monoclonal antibody approved for the treatment of early Alzheimer's disease but is only marginally",
+      "This article summarizes the milestones in the development of lecanemab leading to this first approval for the treatment of Alzheimer's disease.",
+      "Based on promising Phase 2 data showing plaque clearance and reduced cognitive decline, a Phase 3 trial found that lecanemab slowed decline on the primary cognitive endpoint by 27% over 18 months and also produced positive effects on secondary clinical endpoints and key biomarkers.",
+      "The recently published results of the 18-month randomized controlled trial of lecanemab, reporting the efficacy of the drug in slowing the progression of early Alzheimer disease, quickly led to approval by the FDA and widespread acceptance of lecanemab treatment.",
+      "Lecanemab was the first drug shown to slow cognitive decline in patients with MCI or early onset AD dementia when administered as an infusion once every two weeks.",
+      "Recently, the U.S. Food and Drug Administration (FDA) approved 2 anti-amyloid monoclonal antibodies, aducanumab (June 7, 2021) and lecanemab (July 6, 2023), for the treatment of Alzheimer's disease (AD) patients, and will most likely also approve a 3rd one, donanemab, soon.",
+      "Lecanemab (BAN2401), an IgG1 monoclonal antibody, preferentially targets soluble aggregated amyloid beta (Aβ), with activity across oligomers, protofibrils, and insoluble fibrils. BAN2401-G000-201, a randomized double-blind clinical trial, utilized a Bayesian design with response-adaptive randomization to assess 3 doses across 2 regimens of lecanemab versus placebo in early Alzheimer's disease, mild cognitive impairment due to Alzheimer's disease (AD) and mild AD dementia.",
+      "There is no cure for Alzheimer's disease, which is the sixth leading cause of death in the USA. Lecanemab is anti-Aβ monoclonal antibody approved for the treatment of early Alzheimer's disease but is only marginally effective. Other antibodies are being developed including solanezumab.",
+      "Lecanemab, defined as an anti-amyloid-β (Aβ) drug, comprises an antibody against Aβ, a protein structure believed to cause Alzheimer's disease. This drug represents a new direction in dementia treatment. In a phase III study, lecanemab was found to significantly slow cognitive decline, while showing manageable levels of amyloid-related imaging abnormalities, which are side-effects of lecanemab. Furthermore, lecanemab has been shown to effectively reduce Aβ accumulation in patients with early Alzheimer's disease, which might contribute not only to delaying the progression of cognitive decline, but also to improving the quality of life of patients and their families.",
+      "Lecanemab: First Approval.",
+      "Lecanemab (Leqembi®) is approved in the United States for the treatment of Alzheimer's disease (AD) to be initiated in early AD (mild cognitive impairment [MCI] due to AD or mild AD dementia) with confirmed brain amyloid pathology.",
+      "Lecanemab, an anti-amyloid antibody with effects on biomarker and clinical endpoints in early Alzheimer's Disease (AD), was granted accelerated approval by the FDA in 2023 and regulatory review in Europe is ongoing.",
+      "Based on \"reducing amyloid plaques in the brain\", the U.S. Food and Drug Administration has granted accelerated and full approval for two monoclonal anti-Alzheimer's antibodies, aducanumab and lecanemab, respectively. Approval of a third antibody,"
+    ],
+    "ideal_answer": [],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "63ac45e4c6c7d4d31b000015",
+    "question_text": "What are the causes of depression in children under 11?",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      " with depressive symptoms in both cohorts. Low paternal age was a risk factor for depressive symptoms in the less developed city, São Luís, whereas low birth weight was a risk factor for depressive symptoms "
+    ],
+    "ideal_answer": [
+      "Depression in children under 11 is influenced by multiple factors. Psychological causes include internalizing disorders and emotional dysregulation, as reflected in increased prevalence with self-reported emotional disorders. Biological causes involve dysregulations in the hypothalamus-pituitary-adrenal (HPA) axis, with alterations in cortisol and immune biomarkers observed in children with ADHD. Additionally, environmental stressors, such as high parental stress and caregiver burden, can negatively impact children's emotional well-being, increasing their risk for developmental and mood disorders.",
+      "Depression in children under 11 can be caused by various interrelated factors. Key causes include the influence of parental depression or bipolar disorder, stressful events, and loss. Children with psychological conditions such as attention, learning, conduct, or anxiety disorders are at a higher risk of depression. External influences like traumatic experiences and socioeconomic stress, such as community poverty and unemployment, also play a role. Children's self-perception, specifically a tendency towards depressive attributional styles and low self-perceived competence, are additional contributors.",
+      "Research suggests that various factors contribute to the development of depression in children under 11. Studies indicate that children who experience stress, loss, or have attention, learning, conduct, or anxiety disorders are at higher risk for depressive disorders. Additionally, children living with a parent who has depression are more likely to develop depression themselves. Other significant predictors include family history of depression, subclinical depressive symptoms, anxiety, stressful life events, and neurobiological dysregulation. Furthermore, being female, having low paternal age or low birth weight, experiencing negative events in the family, childhood emotional abuse, and adverse socioeconomic conditions are also associated with an increased risk of depression in children.",
+      "Depression in children under 11 can be caused by a variety of factors including child abuse and neglect, bullying, chronic stress, parental depression, loss of significant relationships, and pre-existing mental health disorders like attention, learning, conduct, or anxiety disorders. Additionally, broader socio-economic factors such as community poverty and unemployment, as well as low self-perceived competence, can contribute to the development of depressive symptoms in children.",
+      "Depression in children under 11 is influenced by a combination of factors, including parental mental health issues such as maternal depression and anxiety, which can affect children both during pregnancy and postpartum. Maternal stress during pregnancy is particularly linked to increased risks of depression in later childhood, especially if the child was born small for gestational age. Exposure to abuse, neglect, or intimate partner violence also significantly elevates the risk of depressive symptoms. Bullying at school further contributes to such risks, along with young maternal age and lower intelligence test scores. Additionally, cognitive factors like a child's ability to regulate emotions play a role, while post-traumatic stress disorder often co-occurs with depression in trauma-exposed children. Together, these genetic, environmental, and social elements create a multifaceted landscape of risk factors for childhood depression.",
+      "Depression in children under 11 can be caused by various factors, including parental intimate partner violence, maternal depression, and paternal concurrent affective symptoms. Studies have shown that increasing maternal stress during pregnancy is associated with an increased risk of symptoms of moderate to severe depression in 11-year-old children, especially those who were born small for gestational age (SGA). Additionally, child abuse and neglect are linked to a higher risk of developing depression, with physically abused children and those experiencing multiple types of abuse being at increased risk of lifetime major depressive disorder (MDD). Furthermore, gender nonconformity is a strong predictor of depressive symptoms in children, particularly among males and heterosexuals. Other factors such as being bullied at school, lower intelligence test scores, and young maternal age can also contribute to the development of depression in children under 11. Overall, these studies suggest that a combination of genetic, environmental, and social factors can contribute to the onset of depression in young children."
+    ],
+    "exact_answer": [
+      [
+        "parental mental health issues",
+        "socioeconomic factors",
+        "Risk factors include family history of depression, trauma or abuse, neglect, parental conflict, social isolation, chronic illness, learning disabilities, and substance abuse",
+        "combination of genetic, environmental, and psychological factors",
+        "school stress",
+        "Bullying"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d1f206a2ea257c000018",
+    "question_text": "In which childhood cancers has CAR-T cell therapy been used?",
+    "question_type": "list",
+    "relevant_docs": [
+      "39844726"
+    ],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "CAR-T cell therapy has been used in treating childhood cancers such as acute lymphoblastic leukemia (ALL), diffuse midline glioma (DMG), and diffuse intrinsic pontine glioma (DIPG). These therapies have shown promise, particularly in pediatric hematologic malignancies like ALL, where they have achieved high remission rates. However, the application in solid tumors like DMG and DIPG is still in the experimental stages and has shown limited success with significant challenges.",
+      "CAR-T cell therapy has been used in the treatment of pediatric sarcomas, medulloblastoma, relapsed/refractory childhood B-cell acute lymphoblastic leukemia (B-ALL), and rhabdomyosarcoma.",
+      "CAR-T cell therapy has been used in childhood cancers including acute lymphoblastic leukemia (ALL), osteosarcoma, medulloblastoma, and Ewing sarcoma. It has shown significant efficacy in treating relapsed or refractory acute lymphoblastic leukemia, and preclinical studies suggest potential benefits in pediatric solid tumors such as osteosarcoma, medulloblastoma, and Ewing sarcoma.",
+      "CAR-T cell therapy has been utilized in treating childhood cancers, notably acute lymphoblastic leukemia (ALL) and neuroblastoma. It has shown high efficacy in pediatric B-cell ALL, achieving complete remission rates and offering a promising approach for cases that are resistant or refractory to standard treatments.",
+      "CAR-T cell therapy has been successfully used in various childhood cancers, particularly in B-cell acute lymphoblastic leukemia (B-ALL), where it has achieved high remission rates of up to 90%. Studies have also explored its application in solid tumors such as neuroblastoma, with some patients showing good responses to GD2-targeting CAR-T cell therapy. Additionally, researchers are investigating the use of CAR-T cells against other pediatric cancers, including those that express HER2, NY-ESO, GD2, EGFR, GPC3, B7-H3, and MAGE-A4 antigens. Furthermore, CAR-T cells have been tested in combination with other treatments for diffuse intrinsic pontine glioma (DIPG), a universally fatal childhood cancer, showing promising results in preclinical models.",
+      "CAR-T cell therapy has primarily focused on hematological malignancies such as acute lymphocytic leukemia (ALL). However, recent studies suggest potential applications in solid pediatric tumors like neuroblastoma, osteosarcoma, and medulloblastoma, although data remains limited compared to ALL. Notably, research exploring CAR-T cell therapies specifically targeting Ewing's Sarcoma and Diffuse intrinsic pontine glioma shows promising early-stage clinical trials indicating some success but further investigation is warranted due to their rarity and complexity.",
+      "CAR-T cell therapy has been most notably used in childhood B-cell acute lymphoblastic leukemia (B-ALL), where it has shown remarkable success with high remission rates, particularly for relapsed or refractory cases. It is also being applied to neuroblastoma targeting GD2 and explored in other solid tumors such as diffuse intrinsic pontine glioma (DIPG) using HER2-targeted cells. Additionally, research is expanding its use to various sarcomas and other cancers by targeting antigens like NY-ESO, EGFR, GPC3, B7-H3, and MAGE-A4. The FDA has approved CAR-T therapy for pediatric and young adult B-ALL and diffuse large B-cell lymphoma (DLBCL)."
+    ],
+    "exact_answer": [
+      [
+        "B-cell acute lymphoblastic leukemia B cell acute lymphoblastic leukemia acute lymphoblastic leukemia pediatric midline gliomas diffuse midline glioma (DMG) diffuse intrinsic pontine glioma (DIPG) diffuse midline glioma diffuse intrinsic pontine glioma pediatric sarcomas including osteosarcoma and alveolar rhabdomyosarcomas medulloblastoma childhood B-cell acute lymphoblastic leukemia (B-ALL) rhabdomyosarcoma",
+        "B cell cancers"
+      ]
+    ]
+  },
+  {
+    "question_id": "6584593f06a2ea257c000008",
+    "question_text": "Which is the most common pathogen in paediatric sepsis?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "37715501",
+      "34266524",
+      "21165715",
+      "8483786",
+      "28642139"
+    ],
+    "relevant_snippets": [
+      "The prevalence of ESBL producing Klebsiella pneumoniae during two month outbreak and rest of the study period was 83.3% (15 of 18) and 20% (3 of 15) respectively (P value 0.0010).CONCLUSIONS: Klebsiella pneumoniae was the most common agent causing both early-onset and late-onset sepsis and significantly associated with sepsis in inborn babies.",
+      "Sepsis due to the most resistant organisms (A. baumannii and K. pneumoniae Carbapenemase [KPC]-producing bacteria, n = 20; 39%) was associated with higher mortality (P = 0.001) and significantly associated with exposure to carbapenem and vancomycin before onset of sepsis (cases exposed = 13/20; 65%, P < 0.001).CONCLUSION: MDROs are the most common cause of sepsis at our NICU and are associated with higher mortality compared with non-MDROs.",
+      "Data from 1,082 patients collected during the Swiss Paediatric Sepsis Study (SPSS) 2011-2015 were included. Preterm neonates were the most commonly represented group, and half of infants and children had a comorbidity. 67% of neonatal sepsis cases were hospital-acquired late-onset whereas in children 76% of infections were community-acquired. Escherichia coli, Coagulase-negative staphylococci (CoNS) and Staphylococcus aureus were the most common pathogens. At all hospitals, ceftazidime plus amikacin regimen had the lowest coverage, and coverage of amoxicillin plus gentamicin and meropenem were generally comparable. Coverage was improved when vancomycin was included in the regimen, reflecting uncertainty about the empirically targeted pathogen spectrum. Children with community-acquired infections had high coverage overall. It is feasible to estimate coverage of common empiric antibiotic regimens from linked data.",
+      "The 49 cases of invasive bacterial infections (bacterial meningitis/bacteremia) were most commonly associated with lower degrees of fever, as slightly over one half (25/49) had temperature < 39 degrees C. The most common pathogens of invasive bacterial infection were group B streptococcus and Escherichia coli, accounting for 33 of 49 cases (67%); the most common pathogens of invasive bacterial infection in older children (Haemophilus influenzae type b and Streptococcus pneumoniae) were relatively underrepresented, accounting for only five of these 49 (10%) cases.",
+      "The multivariate logistic regression analysis showed that a high birth weight was a protective factor against EOS (OR=0.996, 95%CI:0.993-0.998, P < 0.05), while vaginal delivery (OR=2.781, 95%CI:1.190-6.500, P < 0.05) was a risk factor for EOS, and long duration of parenteral nutrition was a risk factor for LOS (OR=1.129, 95%CI:1.067-1.194, P < 0.05).CONCLUSIONS: Enterococcus faecalis is the most common pathogenic bacteria for EOS, and Staphylococcus is the most common pathogenic bacterium for LOS in VLBW infants.",
+      "Klebsiella was the most common hospital-acquired pathogen while Escherichia coli was the most common isolate in community-acquired cases."
+    ],
+    "ideal_answer": [
+      "The most common pathogen in paediatric sepsis may vary depending on the geographic location and the population studied. However, Staphylococcus aureus is commonly reported as a leading cause of sepsis. Other pathogens such as Group B Streptococcus (GBS), Klebsiella species, Enterobacter, Escherichia coli, Pseudomonas aeruginosa, and Acinetobacter baumannii have also been identified in various studies as common causative agents of sepsis in children.",
+      "The most common pathogen in pediatric sepsis varies depending on the geographic area and the patient's age and health conditions, but Escherichia coli, Klebsiella pneumoniae, and Staphylococcus aureus are frequently reported. GBS (Group B streptococcus) is considered the leading pathogen in early-onset sepsis in neonates.",
+      "Staphylococcus aureus (S. aureus) is one of the most frequently isolated pathogens in pediatric cases of sepsis, including both early and late-onset sepsis. It is a common gram-positive microorganism and plays a significant role as a pathogen associated with sepsis and toxic shock. In addition to Staphylococcus aureus, other common pathogens that can cause sepsis in pediatric patients are various species of Streptococcus, Enterococcus, and Gram-negative organisms like Klebsiella pneumoniae, the latter being associated with the highest mortality in the context of sepsis as per the provided snippets. The prevalence of specific pathogens may vary by region and by specific patient populations such as neonates in intensive care units, where CONS (coagulase-negative staphylococci) has emerged as a common pathogen. This suggests that while Staphylococcus aureus is commonly implicated, the etiology of pediatric sepsis can be broad and influenced by various factors including geography and healthcare settings.",
+      "The most common pathogens involved in pediatric sepsis vary depending on the patient population and the geographical location, but generally, Gram-positive bacteria like Staphylococcus spp (including Staphylococcus aureus and coagulase-negative Staphylococci such as S. epidermidis and S. haemolyticus), and Enterococcus spp are among the leading causes of sepsis in children. In neonates, particularly very low birth weight (VLBW) infants, Gram-negative bacteria such as E. coli can be prevalent causes of early-onset sepsis (EOS). Other Gram-negative bacteria like Klebsiella pneumoniae are also significant, and often associated with late-onset sepsis (LOS) in preterm infants. The presence of antibiotic-resistant strains, such as extended-spectrum β-lactamase (ESBL) producing E. coli and K. pneumoniae, adds to the complexity of treating pediatric sepsis.",
+      "The most common pathogen in pediatric sepsis can vary depending on the age group and region, but overall, Escherichia coli (E. coli) and Staphylococcus aureus are frequently identified as significant causative agents in infants with clinical suspicion of serious invasive infections. In very low birth weight (VLBW) infants, Gram-negative organisms, particularly E. coli, are documented as leading pathogens of early onset sepsis (EOS), whereas Group B Streptococcus (GBS) is the most common pathogen in EOS, especially in infants with a gestational age of less than 28 weeks. Additionally, Klebsiella pneumoniae is also notable as a common pathogen in pediatric sepsis cases. These findings stress the need for accurate diagnostic tools and effective management strategies to address pediatric sepsis.",
+      "The most common pathogen in pediatric sepsis is Staphylococcus aureus, a gram-positive microorganism that is frequently isolated in cases of neonatal and pediatric sepsis.",
+      "Escherichia coli, Coagulase-negative staphylococci, Staphylococcus aureus, and Klebsiella pneumoniae are the most common pathogens in paediatric sepsis.",
+      "The most common pathogens in pediatric sepsis are Escherichia coli and Group B Streptococcus. These bacteria are frequently identified in cases of invasive bacterial infections in young children, with Escherichia coli being particularly common in community-acquired infections.",
+      "The most common pathogens associated with pediatric sepsis include Coagulase-negative Staphylococcus (especially in neonatal and late-onset sepsis), Staphylococcus aureus, and Klebsiella pneumoniae. The prevalence of these pathogens can vary based on location and specific patient populations.",
+      "Staphylococcus aureus, Klebsiella pneumoniae, and coagulase-negative staphylococci are among the most common pathogens responsible for pediatric sepsis, with variations depending on the age of the child and the onset of sepsis.",
+      "Pediatric sepsis is commonly caused by pathogens such as Staphylococcus aureus, Group B Streptococcus (GBS), Klebsiella pneumoniae, and coagulase-negative staphylococci (CoNS). These pathogens vary depending on factors such as the age and health status of the child, as well as the timing of the infection, with some being more prevalent in early-onset versus late-onset sepsis.",
+      "The most common pathogens in paediatric sepsis vary depending on factors such as gestational age and the setting of infection acquisition. Staphylococcus aureus and Coagulase-negative staphylococci (CoNS) are frequently identified as leading causes, particularly in preterm neonates and cases of late-onset sepsis. Group B Streptococcus (GBS) is prominent in early-onset sepsis among full-term infants. Additionally, Klebsiella pneumoniae and Escherichia coli are significant, especially in hospital-acquired and community-acquired infections, respectively. While different pathogens dominate specific contexts, Staphylococcus aureus emerges as a consistently common cause across various paediatric populations.",
+      "The most common pathogens in pediatric sepsis are Staphylococcus aureus, coagulase-negative staphylococci, and Group B streptococcus, with the prevalence varying based on factors such as the age of the child and onset type of sepsis.",
+      "The most common pathogens responsible for paediatric sepsis include Staphylococcus aureus, Streptococcus pneumoniae, Escherichia coli, Coagulase-negative staphylococci, and Group B Streptococcus. These pathogens vary based on the patient's age and onset time of the sepsis.",
+      "While Staphylococcus aureus is a common pathogen in pediatric sepsis, Coagulase-negative staphylococci (CoNS) and Group B Streptococcus (GBS) are also frequently isolated in specific age groups or settings.",
+      "Group B Streptococcus and Escherichia coli are the most common pathogens in pediatric sepsis, particularly in neonatal sepsis, accounting for approximately two-thirds of invasive bacterial infections in this age group."
+    ],
+    "exact_answer": []
+  },
+  {
+    "question_id": "63adc9e7c6c7d4d31b00001a",
+    "question_text": "What is the mechanism of action of Tofersen?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "39845577",
+      "39545606",
+      "36928619",
+      "37851042",
+      "39820998",
+      "38384337"
+    ],
+    "relevant_snippets": [
+      "OBJECTIVE: Tofersen, an antisense oligonucleotide, has recently received FDA and EMA approval for treating amyotrophic lateral sclerosis (ALS) in adults with SOD1 gene mutations.",
+      "Reported adverse events were consistent with ALS progression or procedural effects.CONCLUSION: Current evidence suggests that tofersen effectively reduces SOD1 and NfL levels and slow disease progression in SOD1 ALS, showing promise as a targeted therapeutic option.",
+      "Background: In April 2023, the antisense oligonucleotide tofersen was approved by the U.S. Food and Drug Administration (FDA) for treatment of SOD1-amyotrophic lateral sclerosis (ALS), after a decrease of neurofilament light chain (NfL) levels had been demonstrated.Methods: Between 03/2022 and 04/2023, 24 patients with SOD1-ALS from ten German ALS reference centers were followed-up until the cut-off date for ALS functional rating scale revised (ALSFRS-R), progression rate (loss of ALSFRS-R/month), NfL, phosphorylated neurofilament heavy chain (pNfH) in cerebrospinal fluid (CSF), and adverse events.Findings: During the observation period, median ALSFRS-R decreased from 38.0 (IQR 32.0-42.0) to 35.0 (IQR 29.0-42.0), corresponding to a median progression rate of 0.11 (IQR -0.09 to 0.32) points of ALSFRS-R lost per month.",
+      "The results of treatment with the ASO tofersen in SOD1-ALS show that the drug has a convincing beneficial effect on ALS caused by SOD1 mutations, that preclinical studies in rodents predicted the therapeutic effect in the human disease, and that clinical efficacy is associated with a specific sequence of effects of the drug on mechanistic and degenerative biomarkers and, subsequently, functional outcomes such as weight stabilization and ALSFRS-R.",
+      "Tofersen demonstrated promising effects, notably reducing SOD1 levels in cerebrospinal fluid and neurofilament light chain (NfL) in plasma, a biomarker strongly correlated with ALS progression and survival.",
+      "INTRODUCTION/AIMS: In amyotrophic lateral sclerosis (ALS) caused by superoxide dismutase 1 (SOD1) gene mutations (SOD1-ALS), the antisense oligonucleotide tofersen had been investigated in a phase III study (VALOR) and subsequently introduced in an expanded access program.",
+      "The FDA's approval of Tofersen for SOD1-ALS based on NfL reduction underscores its growing acceptance as surrogate marker.",
+      "An oral formulation of edaravone and an antisense oligonucleotide to a SOD1 gene variation (tofersen) have also recently been approved by the US Food and Drug Administration (FDA)."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "677e8514592fa48873000020",
+    "question_text": "What is the mechanism of action of Ponsegromab?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "In a small, open-label, phase 1b study involving patients with cancer cachexia, ponsegromab, a humanized monoclonal antibody inhibiting GDF-15, was associated with improved weight, appetite, and physical activity, along with suppressed serum GDF-15 levels.METHODS: In this phase 2, randomized, double-blind, 12-week trial, we assigned patients with cancer cachexia and an elevated serum GDF-15 level (≥1500 pg per milliliter) in a 1:1:1:1 ratio to receive ponsegromab at a dose of 100 mg, 200 mg, or 400 mg or to receive placebo, administered subcutaneously every 4 weeks for three doses.",
+      "In a small, open-label, phase 1b study involving patients with cancer cachexia, ponsegromab, a humanized monoclonal antibody inhibiting GDF-15, was associated with improved weight, appetite, and physical activity, along with suppressed serum GDF-15 levels.",
+      "Ponsegromab is a potent and selective humanized monoclonal antibody that inhibits GDF-15-mediated signalling. Preclinical and preliminary phase 1 data suggest that ponsegromab-mediated inactivation of circulating GDF-15 may lead to improvement in key characteristics of cachexia. The primary objective of this phase 2 study is to assess the effect of ponsegromab on body weight in patients with cancer, cachexia and elevated GDF-15 concentrations. Secondary objectives include assessing physical activity, physical function, actigraphy, appetite, nausea and vomiting, fatigue and safety."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593d46c06a2ea257c00001b",
+    "question_text": "Are there clinical trials on hormonal male birth control methods?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "6445254"
+    ],
+    "relevant_snippets": [
+      "OBJECTIVE: To assess men's preferences for healthcare provider from whom they would obtain hormonal male contraceptive (HMC) methods.STUDY DESIGN: We asked participants from 3 clinical trials of investigational HMC methods-an oral pill (11β-Methyl-19-nortestosterone-17β-dodecylcarbonate, 11β-MNTDC), intramuscular or subcutaneous injection (Dimethandrolone undecanoate), and transdermal gel (Nestorone and testosterone)-to rank their top 3 preferred",
+      "Hormonal substances for male fertility regulation administered orally or by injection are currently undergoing clinical evaluation."
+    ],
+    "ideal_answer": [
+      "Yes, there are clinical trials on hormonal male birth control methods. These trials have evaluated combinations such as testosterone undecanoate and etonogestrel, as well as monthly depot medroxyprogesterone acetate with testosterone esters, showing effectiveness in suppressing spermatogenesis and promising potential as reversible contraception methods for men.",
+      "Yes, there are clinical trials on hormonal male birth control methods. These trials focus on evaluating the effectiveness and acceptability of various hormonal substances for male fertility regulation, including different combinations of androgens and gestagens, as well as cyproterone acetate.",
+      "Yes, there are clinical trials on hormonal male birth control methods. As of June 2023, two hormonal male contraceptive methods are undergoing phase II clinical trials for safety and efficacy. These methods involve the use of a long-acting combination of an androgen plus a progestin, which have been shown to be efficacious, reversible, and well-tolerated in clinical trials with healthy men. Additionally, a randomized, placebo-controlled clinical trial by the pharmaceutical industry has demonstrated the effectiveness of a combination of testosterone undecanoate and etonogestrel in suppressing spermatogenesis in volunteers. Overall, these developments suggest that the first marketed male hormonal contraceptive method is likely to be a long-acting hormonal method.",
+      "Yes, there are ongoing clinical trials on hormonal male birth control methods. Studies have shown that these methods, which involve administering hormones such as testosterone alone or in combination with a progestin, can effectively and reversibly suppress sperm production in men, making them a potential new option for male contraception. Several regimens, including injectable testosterone undecanoate, dimethandrolone undecanoate, and transdermal Nestorone plus testosterone gel, have been tested in clinical trials with promising results, demonstrating high efficacy and reversibility. However, further research is needed to identify the best delivery system and formulation for widespread use. Several large-scale phase IIb and III trials are ongoing or planned to evaluate the safety, efficacy, and feasibility of these methods in preventing pregnancies.",
+      "Yes, there are clinical trials on hormonal male birth control methods. Recent advancements in male contraception have led to the development of various hormonal approaches, including combinations of androgens and progestins. Clinical trials have demonstrated the efficacy and reversibility of these hormonal methods, with some formulations showing contraceptive efficacy rates higher than condoms. Notable agents currently in clinical trials include dimethandrolone undecanoate and testosterone combined with segesterone acetate. These trials are crucial for expanding contraceptive options for men and addressing the global need for effective male contraceptives."
+    ],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "63adca12c6c7d4d31b00001b",
+    "question_text": "What is the target of Ublituximab?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "37153563",
+      "39711787",
+      "37783194",
+      "37529628"
+    ],
+    "relevant_snippets": [
+      "This review provides an updated overview of the involvement of B cells in the immune pathophysiology and pathology of MS. We summarize the rationale regarding the use of anti-CD20 therapies and the results of the main randomized controlled trials and observational studies investigating the efficacy and safety profile of rituximab, ocrelizumab, ofatumumab and ublituximab.",
+      "rovides an updated overview of the involvement of B cells in the immune pathophysiology and pathology of MS. We summarize the rationale regarding the use of anti-CD20 therapies and the results of the main randomized controlled trials and observational studies investigating the efficacy and safety profile of rituximab, ocrelizumab, ofatumumab and ublituximab. Suggestions r",
+      "Ublituximab (ublituximab-xiiy; BRIUMVI™) is a glycoengineered anti-CD20 monoclonal antibody developed by TG Therapeutics, Inc. for the treatment of multiple sclerosis (MS).",
+      "Ublituximab (ublituximab-xiiy; BRIUMVI™) is a glycoengineered anti-CD20 monoclonal antibody developed by TG Therapeutics, Inc.",
+      "TG-1801, a bispecific antibody that targets CD47 selectively on CD19+ B-cells, is under clinical evaluation in relapsed/refractory (R/R) B-NHL patients either as a single-agent or in combination with ublituximab, a new generation CD20 antibody.Methods: A set of eight B-NHL cell lines and primary samples were cultured in vitro in the presence of bone marrow-derived stromal cells, M2-polarized primary macrophages, and primary circulating PBMCs as a source of effector cells.",
+      "Background: In high-income countries, four anti-CD20 monoclonal antibodies (mAbs) are used or in the pipeline for relapsing MS: ocrelizumab, ofatumumab (both registered), ublituximab (awaiting registration) and rituximab (off-label).",
+      "The mechanism by which hypogammaglobulinemia arises with anti-CD20 therapies (ocrelizumab, ofatumumab, ublituximab, rituximab) remains unclear and does not appear to be simply due to the reduction in circulating B-cell levels.",
+      "Currently, there are four monoclonal antibodies (mAbs) that target the cluster of differentiation (CD) 20 receptor available to treat multiple sclerosis (MS): rituximab, ocrelizumab, ofatumumab, and ublituximab. B-cell depletion therapy has changed the therapeutic landscape of MS through robust efficacy on clinical manifestations and MRI lesion activity, and the currently available anti-CD20 mAb therapies for use in MS are a cornerstone of highly effective disease-modifying treatment.",
+      "Furthermore, we provide an overview of the characteristics and clinical data for the four monoclonal antibodies (ocrelizumab, ofatumumab, rituximab, and ublituximab) that have been approved, are currently been used off-label or are being investigated as treatments for MS. These antibodies all target the cluster of differentiation (CD)-20 molecule and bind to distinct or overlapping epitopes on B cells and a subset of T cells that express CD20. This leads to B-cell depletion and, possibly, to depletion of CD20-positive T cells. The net result is strong suppression of clinical and radiological disease activity as well as slowing of the development of persisting neurological impairment.",
+      "tly emerged. Ublituximab is a monoclonal antibody that binds to the B-cell antigen CD20 with enhanced B-ce",
+      "Ublituximab is an anti-CD20 antibody that immunomodulates B-cells for relapsing multiple sclerosis (MS).",
+      "Ublituximab, an anti-CD20 monoclonal antibody (mAb), is indicated for the treatment of RMS."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "CD20"
+      ]
+    ]
+  },
+  {
+    "question_id": "677ed8b8592fa4887300002b",
+    "question_text": "How does Over-Representation Analysis (ORA) work?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "37404475"
+    ],
+    "relevant_snippets": [
+      "Additionally, over-representation analysis (ORA), which is a statistical method for objectively determining whether certain genes are more prevalent in pre-defined sets such as pathways, was applied using the most significant genes selected by feature selection methods."
+    ],
+    "ideal_answer": [
+      "Over-Representation Analysis (ORA) works by determining the biological processes or pathways that are enriched in a set of genes of interest, typically genes that are differentially expressed or co-expressed under certain conditions. It involves comparing the frequency of certain gene sets within the list to their expected frequency in a reference set to identify statistically significant enrichment.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine whether certain genes or biological attributes are more prevalent in predefined sets, such as pathways, than would be expected by chance. It typically employs the hypergeometric test to analyze each term or set in isolation. However, it doesn't account for the dependence structure of hierarchical relationships within sets, like those found in Gene Ontology terms.",
+      "Over-Representation Analysis (ORA) is used to determine if certain genes or variables are more prevalent in a set than expected by chance. It compares a list of interest, often derived from high-throughput experiments, to predefined sets or pathways to assess enrichment in functional categories.",
+      "Over-Representation Analysis (ORA) is a statistical method used to assess whether a predefined set of genes, variables, or pathways is more prevalent or enriched in a specific list of interest than expected by chance, relative to a background list. It is commonly applied to identify functional categories or pathways linked to biological significance based on gene enrichment.",
+      "Over-Representation Analysis (ORA) is a statistical method used to assess the enrichment of functional categories, such as gene sets or pathways, in a list of interest compared to a background list. It aims to determine if these categories are more prevalent than expected by chance, helping to identify biological relevance.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine if a set of variables, such as genes in a gene list, are more prevalent in a specific category or pathway compared to a background list. It objectively assesses whether these functional categories are enriched beyond what is expected by chance.",
+      "Over-Representation Analysis (ORA) compares a set of genes of interest to a background list to assess if certain functional categories are more prevalent than expected by chance. It applies statistical methods to determine the significance of the enrichment of these functional categories.",
+      "Over-Representation Analysis (ORA) works by assessing whether specific functional categories, like pathways or gene sets, are more prevalent in a gene list of interest compared to a background list, using statistical methods to determine significance compared to what would be expected by chance.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine if a set of genes or pathways is significantly represented in a list of differentially expressed or co-expressed genes compared to a reference set. It identifies enrichments by calculating the difference between observed and expected frequencies of specific gene sets, providing insights into underlying biological processes and functions. By addressing challenges such as the 'background problem' and 'false discovery rate issue, new approaches incorporating prior biological knowledge and machine learning continue to improve ORA's accuracy and utility in omics data interpretation."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "677e8136592fa48873000019",
+    "question_text": "What is VANCOUVER syndrome.",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "658447ca06a2ea257c000001",
+    "question_text": "Which tools are used to predict mortality in paediatric sepsis?",
+    "question_type": "list",
+    "relevant_docs": [
+      "23121679",
+      "37450490",
+      "31078024",
+      "37181737"
+    ],
+    "relevant_snippets": [
+      "PDW≥14.1% at admission increases the risk of mortality by 5.7 times.Conclusion: Admission PDW is a fast and specific tool to predict the outcome of children with sepsis.",
+      "ROC analysis for DNI at 72 h revealed a cut-off value of 12%, which predicted mortality with 81% sensitivity and 87% specificity.CONCLUSION: DNI may be a valuable tool in assessing the prognosis of patients with neonatal sepsis.",
+      "For predicting 28/30-day mortality, SOFA showed high sensitivity (0.97) but low specificity (0.14), whereas qSOFA displayed low sensitivity (0.41) but high specificity (0.88).CONCLUSIONS: NEWS independently demonstrates good diagnostic capability for sepsis, especially in high-income countries.",
+      "For predicting 28-day mortality, the DPV tool was not inferior to the SOFA (AUC: 0.61), DPV tool (AUC: 0.59).CONCLUSIONS: The DPV tool can be applied for 7-day and 28-day mortality risk prediction in patients with sepsis.",
+      "The PPV and NPV with positive qSOFA score to predict 7- and 28-day mortality were 45.4%, 89.9% and 63.9%, 79.6%, respectively.Conclusion: The qSOFA score can be used as a risk stratification tool in a resource-limited setting to identify infected patients at an increased risk of death."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "lactate",
+        "plasma lactate",
+        "lactate levels"
+      ],
+      [
+        "Pediatric Risk of Mortality (PRISM) III score",
+        "PRISM III"
+      ],
+      [
+        "pediatric Sequential Organ Failure Assessment (pSOFA) score",
+        "pSOFA"
+      ],
+      [
+        "machine learning models such as Random Forest (RF)"
+      ],
+      [
+        "Interleukin-8"
+      ],
+      [
+        "PIM-3"
+      ],
+      [
+        "Vascular Reactivity Index (VRI)",
+        "VRI"
+      ],
+      [
+        "high-sensitivity C-reactive protein (hs-CRP)",
+        "hs-CRP"
+      ],
+      [
+        "procalcitonin (PCT)",
+        "PCT"
+      ],
+      [
+        "PD-1 expression",
+        ""
+      ],
+      [
+        "T regulatory cells",
+        "Tregs"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adcb54c6c7d4d31b00001f",
+    "question_text": "What disease is associated with chalk-stick fracture?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Ankylosing spondylitis (AS) is an inflammatory disease affecting mainly the sacroiliac joints and the spine. In long-standing disease, the fused spine of AS patients is susceptible to spinal fractures, even after low impact trauma. We present a 61-year-old man with long-standing AS who presented with anterior and posterior longitudinal ligament rupture and T12 and L1 vertebral endplates fractures (a so called \"chalk-stick fracture\") without reporting any prior trauma and discuss relevant issues."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "ankylosing spondylitis"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e821c592fa4887300001c",
+    "question_text": "Which four genes account to the majority of the familial ALS cases?",
+    "question_type": "list",
+    "relevant_docs": [
+      "33333804"
+    ],
+    "relevant_snippets": [
+      "erein, we discuss current literatures on the four newly identified ALS-associated genes (CYLD, S1R, GLT8D1, and KIF5A) and the previously well-known ALS genes including SOD1, TARDBP, FUS, and C9orf72. "
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "SOD1"
+      ],
+      [
+        "FUS"
+      ],
+      [
+        "TARDBP"
+      ],
+      [
+        "C9orf72"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adca61c6c7d4d31b00001c",
+    "question_text": "What is the mechanism of action of Prasinezumab?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "'s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every ",
+      "s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's",
+      "Prasinezumab, a monoclonal antibody that binds aggregated α-synuclein, is being investigated as a potential disease-modifying therapy in early-stage Parkinson's disease.",
+      "The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every 4 weeks for 52 weeks.",
+      "BACKGROUND: Aggregated α-synuclein plays an important role in the pathogenesis of Parkinson's disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every 4 weeks for 52 weeks. The primary end point was the change from baseline to week 52 in the sum of scores on parts I, II, and III of the Movement Disorder Society-sponsored revision of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS; range, 0 to 236, with higher scores indicating greater impairment). Secondary end points included the dopamine transporter",
+      "'s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinso",
+      "Aggregated α-synuclein plays an important role in the pathogenesis of Parkinson's disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.",
+      "s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson"
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593debd06a2ea257c00001f",
+    "question_text": "Are there new European Union formal efforts to increase the number of clinical trials aimed at improving the mental health of children?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "The aim of this multi-site randomised controlled trial is to determine the clinical and cost-effectiveness of adding a modular psychological intervention to usual care for the mental health disorders in comparison to assessment-enhanced usual care alone.METHODS: In total, 334 participants aged 3-18 years attending epilepsy services will be screened for mental health disorders with the Strengths and Difficulties Questionnaire (SDQ) and the diagnostic Development and Wellbeing Assessment (DAWBA).",
+      "This Randomized Controlled Trial (RCT) was conducted in eleven European countries, with Sweden as the coordinating centre, and was designed to identify an effective way to promote mental health and reduce suicidality and risk taking behaviours among adolescents.OBJECTIVE: To describe the methodological and field procedures in the SEYLE RCT among adolescents, as well as to present the main characteristics of the recruited sample.METHODS: Analyses were conducted to determine: 1) representativeness of study sites compared to respective national data; 2) response rate of schools and pupils, drop-out rates from baseline to 3 and 12 month follow-up, 3) comparability of samples among the four Intervention Arms; 4) properties of the standard scales employed: Beck Depression Inventory, Second Edition (BDI-II), Zung Self-Rating Anxiety Scale (Z-SAS), Strengths and Difficulties Questionnaire (SDQ), World Health Organization Well-Being Scale (WHO-5).RESULTS: Participants at baseline comprised 12,395 adolescents (M/F: 5,529/6,799; mean age=14.9±0.9) from Austria, Estonia, France, Germany, Hungary, Ireland, Israel, Italy, Romania, Slovenia and Spain.",
+      "This is the protocol of a multi-centre, open label, blind-rated, randomised controlled effectiveness trial of clozapine vs TAU (any other oral antipsychotic monotherapy licenced in the British National Formulary) for 12 weeks in 260 children and young people with TRS (12-24 years old)."
+    ],
+    "ideal_answer": [
+      "No, the snippets do not provide evidence of new formal efforts by the European Union to increase the number of clinical trials specifically aimed at improving the mental health of children. The snippets describe a focused trial on refugee families, which involves a mental health intervention, but it does not mention a broader EU initiative targeting children's mental health.",
+      "No, there are no explicit mentions of new European Union formal efforts specifically aimed at increasing clinical trials for improving the mental health of children in the provided snippets. The snippets discuss initiatives like Improve-MH focused on mental health interventions for refugee families, but they do not indicate an EU-wide formal effort targeting children's mental health clinical trials exclusively.",
+      "No, there are no specific new formal efforts by the European Union mentioned in the snippets to increase the number of clinical trials focused on improving children's mental health. The snippets discuss various studies and research efforts, but none indicate a new EU initiative targeting children's mental health clinical trials specifically.",
+      "No, there are no new formal efforts by the European Union specifically aimed at increasing the number of clinical trials to improve the mental health of children according to the provided information.",
+      "There is limited evidence suggesting any recent or ongoing European Union formal efforts specifically targeting an increase in clinical trials focused on enhancing the mental health of children. While the provided abstracts cover various aspects of child development, such as the impact of nutritional status, minimal brain dysfunction, and early trauma on cognitive and emotional outcomes, none directly mention EU initiatives for increasing clinical trials in pediatric mental health. Research and interventions discussed pertain to specific developmental challenges like language delays, hyperactivity, and post-traumatic stress, often focusing on educational or therapeutic approaches rather than large-scale clinical trial programs driven by EU policy. Therefore, it appears that no significant EU-driven push towards expanding clinical trials in this domain has been highlighted in the given sources.",
+      "Based on the provided articles, there is no explicit mention of new formal efforts by the European Union specifically aimed at increasing the number of clinical trials for improving the mental health of children. However, Article 2 discusses the unmet needs and opportunities in psychopharmacological treatments for children and adolescents, highlighting the involvement of the European Medicines Agency and the European College of Neuropsychopharmacology-Child and Adolescent Network. This suggests ongoing discussions and potential interest in addressing mental health issues in this demographic, but it does not confirm any formal EU initiatives specifically targeting an increase in clinical trials for children's mental health."
+    ],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "63adcaefc6c7d4d31b00001e",
+    "question_text": "DNX-2401 Virus was tested for which tumors?",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "PURPOSE: Testing safety of Delta24-RGD (DNX-2401), an oncolytic adenovirus, locally delivered by convection enhanced delivery (CED) in tumor and surrounding brain of patients with recurrent glioblastoma.PATIENTS AND METHODS: Dose-escalation phase I study with 3+3 cohorts, dosing 107 to 1 × 1011 viral particles (vp) in 20 patients.",
+      "Testing safety of Delta24-RGD (DNX-2401), an oncolytic adenovirus, locally delivered by convection enhanced delivery (CED) in tumor and surrounding brain of patients with recurrent glioblastoma.",
+      " conducted a single-center, dose-escalation study of DNX-2401, an oncolytic adenovirus that selectively replicates in tumor cells, in patients with newly diagnosed DIPG. The patients received a single virus infusion through a catheter placed in the cerebellar peduncle, followed by radiotherapy. The primary objective was to assess the safety and adverse-event profile of DNX-2401. The secondary objectives were to evaluate the effect of DNX-2401 on overall survival and quality of life, to determine the percentage of patients who have an objective response, and to collect tumor-biopsy and peripheral-blood samples for correlative studies of the molecular features of DIPG and antitumor immune responses.RE"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "Diffuse Intrinsic Pontine Glioma"
+      ],
+      [
+        "Glioma"
+      ],
+      [
+        "Glioblastoma"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8278592fa4887300001d",
+    "question_text": "Is trofinetide effective for the Rett Syndrome?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "38307724",
+      "39824747",
+      "38232652",
+      "30918097",
+      "39025065"
+    ],
+    "relevant_snippets": [
+      "INTRODUCTION: Trofinetide was recently approved for the treatment of Rett syndrome (RTT) on the basis of the efficacy and safety findings of the phase 3 LAVENDER study, which used a body weight-based dosing regimen. Exposure-response (E-R) efficacy modeling was used to characterize relationships between trofinetide exposure measures (maximum drug concentration and area under the concentration-time curve for the dosing interval of 0-12 h [AUC0-12]",
+      "Trofinetide was approved in March 2023 in the USA for the treatment of Rett syndrome in adult and pediatric patients 2 years of age and older.",
+      "Trofinetide, a synthetic analog of glycine-proline-glutamate, was approved by the US Food and Drug Administration for the treatment of RTT in adult and pediatric patients aged 2 years and older.",
+      "BACKGROUND: Trofinetide was approved for the treatment of Rett syndrome (RTT) in patients aged ≥2 years based on the results of the 12-week, randomized, phase 3 LAVENDER study.",
+      "Trofinetide is the first drug approved by the FDA to treat Rett Syndrome in children aged 2 years or above.",
+      "PURPOSE: Trofinetide is the first drug to be approved by the US Food and Drug Administration for use in the treatment of patients with Rett syndrome, a multisystem disorder requiring multimodal therapies."
+    ],
+    "ideal_answer": [],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "6777b471592fa4887300000c",
+    "question_text": "What is the best non-invasive method to diagnose endometriosis?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "25766661"
+    ],
+    "relevant_snippets": [
+      "With the exception of sensitivity of diagnosis of DIE affecting the RVS, similar results were observed when TVS was compared with laparoscopy.CONCLUSIONS: TVS is a highly accurate and reproducible method for non-invasive diagnosis of DIE by well-trained professionals."
+    ],
+    "ideal_answer": [
+      "The best non-invasive method to diagnose endometriosis is transvaginal sonography (TVS). TVS has been shown to have high diagnostic accuracy and reproducibility for detecting deep infiltrating endometriosis (DIE) and endometriomas, and it is well-regarded for its sensitivity and specificity when performed by skilled professionals.",
+      "The best non-invasive methods for diagnosing endometriosis include high-resolution ultrasound-based imaging, which enables visualization and tracking of lesion evolution, and MR relaxometry, which has proven effective in distinguishing endometriosis-associated ovarian cancer (EAOC) from ovarian endometriomas (OE). These methods provide valuable insights for clinical practice and treatment evaluation.",
+      "Currently, there are no established non-invasive methods to diagnose all subtypes of endometriosis, as clinical assessment, ultrasound, and MRI have not been formally recognized as replacements for surgery in this regard. Imaging techniques such as ultrasound perform well in diagnosing advanced stages (rASRM Stage 3 or 4) but are insufficient for early stages (Stage 1 or 2), where laparoscopy remains necessary. While alternatives like biomarkers, genetic tests, and miRNAs are under exploration, they are not yet established in clinical practice, leaving laparoscopic inspection with histological confirmation as the gold standard for diagnosis.",
+      "Based on a study, there is currently no best non-invasive method to diagnose endometriosis in clinical practice. While non-invasive diagnostic methods such as clinical assessment, ultrasound, and magnetic resonance imaging may be appropriate for advanced stages of endometriosis, they are not yet qualified as replacement tests for surgery in diagnosing all subtypes. There are also no established non-invasive methods to diagnose patients with endometriosis. Therefore, there is a need for non-invasive or minimally invasive tests to accurately diagnose the location and extent of endometriotic lesions. Low invasive tests including imaging, genetic tests, biomarkers, or miRNAs could be potential solutions. At present, the only conclusive way to diagnose endometriosis is through laparoscopic inspection with histological confirmation. Noninvasive markers of endometriosis have the potential to enable sooner diagnosis, leading to more timely treatment and better surgical planning, particularly for early-stage endometriosis.",
+      "MRI, transvaginal ultrasound with bowel preparation (TVUS-BP), and Raman spectroscopy are among the best non-invasive methods for diagnosing endometriosis. MRI and TVUS-BP provide reliable imaging to detect various forms of endometriosis, while Raman spectroscopy offers a promising diagnostic potential by analyzing blood sera.",
+      "The best non-invasive methods to diagnose endometriosis are transvaginal ultrasound (TVUS), magnetic resonance imaging (MRI), transrectal ultrasound (TRUS), and potentially Raman spectroscopy. These imaging modalities, particularly TVUS and MRI, provide high sensitivity and specificity and are effective alternatives to the invasive laparoscopy procedure. In addition, Raman spectroscopy is emerging as a non-invasive diagnostic technique for endometriosis.",
+      "The best non-invasive methods to diagnose endometriosis include transvaginal ultrasound (TVUS), MRI, Raman spectroscopy, and FTIR spectroscopy. TVUS and MRI are particularly good at detecting pelvic endometriosis and deep infiltrating endometriosis with high accuracy, whereas Raman and FTIR spectroscopy show promise as non-invasive diagnostic approaches using blood sera and cervical swabs, respectively.",
+      "Several studies have investigated non-invasive methods for diagnosing endometriosis, with varying degrees of success. Transvaginal ultrasonography (TVUS) has been found to be a highly accurate and reproducible method for diagnosing deep endometriosis, with sensitivity and specificity comparable to diagnostic laparoscopy. Additionally, studies have explored the use of biomarkers in plasma samples, such as annexin V, VEGF, CA-125, and sICAM-1/or glycodelin, which have shown promising results in diagnosing endometriosis with high sensitivity and acceptable specificity. Other non-invasive techniques, including MRI, FTIR spectroscopy, and Raman spectroscopy, have also been investigated, with MRI being capable of detecting many manifestations of endometriosis in a reliable manner. Overall, while no single method has emerged as the definitive non-invasive diagnostic tool, TVUS and biomarker analysis appear to be the most promising approaches, offering a balance of accuracy and invasiveness."
+    ],
+    "exact_answer": [
+      [
+        "transvaginal ultrasonography",
+        "MRI"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8578592fa48873000021",
+    "question_text": "What are the targets of Teclistamab?",
+    "question_type": "list",
+    "relevant_docs": [
+      "39805729",
+      "38052042"
+    ],
+    "relevant_snippets": [
+      "Teclistamab (TECVAYLI®), a bispecific antibody that targets CD3 and B cell maturation antigen (BCMA), is being developed by Janssen Research and Development for the treatment of relapsed or refractory multiple myeloma.",
+      "ABSTRACT: Teclistamab, an off-the-shelf B-cell maturation antigen (BCMA) × CD3 bispecific antibody that mediates T-cell activation and subsequent lysis of BCMA-expressing myeloma cells, is approved for the treatment of patients with relapsed/refractory multiple myeloma",
+      "ABSTRACT: Teclistamab, an off-the-shelf B-cell maturation antigen (BCMA) × CD3 bispecific antibody that mediates T-cell activation and subsequent lysis of BCMA-expressing myeloma cells, is approved for the treatment of patients with relapsed/refractory multiple myelom",
+      "ABSTRACT: Teclistamab (Tec) is a first-in-class BCMA × CD3 bispecific T-cell engager antibody approved for treating multiple myeloma progressing after at least 4 lines o",
+      "Teclistamab, a novel bispecific monoclonal antibody targeting CD3 and B-cell maturation antigen (BCMA), and chimeric antigen receptor T-cell (CAR-T) therapy are promising options for treating relapsed/refractory multiple myeloma (MM). However, the rates of acute kidney injury (AKI) associated with teclistamab remain inadequately characterized. This study aims to compare the incidence, severity, and outcomes of AKI between patients receiving teclistamab and CAR-T therapy.",
+      "BACKGROUND AND HYPOTHESIS: Teclistamab, a novel bispecific monoclonal antibody targeting CD3 and B-cell maturation antigen (BCMA), and chimeric antigen receptor T-cell (CAR-T) therapy are promising options for treating relapsed/refractory multiple myeloma (MM)."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "CD3"
+      ],
+      [
+        "B-cell maturation antigen"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e83f0592fa4887300001f",
+    "question_text": "Is Asundexian superior to Apixaban for Atrial Fibrillation?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "6593e5c206a2ea257c000020",
+    "question_text": "Which new treatments are investigated for cerebral palsy?",
+    "question_type": "list",
+    "relevant_docs": [
+      "25791070"
+    ],
+    "relevant_snippets": [
+      "OBJECTIVE: To explore patients' experiences of a self-administered electrotherapy treatment for muscle spasticity in cerebral palsy and stroke; the Exopulse Mollii Suit®.DESIGN: Qualitative design with an inductive approach Subjects: Fifteen patients with spasticity due to stroke or cerebral palsy, participating in a previous randomized controlled trial evaluating the treatment concept.METHODS: Information letters were sent to all potential participants (n = 27) in the previous study.",
+      "For the transplantation group, a total of 30 cerebral palsy patients received an autologous NSC-like cells transplantation (1-2 × 107 cells into the subarachnoid cavity) and rehabilitation treatments whereas 30 patients in the control group only received rehabilitation treatment.RESULTS: We recorded the gross motor function measurement scores, language quotients, and adverse events up to 6 months post-treatment.",
+      "BACKGROUND: Spasticity is common in cerebral palsy and can result in pain and diminished health-related quality of life.OBJECTIVE: To evaluate the safety and efficacy of onabotulinumtoxinA for lower limb spasticity treatment in children with cerebral palsy.METHODS: In this registrational phase 3, multinational, randomized, double-blind, placebo-controlled trial (NCT01603628), children (2-< 17 years) with cerebral palsy and ankle spasticity (Modified Ashworth Scale-Bohannon [MAS] score≥2) were randomized 1 : 1 : 1 to standardized physical therapy and onabotulinumtoxinA (4 or 8 U/kg), or placebo.",
+      "In contrast, in most patients who received four or more UCB cell infusions, positive dynamics related to significant improvements in neurological status and/or cognitive functions were observed.CONCLUSIONS: The results confirm that multiple intravenous infusions of allogeneic AB0/Rh-identical UCB cells may be a safe and effective procedure and could be included in treatment and rehabilitation programs for juvenile patients with cerebral palsy."
+    ],
+    "ideal_answer": [
+      "New treatments investigated for cerebral palsy include stem cell therapy, which shows promise in treating motor disabilities. Bone marrow derived mononuclear cells (MNCs) have been shown to be safe and effective for motor deficits. Botulinum toxin type A (BTX-A) is being used for spasticity management in children, while Intrathecal Baclofen Therapy (ITB) is also being developed. Additionally, there is encouraging evidence that Selective Serotonin Reuptake Inhibitors (SSRIs) might improve motor function in patients with cerebral palsy.",
+      "Recent advances in the treatment of cerebral palsy have led to the investigation of newer modalities such as constraint-induced movement therapy and robotic interventions, which show promise for achieving both short- and long-term functional gains. These innovative approaches aim to capitalize on neuroplasticity, offering potential benefits for individuals affected by cerebral palsy. As research continues to evolve, it is crucial for physicians, healthcare teams, and families managing cerebral palsy to stay informed about these emerging therapies, which hold great potential for improving outcomes in this population.",
+      "Recent investigations into new treatments for cerebral palsy include botulinum toxin type A for reducing muscle spasticity, robotic-assisted gait training devices to help improve mobility, and Rosiglitazone for activating specific biological pathways beneficial in CP. AiWalker-K devices are being utilized for rehabilitation, while allogeneic cord blood and erythropoietin therapies are being studied for their potential benefits in treating CP. Intrathecal baclofen and cellular therapies are also explored for their capacities to ameliorate symptoms and enhance life quality. Furthermore, social assistive robots are being tested as a novel intervention to engage and motivate children in therapy."
+    ],
+    "exact_answer": [
+      [
+        "Stem cell therapy Mesenchymal stem cells (MSCs) Allogeneic mesenchymal stem cells NSC-like cells Bone marrow derived mononuclear cells (MNCs) Botulinum toxin type A (BTX-A) Intrathecal Baclofen Therapy (ITB) Selective Serotonin Reuptake Inhibitors (SSRIs) Intrathecal baclofen infusion Advancements in genetic research for precision medicine. Mesenchymal stem cell therapy (MSCT) using umbilical cord-derived MSCs. Surgical interventions such as tendon transfers and muscle lengthening.",
+        "intravenous infusions of allogeneic AB0/Rh-identical UCB cells",
+        "UPper Limb Children Action Observation Training (UPCAT)"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d1b806a2ea257c000017",
+    "question_text": "What are the uses for faecal microbiota transplantation (FMT) in children under 19 years of age?",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "FMT also reduced Childhood Autism Rating Scale (CARS) scores (WMD = -6.95; 95% CI, -8.76 to -5.14; P < 0.001; I 2 = 28.1%).Conclusion: Our results indicate that FMT can benefit children with autism by reducing ABC and CARS scores, but more high-quality studies are needed to verify these results.",
+      "FMT is a safe and effective treatment for recurrent CDI in immunocompetent children and adults."
+    ],
+    "ideal_answer": [
+      "Faecal microbiota transplantation (FMT) is primarily used in children under 19 years of age to treat recurrent Clostridioides difficile infection, where it is considered safe and effective. Additionally, it is being explored as a potential alternative treatment for adolescents with refractory irritable bowel syndrome (IBS). Further studies are needed to evaluate its efficacy in other conditions.",
+      "Faecal microbiota transplantation (FMT) is used in children under 19 years of age primarily for treating recurrent Clostridium difficile infection (RCDI) and has potential benefits for treating inflammatory bowel diseases such as IBD and ulcerative colitis. It is considered effective in restoring gut eubiosis and can provide a short-term response in managing these conditions.",
+      "Faecal microbiota transplantation (FMT) is primarily used in children under 19 years of age to treat recurrent Clostridium difficile infection (RCDI) and has been explored for its potential in managing pediatric inflammatory bowel diseases like ulcerative colitis. While its role is still being researched, FMT shows promise in these areas due to its ability to restore healthy gut microbiota.",
+      "Faecal microbiota transplantation (FMT) is utilized in children under 19 years of age primarily for the treatment of recurrent Clostridium difficile infection. It is also applied to manage symptoms associated with Autism Spectrum Disorder (ASD), functional gastrointestinal disorders (FGIDs), ulcerative colitis, and cytomegalovirus (CMV) colitis. FMT is appreciated for its ability to modulate the gut microbiome towards a healthier state, thereby alleviating gastrointestinal and behavioral symptoms linked to these conditions.",
+      "Studies suggest that faecal microbiota transplantation (FMT) is an effective and safe treatment option for various gastrointestinal disorders in children under 19 years of age. FMT has been shown to be beneficial in treating recurrent Clostridium difficile infection (rCDI), inflammatory bowel disease (IBD), functional gastrointestinal disorders (FGIDs), and even childhood autism. The procedure, which involves infusing donor fecal matter into the patient's digestive system via a nasogastric tube or endoscope, has been found to modulate the gut microbiome and metabolome towards a healthy state in children with these conditions. Additionally, FMT has been used successfully in pediatric patients with ulcerative colitis (UC) and can be considered as a feasible option for treatment of refractory CDI in pediatric oncology patients.",
+      "Faecal microbiota transplantation (FMT) has been found to be a safe and effective treatment for various conditions in children under 19 years of age. Studies have shown that FMT is efficacious in treating recurrent Clostridium difficile infection, ulcerative colitis, and refractory diarrhea in pediatric patients. Additionally, FMT has been used to treat pseudomembranous enteritis, and has been found to modulate the fecal microbiome and metabolome towards a healthy state in children with functional gastrointestinal disorders (FGIDs). Furthermore, FMT has been shown to reduce symptoms of autism, including Childhood Autism Rating Scale (CARS) scores and Aberrant Behavior Checklist (ABC) scores. Overall, FMT appears to be a well-tolerated and effective treatment option for a range of conditions in children, with high rates of symptom resolution and no serious adverse effects reported."
+    ],
+    "exact_answer": [
+      [
+        "Recurrent Clostridioides difficile infection Refractory Irritable Bowel Syndrome (IBS) recurrent Clostridioides difficile infection refractory IBS refractory irritable bowel syndrome decolonisation of multi-drug resistant organisms Treatment of recurrent Clostridioides difficile infections (CDI). Restoration of gut microbiota after conventional therapies fail.",
+        "refractory IBS in adolescents",
+        "Inflammatory Bowel Disease (IBD)"
+      ]
+    ]
+  }
+]

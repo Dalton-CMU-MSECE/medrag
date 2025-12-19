@@ -1,0 +1,9 @@
+{
+  "git_sha": "74b6fd70715a4a5e66033e62838411620e05ada6",
+  "encoder": "ncbi/MedCPT-Query-Encoder",
+  "embedding_dim": 768,
+  "num_documents": 62,
+  "created_at": "2025-12-19T20:17:32.279539Z",
+  "data_sha256": "4eb4321f4a821bed9ff2c54b5095a152222e523514e0e44f7321cf4e36b0c88d",
+  "embeddings_sha256": "d73d5be023c28b100ba140917f1dcb06b81e24dd552493a4063877ec4d2d28fc"
+}

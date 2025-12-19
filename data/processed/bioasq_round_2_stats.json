@@ -1,9 +1,9 @@
 {
-  "round": 1,
+  "round": 2,
   "total_questions": 74,
-  "answer_ready_questions": 19,
-  "total_documents": 606,
-  "unique_pmids": 606,
+  "answer_ready_questions": 33,
+  "total_documents": 142,
+  "unique_pmids": 142,
   "question_types": {
     "yesno": 23,
     "factoid": 14,

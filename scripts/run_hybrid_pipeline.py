@@ -53,26 +53,42 @@ def load_bioasq_data(round_num: int, data_dir: str = "data/bioasq") -> Dict[str,
     }
 
 
-def fetch_pubmed_docs(golden_data: Dict[str, Any], email: str) -> Dict[str, Dict[str, Any]]:
+def load_processed_eval(round_num: int, processed_dir: str = "data/processed") -> List[Dict[str, Any]]:
+    """
+    Load the processed evaluation dataset for a specific round.
+
+    Args:
+        round_num: BioASQ round number (1-4)
+        processed_dir: Directory containing processed eval files
+
+    Returns:
+        List of evaluation records from processed eval JSON.
+    """
+    eval_path = os.path.join(processed_dir, f"bioasq_round_{round_num}_eval.json")
+    if not os.path.exists(eval_path):
+        raise FileNotFoundError(f"Processed eval file not found: {eval_path}")
+    with open(eval_path, "r") as f:
+        data = json.load(f)
+    if not isinstance(data, list):
+        raise ValueError(f"Processed eval file must be a list of questions: {eval_path}")
+    return data
+
+
+def fetch_pubmed_docs_from_pmids(pmids: List[str], email: str) -> Dict[str, Dict[str, Any]]:
     """
     Fetch PubMed abstracts for all PMIDs in golden data
     
     Args:
-        golden_data: BioASQ golden data
+        pmids: List of PMIDs to fetch
         email: Email for NCBI Entrez API
     
     Returns:
         Dictionary mapping PMID to article data
     """
     fetcher = PubMedFetcher(email=email)
-    
-    # Collect all unique PMIDs
-    all_pmids = set()
-    for question in golden_data.get("questions", []):
-        all_pmids.update(question.get("documents", []))
-    
-    logger.info(f"Fetching {len(all_pmids)} PubMed articles...")
-    articles = fetcher.fetch_abstracts(list(all_pmids))
+    unique_pmids = list(dict.fromkeys(pmids))
+    logger.info(f"Fetching {len(unique_pmids)} PubMed articles...")
+    articles = fetcher.fetch_abstracts(unique_pmids)
     # 'articles' is already a dict mapping PMID -> article dict
     return articles
 
@@ -196,8 +212,9 @@ def run_pipeline(
 
 def evaluate_results(
     predictions: List[Dict[str, Any]],
-    golden_data: Dict[str, Any],
-    use_llm_judge: bool = False
+    ground_truth_source: Any,
+    use_llm_judge: bool = False,
+    source_type: str = "golden"
 ) -> Dict[str, float]:
     """
     Evaluate predictions against golden data
@@ -211,23 +228,38 @@ def evaluate_results(
         Dictionary of evaluation metrics
     """
     evaluator = RAGEvaluator(use_llm_judge=use_llm_judge)
-    
+
     # Prepare ground truth
     ground_truth = []
-    golden_questions = {q["id"]: q for q in golden_data.get("questions", [])}
-    
-    for pred in predictions:
-        qid = pred["question_id"]
-        if qid in golden_questions:
-            golden_q = golden_questions[qid]
-            ground_truth.append({
-                "question_id": qid,
-                "question_text": pred["question_text"],
-                "type": golden_q.get("type"),
-                "exact_answer": golden_q.get("exact_answer"),
-                "relevant_docs": golden_q.get("documents", []),
-                "ideal_answer": golden_q.get("ideal_answer")
-            })
+    if source_type == "golden":
+        golden_questions = {q["id"]: q for q in ground_truth_source.get("questions", [])}
+        for pred in predictions:
+            qid = pred["question_id"]
+            if qid in golden_questions:
+                gq = golden_questions[qid]
+                ground_truth.append({
+                    "question_id": qid,
+                    "question_text": pred["question_text"],
+                    "type": gq.get("type"),
+                    "exact_answer": gq.get("exact_answer"),
+                    "relevant_docs": gq.get("documents", []),
+                    "ideal_answer": gq.get("ideal_answer")
+                })
+    else:
+        # processed eval is a list of dicts with keys: question_id, question_text, question_type, exact_answer, ideal_answer, relevant_docs
+        processed_map = {q["question_id"]: q for q in ground_truth_source}
+        for pred in predictions:
+            qid = pred["question_id"]
+            if qid in processed_map:
+                pq = processed_map[qid]
+                ground_truth.append({
+                    "question_id": qid,
+                    "question_text": pred["question_text"],
+                    "type": pq.get("question_type"),
+                    "exact_answer": pq.get("exact_answer"),
+                    "relevant_docs": pq.get("relevant_docs", []),
+                    "ideal_answer": pq.get("ideal_answer")
+                })
     
     logger.info("Evaluating predictions...")
     metrics = evaluator.evaluate_batch(predictions, ground_truth)
@@ -285,6 +317,10 @@ def main():
                        help="Path to pipeline configuration")
     parser.add_argument("--use-llm-judge", action="store_true",
                        help="Use LLM-as-a-judge for evaluation")
+    parser.add_argument("--eval-source", type=str, choices=["golden", "processed"], default="processed",
+                       help="Choose evaluation source: BioASQ golden files or processed eval set")
+    parser.add_argument("--processed-dir", type=str, default="data/processed",
+                       help="Directory containing processed eval files (bioasq_round_{N}_eval.json)")
     parser.add_argument("--max-questions", type=int, default=None,
                        help="Maximum number of questions to process (for testing)")
     
@@ -299,8 +335,18 @@ def main():
         questions = questions[:args.max_questions]
         logger.info(f"Limited to {args.max_questions} questions for testing")
     
+    # Determine PMIDs to fetch based on eval-source
+    if args.eval_source == "golden":
+        pmids = []
+        for q in data["golden"].get("questions", []):
+            pmids.extend(q.get("documents", []))
+    else:
+        processed_eval = load_processed_eval(args.round, args.processed_dir)
+        pmids = []
+        for q in processed_eval:
+            pmids.extend(q.get("relevant_docs", []))
     # Fetch PubMed documents
-    articles = fetch_pubmed_docs(data["golden"], args.email)
+    articles = fetch_pubmed_docs_from_pmids(pmids, args.email)
     
     # Prepare documents
     documents = prepare_documents(articles)
@@ -310,7 +356,10 @@ def main():
     predictions = run_pipeline(questions, documents, args.config)
     
     # Evaluate
-    metrics = evaluate_results(predictions, data["golden"], args.use_llm_judge)
+    if args.eval_source == "golden":
+        metrics = evaluate_results(predictions, data["golden"], args.use_llm_judge, source_type="golden")
+    else:
+        metrics = evaluate_results(predictions, processed_eval, args.use_llm_judge, source_type="processed")
     
     # Save results
     output_dir = os.path.join(args.output, f"round_{args.round}")

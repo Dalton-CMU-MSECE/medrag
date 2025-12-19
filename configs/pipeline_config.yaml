@@ -39,7 +39,7 @@ faiss:
 bm25:
   elasticsearch_host: "localhost"
   elasticsearch_port: 9200
-  index_name: "medical_docs"
+  index_name: "medical_docs_round_4"
   k1: 1.2
   b: 0.75
 
@@ -105,7 +105,7 @@ evaluation:
 
 # BioASQ-specific configuration (NEW)
 bioasq:
-  data_dir: "data/bioasq"
+  data_dir: "data/processed/"
   rounds: [1, 2, 3, 4]
   question_types: ["yesno", "factoid", "list", "summary"]
   pubmed_email: "jgibson2@andrew.cmu.edu"  # Required for NCBI Entrez
@@ -126,8 +126,8 @@ logging:
 
 # Data paths
 data:
-  docs_path: "data/processed/bioasq_round_1_docs.jsonl"
-  embeddings_path: "runs/embeddings.npy"
-  embeddings_manifest: "runs/embeddings_manifest.json"
-  results_path: "runs/results.jsonl"
-  run_manifest: "runs/run_manifest.json"
+  docs_path: "data/processed/bioasq_round_4_docs.jsonl"
+  embeddings_path: "runs_4/embeddings.npy"
+  embeddings_manifest: "runs_4/embeddings_manifest.json"
+  results_path: "runs_4/results.jsonl"
+  run_manifest: "runs_4/run_manifest.json"

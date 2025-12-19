@@ -11,7 +11,7 @@ from pathlib import Path
 class BioASQDataLoader:
     """Loader for BioASQ Synergy task data"""
     
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = "data/processed/"):
         """
         Initialize BioASQ data loader
         
@@ -30,9 +30,18 @@ class BioASQDataLoader:
         Returns:
             Dictionary with questions
         """
-        filepath = self.data_dir / f"testset_{round_num}.json"
+        filepath = self.data_dir / f"bioasq_round_{round_num}_docs.jsonl"
+        records: List[Dict[str, Any]] = []
         with open(filepath, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                # Each line is a JSON object (JSONL). Parse and collect.
+                obj = json.loads(line)
+                records.append(obj)
+        # Wrap as a dictionary with a questions key to align with pipeline expectations
+        return {"questions": records}
     
     def load_golden(self, round_num: int) -> Dict[str, Any]:
         """
@@ -44,7 +53,7 @@ class BioASQDataLoader:
         Returns:
             Dictionary with questions, documents, and snippets
         """
-        filepath = self.data_dir / f"golden_round_{round_num}.json"
+        filepath = self.data_dir / f"bioasq_round_{round_num}_eval.json"
         with open(filepath, 'r', encoding='utf-8') as f:
             return json.load(f)
     

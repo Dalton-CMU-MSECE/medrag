@@ -1,0 +1,1257 @@
+[
+  {
+    "question_id": "6593de2f06a2ea257c00001e",
+    "question_text": "What is the burden of human trypanosomiases in European hospitals?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The burden of human trypanosomiases in European hospitals is linked to imported cases from travelers, tourists, migrants, or expatriates who have been in endemic areas. While specific annual case numbers are not provided, Spain has the highest burden of Chagas disease (a form of trypanosomiasis) in Europe. The presence of Trypanosoma species in Europe is typically associated with travel or immigration history or infected animals. Despite progress in reducing human African trypanosomiasis in sub-Saharan Africa, its occurrence in Europe remains a consideration for differential diagnosis among certain patient groups. Additionally, the region faces broader healthcare challenges, such as primary care crises and hospital pressures post-COVID-19, which could impact the management of these diseases.",
+      "Human African Trypanosomiasis (HAT), also known as sleeping sickness, poses a significant global threat, affecting approximately 70 million people in 36 African countries. Although not explicitly stated, it can be inferred that the burden of HAT in European hospitals is relatively low or negligible, given that HAT is primarily confined to Africa and there is no mention of significant cases or outbreaks in European regions. However, it's essential to note that Chagas disease, another form of trypanosomiasis caused by Trypanosoma cruzi, has a substantial presence in Latin America, but its direct burden in European hospitals is not quantified here. Nonetheless, considering the geographical distribution and prevalence of these diseases, it appears that the primary concern regarding trypanosomiases in European hospitals relates to imported cases rather than local transmission, highlighting the importance of vigilance and preparedness among clinicians in diagnosing and managing these conditions in non-endemic settings.",
+      "Between 2011-2020, 49 cases of human African trypanosomiasis (HAT) were diagnosed in 16 non-endemic countries across five continents, with a majority caused by Trypanosoma brucei rhodesiense in tourists visiting Africa and T. b. gambiense in African migrants returning from endemic areas. The prevalence of HAT diagnosis in non-endemic countries is rare but significant, emphasizing the need for continued surveillance to support the World Health Organization's (WHO) elimination goals.",
+      "The burden of human trypanosomiases in European hospitals is primarily associated with Chagas disease and human African trypanosomiasis (HAT). Chagas disease, caused by Trypanosoma cruzi, has a prevalence of approximately 4.2% among Latin American migrants in Europe, with significant underdiagnosis and lack of screening programs. The disease can lead to severe complications such as cardiomyopathy and gastrointestinal issues. Human African trypanosomiasis, though less common, poses a risk to travelers and migrants from endemic regions. The increasing incidence of these diseases in Europe is attributed to migration and tourism, highlighting the need for improved awareness, diagnosis, and treatment in healthcare settings.",
+      "The burden of human trypanosomiases in European hospitals is relatively low. Between 2011 and 2020, there were 49 cases of Human African Trypanosomiasis (HAT) reported across multiple non-endemic countries, including those in Europe. These cases were primarily among tourists and migrants from Africa, indicating that the disease is mostly imported and not endemic to Europe."
+    ],
+    "exact_answer": [
+      [
+        "Spain has the highest burden of Chagas disease in Europe"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8319592fa4887300001e",
+    "question_text": "What disease can be treated with vorasidenib?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "39857783"
+    ],
+    "relevant_snippets": [
+      "Vorasidenib (VORANIGO®; Servier) is an orally administered, first-in-class, highly brain-penetrant dual inhibitor of mutant isocitrate dehydrogenase 1 and 2 (IDH1/2) enzymes being developed for use in IDH-mutant diffuse glioma.",
+      "The recently regulatory-approved vorasidenib, a brain-penetrating oral inhibitor of IDH1/2, has altered the treatment paradigm for recurrent/residual non-enhancing surgically resected CNS WHO grade 2 mIDH gliomas.",
+      "Vorasidenib (VORANIGO®; Servier) is an orally administered, first-in-class, highly brain-penetrant dual inhibitor of mutant isocitrate dehydrogenase 1 and 2 (IDH1/2) enzymes being developed for use in IDH-mutant diffuse glioma. "
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "IDH-mutant gliomas"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772c765592fa48873000009",
+    "question_text": "What biological process is associated with Vitamin K?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "24108469",
+      "29188966",
+      "16030366",
+      "29793354",
+      "22516722",
+      "32429051",
+      "16815498"
+    ],
+    "relevant_snippets": [
+      "Vitamin K is essential for several physiological processes, such as blood coagulation, in which it serves as a cofactor for the conversion of peptide-bound glutamate to γ-carboxyglutamate in vitamin K-dependent proteins.",
+      "Phylloquinone (vitamin K1) and menaquinones (vitamin K2 family) are essential for post-translational γ-carboxylation of a small number of proteins, including clotting factors.",
+      "One of the fat-soluble vitamins, vitamin K was initially discovered for its role in blood coagulation.",
+      "Vitamin K (VK) is a key nutrient for several biological processes (e.g., blood clotting and bone metabolism).",
+      "Finally, although limited in numbers, reports point to a modulatory role of vitamin K in cognition.",
+      "PURPOSE: The role of vitamin K in the prevention and treatment of osteoporosis and arterial calcification is examined.SUMMARY: Vitamin K is essential for the activation of vitamin K-dependent proteins, which are involved not only in blood coagulation but in bone metabolism and the inhibition of arterial calcification.",
+      "Vitamin K is not only essential for the synthesis of coagulation factors in the liver, but it also strengthens the bones and prevents calcification of the arteries.",
+      "Vitamin K is a nutrient that was originally identified as an essential factor for blood coagulation.",
+      "Vitamin K (VK) plays many important functions in the body. The most important of them include the contribution in calcium homeostasis and anticoagulation",
+      "Vitamin K compounds (K vitamers) are required for the normal function of at least 15 proteins involved in diverse physiological processes such as coagulation, tissue mineralization, inflammation, and neuroprotection"
+    ],
+    "ideal_answer": [
+      "Vitamin K is associated with several biological processes including blood coagulation, where it acts as a cofactor for the modification of coagulation factors. It is also important for bone metabolism and the inhibition of arterial calcification. Moreover, Vitamin K plays a role in sphingolipid metabolism, which is important for brain function, and has anti-inflammatory effects, contributing to the protection against oxidative stress and potentially supporting cognitive functions.",
+      "Vitamin K is primarily associated with the biological processes of blood coagulation and bone metabolism. Additionally, it plays roles in the metabolism of sphingolipids, which are important for brain cell function, and has been linked to anti-inflammatory activity, protection against oxidative stress, and cognition.",
+      "Vitamin K plays a vital role in several biological processes, most notably blood coagulation. It serves as a cofactor for the carboxylation of Gla proteins, which is essential for activating proteins involved in blood clotting. Additionally, Vitamin K is involved in bone health by aiding in bone metabolism and helps inhibit arterial calcification, thereby maintaining vascular health.",
+      "Vitamin K is crucial for several biological processes. It mainly functions as a cofactor for the gamma-carboxylation of glutamate residues in vitamin K-dependent proteins, which is essential for blood coagulation. Additionally, it plays significant roles in bone metabolism, preventing vascular calcification, and even modulating cell proliferation.",
+      "Vitamin K is primarily associated with the biological process of blood coagulation, as it is essential for the posttranslational modification of proteins involved in this process. Specifically, it acts as a cofactor for the conversion of glutamate residues to γ-carboxyglutamate in vitamin K-dependent proteins, which is crucial for their activity in hemostasis. Additionally, vitamin K plays a significant role in the maturation of proteins that regulate calcium metabolism, influencing bone health and vascular calcification. This dual role highlights its importance not only in coagulation but also in maintaining bone density and preventing cardiovascular diseases.",
+      "Vitamin K is essential for a variety of biological processes. It plays a critical role in blood coagulation by acting as a cofactor for the gamma-carboxylation of glutamate residues on clotting factors. It is also involved in bone metabolism, prevention of vascular calcification, regulation of inflammation, and modulation of cell proliferation. Additionally, vitamin K influences other physiological functions, including possible roles in the pancreas and central nervous system.",
+      "Vitamin K plays a crucial role in the carboxylation of certain proteins involved in blood clotting, including prothrombin and factors VII, IX, and X. It serves as a cofactor for the vitamin K-dependent gamma-glutamyl carboxylase enzyme, facilitating the conversion of glutamate residues to gamma-carboxyglutamate, thereby enabling the attachment of calcium ions and subsequent protein-protein interactions necessary for proper coagulation function. Additionally, it appears to play a role in the metabolism of plasmalogens, specifically through the activity of plasmalogenase enzymes present in neural tissues such as neuronal perikarya, astroglia, and oligodendroglia. However, no direct association between Vitamin K and the described processes involving ethanol distribution, DNA degradation, RNA polymerase activity, or the pharmacological properties of kutkin and its derivatives is evident from the provided abstracts.",
+      "Vitamin K plays a crucial role in the gamma-carboxylation of glutamate residues in proteins involved in blood clotting, such as prothrombin and factors VII, IX, and X. This process requires the presence of calcium ions and results in the formation of gamma-carboxyglutamic acid, which facilitates the binding of these clotting factors to phospholipid surfaces during coagulation. Additionally, vitamin K-dependent carboxylase also modifies certain bacterial proteins, including those involved in peptidoglycan synthesis, suggesting a broader functional significance beyond mammalian blood coagulation.",
+      "Vitamin K plays a crucial role in the post-translational modification of proteins involved in blood coagulation, specifically in the gamma-carboxylation of glutamate residues to form gamma-carboxyglutamate, facilitating calcium binding and subsequent clot formation. Additionally, vitamin K-dependent carboxylases also appear to play a role in the metabolism of certain amino acids, including the breakdown of delta-aminolevulinate, a precursor in the biosynthesis of porphyrins.",
+      "Vitamin K is mainly associated with the regulation of blood coagulation, as it is required for the carboxylation of certain proteins involved in this process. It also contributes to bone metabolism and helps in preventing vascular calcification, making it an essential nutrient for several physiological processes.",
+      "Vitamin K is primarily involved in several biological processes, most notably blood coagulation where it acts as a cofactor for specific clotting factors. Additionally, vitamin K is crucial for bone metabolism, the prevention of vascular calcification, gamma-carboxylation of glutamate residues, modulation of cell proliferation, and inhibition of arterial calcification.",
+      "Vitamin K is crucial for several biological processes, primarily blood coagulation, where it aids in the activation of clotting factors by facilitating post-translational modifications. It also plays a significant role in bone metabolism, contributing to mineralization and density, which helps reduce fracture risk. Additionally, Vitamin K prevents vascular calcification and arterial stiffness, supporting cardiovascular health. Emerging research suggests its involvement in cell proliferation regulation and other physiological functions, such as endothelial health and brain development. These roles underscore Vitamin K's importance beyond blood clotting, encompassing bone health and cardiovascular well-being.",
+      "Vitamin K is associated with blood coagulation, where it is a crucial cofactor in the gamma-carboxylation of glutamate residues on clotting proteins. It also plays important roles in bone metabolism and the prevention of vascular calcification. This vitamin supports the biological functions of proteins essential for these processes.",
+      "Vitamin K is essential for several biological processes including blood coagulation, bone metabolism, prevention of vascular calcification, and modulation of cell proliferation. Its role in blood coagulation is well established as it aids in the activation of proteins necessary for clotting. Additionally, Vitamin K helps maintain bone health and plays a part in preventing the calcification of blood vessels.",
+      "Vitamin K is primarily associated with the biological process of blood coagulation. It acts as a cofactor for the carboxylation of specific glutamate residues in proteins, converting them into gamma-carboxyglutamic acid (Gla), which is essential for the activation of several coagulation factors. This posttranslational modification is crucial for the proper functioning of the coagulation cascade, preventing excessive bleeding. Additionally, Vitamin K is involved in bone mineralization and the regulation of vascular calcification, playing a role in maintaining bone health and preventing arterial calcification. It also has roles in cellular processes such as apoptosis and signal transduction. The vitamin K cycle, involving enzymes like vitamin K epoxide reductase, is vital for recycling vitamin K to sustain these processes.",
+      "Vitamin K is primarily associated with the biological processes of blood coagulation and bone metabolism. It is crucial in enabling proteins essential for blood clotting and maintaining bone health. Additionally, Vitamin K is involved in the prevention of vascular calcification and modulation of cell proliferation.",
+      "Vitamin K is associated with numerous biological processes including blood coagulation, bone metabolism, prevention of vascular calcification, endothelial function, dental health, brain development, joint health, optimal body weight, anti-inflammatory activities, protection against oxidative stress, and possibly influencing cognitive functions, as well as playing a role in cell proliferation and the prevention of ferroptosis.",
+      "Vitamin K is associated with numerous biological processes including blood coagulation, bone metabolism, prevention of vascular calcification, improvement of endothelial function, maintenance of strong teeth, brain development, joint health, optimal body weight, anti-inflammatory activity, protection against oxidative stress, and a potential role in cognition, showcasing its multifaceted importance in overall health.",
+      "Vitamin K is associated with several biological processes including blood coagulation, where it acts as a cofactor for the modification of coagulation factors, bone metabolism, the inhibition of vascular calcification, reduction of inflammation, protection against oxidative stress, modulation of cell proliferation, regulation of blood pressure, activation of the pregnane X receptor (PXR) signaling pathway, functioning as a co-factor for the γ-glutamyl carboxylase enzyme, and recycling through vitamin K epoxide reductases (VKORs).",
+      "Vitamin K is primarily associated with the biological process of blood coagulation. It is essential for the synthesis of several coagulation factors, which are proteins necessary for blood clotting. This process is crucial to prevent excessive bleeding when injuries occur. Vitamin K also plays a significant role in bone mineralization and the regulation of calcium in the body, contributing to bone health and preventing vascular calcification. Additionally, vitamin K-dependent proteins are involved in various physiological functions, including maintaining cardiovascular health and supporting the immune system. Deficiency in vitamin K can lead to bleeding disorders, particularly in newborns, and may contribute to bone and cardiovascular diseases."
+    ],
+    "exact_answer": [
+      [
+        "Blood coagulation",
+        "Bone metabolism",
+        "Bone Health Maintenance",
+        "calcium metabolism",
+        "Inhibition of arterial calcification",
+        "Nervous System Function",
+        "anti-inflammatory activity",
+        "protection against oxidative stress"
+      ]
+    ]
+  },
+  {
+    "question_id": "6777be0b592fa48873000014",
+    "question_text": "What is the impact of intimate partner violence on maternal mortality?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "39906024",
+      "32497059",
+      "18463468",
+      "32722708",
+      "26334607"
+    ],
+    "relevant_snippets": [
+      "There was a significant dose-response relationship between IPV and ANC utilization.",
+      "Furthermore, the odds of having one or more miscarriages, stillbirths and abortions was increased by 35% for women who were victims to intimate partner violence, establishing a significant association between miscarriages, stillbirths and abortions and intimate partner violence.",
+      "Intimate partner violence (IPV) may be a deterrent to ANC uptake.",
+      "Women who are pregnant and the victims of IPV have high rates of stress, are more likely to smoke or use other drugs, deliver a preterm or low birth weight infant, have an increase in infectious complications, and are less likely to obtain prenatal care."
+    ],
+    "ideal_answer": [
+      "Intimate partner violence (IPV) significantly impacts maternal mortality by contributing to pregnancy-related complications such as preeclampsia, increased risks of miscarriages, stillbirths, and decreased utilization of essential maternal health services like antenatal care. It can also lead to pregnancy-associated suicides and homicides.",
+      "Intimate partner violence (IPV) significantly impacts maternal mortality by increasing the risk of pregnancy-related complications such as preeclampsia and severe acute maternal morbidity. Studies indicate that exposure to IPV during pregnancy elevates the risk of preeclampsia by 2.4-fold, with emotional abuse alone raising this risk by 3.2 times. Additionally, IPV is associated with higher perinatal mortality rates, as evidenced by a 9.3% mortality rate in cases compared to 1.8% in controls. Furthermore, IPV contributes to maternal deaths, including pregnancy-associated homicides and suicides, which account for a substantial proportion of violent deaths during pregnancy. Women experiencing IPV also tend to have lower utilization of essential maternal health services, worsening maternal and fetal outcomes. These findings underscore the critical importance of confidential screening for IPV and timely referral to support services to address its adverse effects on maternal and perinatal health.",
+      "Intimate partner violence (IPV) significantly contributes to maternal mortality by increasing the risk of pregnancy-related complications, such as preeclampsia, hypertensive disorders, and poor utilization of maternal health services. It is associated with adverse perinatal outcomes, including miscarriages, stillbirths, and induced abortions, and exacerbates existing health issues like stress, smoking, and substance use, ultimately leading to higher maternal mortality rates. Addressing IPV through early detection and support is crucial to mitigating these risks.",
+      "Intimate partner violence (IPV) significantly impacts maternal mortality by increasing the risk of severe health complications and adverse pregnancy outcomes. Studies indicate that IPV is associated with a 1.9-fold increased risk of preeclampsia, higher perinatal mortality rates (9.3% vs. 1.8%), and contributes to maternal deaths. Emotional abuse alone elevates preeclampsia risk by 3.2 times. IPV also leads to fetal deaths at a rate of about 16 per 1000 pregnancies and is linked to pregnancy-associated suicides (54.3%) and homicides (45.3%). Additionally, it deters antenatal care utilization, exacerbating risks like miscarriages, stillbirths, and preterm births. Thus, addressing IPV is crucial for improving maternal and fetal health outcomes.",
+      "Intimate partner violence (IPV) significantly contributes to maternal mortality by increasing the risk of pregnancy-related complications, poor maternal health service utilization, and being a primary cause of homicide and suicide during pregnancy. It leads to adverse perinatal outcomes such as preeclampsia, preterm births, low birth weight infants, and elevated rates of miscarriages, stillbirths, and induced abortions. Addressing IPV through early detection and intervention is crucial to prevent these tragic outcomes."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "63ac44c2c6c7d4d31b000011",
+    "question_text": "Which are the most common psychiatric events associated with the consumption of cannabis?",
+    "question_type": "list",
+    "relevant_docs": [
+      "30826738"
+    ],
+    "relevant_snippets": [
+      "ally assaulted in the course of their lives. In addition, women are at greater risk of cannabis dependence (OR = 3.87; p < .05) for lower cannabis consumption (grams smoked per week) (OR = 0.96; p < .05).DISCUSSION AND CONCLUSIONS: French women heavy cannabis users are particularly at risk of PTSD and are more likely than men to be dependent despite consuming fewer.SCIENTIFIC SIGNIFICANCE: Further studies a",
+      "he participants, p > 0.05.Conclusion: Due to the higher frequency of anxiety and depression disorders in cannabis users in this study compared to the general population, cannabis use is likely to be a",
+      "Cannabis use mediates 7%-12% of the effect of a psychiatric history on depression, worse quality of life and worse health valuation.CONCLUSIONS: There is a strong and independent association between cannabis use and poor psychosocial health, and it partially mediates the deleterious effect of a psychiatric history on these same outcomes."
+    ],
+    "ideal_answer": [
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, psychotic disorders, psychosis, paranoia, cognitive impairment, mood disorders, exacerbation of existing psychiatric disorders, withdrawal syndrome, and increased risk of developing chronic psychosis. These events can range from acute adverse mental effects to long-term negative psychiatric outcomes, especially in vulnerable individuals. Cannabis use has been consistently linked to a higher prevalence of comorbid psychiatric conditions, learning and memory impairments, and a range of mental health issues that can have significant impacts on an individual's well-being and quality of life.",
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, psychosis, and exacerbation of psychotic disorders -- particularly in vulnerable individuals. Cannabis use can lead to acute adverse effects such as anxiety, paranoia, and psychosis. Chronic use of cannabis may result in mood disorders, an increase in depressive or manic episodes, and the development of cannabis use disorders. Additionally, there is an association between cannabis use and the onset of first mania at a younger age, as well as an increase in impulsivity and sensation-seeking traits. Cannabis disorders are classified under the DSM-IV and ICD-10 criteria and include intoxication, abuse, dependence, as well as cannabis-induced psychotic and anxiety disorders.",
+      "The most common psychiatric events associated with the consumption of cannabis are anxiety, depression, and psychotic disorders, which include a range of symptoms such as paranoia, exacerbation of manic episodes in those with affective psychoses, particularly bipolar disorder, and an increased likelihood of developing schizophrenia in vulnerable populations. Cannabis use can also lead to cannabis use disorders, characterized by cannabis intoxication, abuse, and dependence as defined by DSM-IV and ICD-10 criteria. Acute adverse effects include anxiety states, cognitive impairments, tachycardia, and orthostatic hypotension, while chronic effects may involve mood disorders, neurocognitive impairments, and exacerbation of psychotic disorders. Impulsivity and sensation-seeking traits have been observed in recreational cannabis users, which are not only common in chronic drug abusers but also present in those who consume cannabis recreationally.",
+      "The most common psychiatric events associated with the consumption of cannabis include anxiety disorders, depressive disorders, and psychotic disorders. These conditions can range from acute reactions such as anxiety or paranoia during intoxication to more chronic effects like depression and exacerbation of pre-existing psychotic symptoms in vulnerable individuals. Cannabis use has also been linked to an increased risk of developing schizophrenia and other psychoses, particularly among those with a genetic predisposition or existing mental health conditions. Additionally, cannabis withdrawal can cause irritability, anxiety, sleep disturbances, and in some cases, more severe psychiatric symptoms.",
+      "The most common psychiatric events associated with the consumption of cannabis include an increased risk for the development and exacerbation of psychotic disorders, such as schizophrenia, particularly in individuals with a pre-existing genetic predisposition. Cannabis use is also linked to first-episode psychosis, characterized by severe symptoms that can sometimes be managed with antipsychotics and mood stabilizers. It may lead to poor treatment adherence and an increased risk of relapse in individuals with psychotic disorders. Moreover, cannabis use can be involved in the onset of comorbid mental illnesses at an earlier age. While not all experiencing psychosis from cannabis will have a negative outcome on their overall mental health trajectory, these symptoms are cause for clinical concern and require careful management to prevent progression to more severe mental health conditions.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depressive disorders, psychotic disorders such as schizophrenia, and substance use disorders. Acute adverse effects can consist of anxiety, paranoia, and psychosis, which can manifest as an acute anxiety state or even paranoid episodes. Cannabis use is also linked to exacerbation of psychotic disorders in vulnerable individuals and can affect mood, leading to disorders like depression. Additionally, there is a significant association between cannabis use and the development or worsening of psychiatric conditions such as attention deficit-hyperactivity disorder and conduct disorders, especially in adolescents and young adults. Chronic effects of cannabis can lead to cannabis use disorders, withdrawal syndrome, and neurocognitive impairments.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depressive disorders, psychotic disorders, and cannabis use disorders. Specifically, cannabis use has been linked to the exacerbation of psychotic disorders in vulnerable individuals, mood disorders, and an increased risk of psychiatric disorders such as schizophrenia, depression, anxiety, and substance use disorder. Acute adverse mental effects can mimic psychiatric disorders like schizophrenia and bipolar disorder. Additionally, cannabis use is associated with a withdrawal syndrome upon cessation in dependent individuals. Other psychiatric effects include paranoia, psychosis, and cannabis-induced anxiety, which has been observed in emergency department patients. There is also evidence suggesting a cross-sectional association between recreational cannabis use and depression, anxiety, and suicide.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety, depression, psychosis, and paranoia. Additionally, cannabis use can be linked to mania and hypomania, as well as exacerbation of existing psychiatric conditions.",
+      "The most common psychiatric events associated with cannabis consumption include anxiety disorders, depression, psychotic syndromes, cognitive impairment, and addictive behavior. Studies have shown that cannabis use is linked to an increased risk of progression to schizophrenia, particularly in individuals with a genetic loading. Additionally, research has found associations between cannabis use and mood disorders, including mania and bipolar disorder. Other psychiatric events reported include obsessive-compulsive behavior, interpersonal sensitivity, depression, anxiety, phobic anxiety, and paranoid ideation, particularly among frequent users. Furthermore, studies have also highlighted the potential for cardiovascular adverse events, such as myocardial infarction and strokes, suicidal ideas and attempts, worsening of epilepsy, and sedative disorders, all of which are concerning and warrant further investigation."
+    ],
+    "exact_answer": [
+      [
+        "panic attack psychotic states dependence abuse cognitive disorders amotival syndrome anxiety disorder suicidal idea and attempt Hallucinogenic effects Stimulant effects Aggressive behavior Addictive behaviors Bipolar Disorder"
+      ]
+    ]
+  },
+  {
+    "question_id": "6777b9c5592fa4887300000f",
+    "question_text": "What are the most severe adverse effects of the birth control pill?",
+    "question_type": "list",
+    "relevant_docs": [
+      "39901997",
+      "27121914"
+    ],
+    "relevant_snippets": [
+      "Background Varicose veins are a rare side effect of birth control pills, linked to hormonal changes that may weaken vein walls and valves, impair blood flow, and increase venous pressure."
+    ],
+    "ideal_answer": [
+      "The most severe adverse effects of the birth control pill can include serious cardiovascular issues such as blood clots leading to deep vein thrombosis, pulmonary embolism, stroke, and heart attack. These risks are generally higher among women who smoke, are over the age of 35, or have other predisposing factors.",
+      "Studies have shown that while oral contraceptive pills (OCPs) are generally safe, they can cause several adverse effects that may alter the quality of life for women who use them. The most severe side effects include an increased risk of four cardiovascular diseases: hypertension, venous thromboembolism, stroke, and myocardial infarction. Breakthrough bleeding is also a significant concern, with 69.6% of participants experiencing at least one side effect, including mood swings, weight gain or increase appetite, decreased libido, and nausea. Additionally, OCPs have been linked to an elevated risk of venous thrombotic events (VTE), particularly during the first year of use.",
+      "The most severe adverse effects of birth control pills include an increased risk of venous thromboembolism (VTE), particularly in women with hereditary thrombophilia. Other serious side effects, though rare, can include deep vein thrombosis, severe migraines with aura, and hyperkalemia. While the risk of stroke is a concern, especially in women with migraines with aura, modern low-dose contraceptives have shown a reduced risk compared to older formulations. Additionally, some formulations may cause depression and mood alterations. It's important for women with specific risk factors, such as thrombophilia, to consult healthcare providers before using oral contraceptives."
+    ],
+    "exact_answer": [
+      [
+        "venous thromboembolism",
+        "stroke",
+        "blood clots",
+        "deep vein thrombosis",
+        "Pulmonary embolism"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772c6ae592fa48873000008",
+    "question_text": "What are the treatments for Adhesive Capsulitis or \"Frozen Sholder\"",
+    "question_type": "list",
+    "relevant_docs": [
+      "15479896",
+      "3652593",
+      "37774178",
+      "22760389",
+      "7790781",
+      "17987207",
+      "34804214"
+    ],
+    "relevant_snippets": [
+      "ackground: Although several studies have reported the effectiveness of acupuncture treatment for adhesive capsulitis (AC), research on pharmacopuncture therapy for AC remains limited. We compared the effectiveness and safety of pharmacopuncture and physiotherapy for AC.Methods: This pragmatic, randomized, controlled, parallel-group pilot study enrolled patients with limitations of shoulder movement and a numeric rating scale (NRS) score for shoulder pain ≥5 randomized (1:1) to the pharmacopuncture therapy (PPT) and physiotherapy (PT) groups. Treatment sessions were administered twice weekly f",
+      "fter excluding nine patients for other concomitant pathologies (five for calcific tendinopathy and four for rotator cuff injury), 36 patients were randomized into two groups: one group was treated with glenohumeral hydrodistension, the other with glenohumeral hydrodistension combined with bursal injection. Assessments were conducted at baseline and then 2, 4, and 6 months after treatment, focusing on changes in pain levels, functional scores, and range of motion in all planes. Each group followed a home-based rehabilitation protocol.R",
+      "BACKGROUND: Intraarticular steroid injections are a commonly used and proven treatment for frozen shoulder; however, there is no scientific basis for a certified dose.OBJECTIVES: This study aimed to identify the difference between high- and low-dose steroid injections treatments and suggest an appropriate dose.STUDY DESIGN: Systematic review and meta-analysis.METHODS: The MEDLINE, EMBASE, and Cochrane electronic databases were searched through February 15, 2023 for eligible randomized controlled trials.",
+      "Treatment of frozen shoulder using distension arthrography (hydrodilatation): a case series.",
+      "The treatment of adhesive capsulitis includes prevention, exercises, manipulation, and capsulotomy.",
+      "At 12 weeks, the analysis tended to favour the placebo group.CONCLUSIONS: A three week course of 30 mg prednisolone daily is of significant short term benefit in adhesive capsulitis but benefits are not maintained beyond six weeks.",
+      "BACKGROUND: One management strategy for the treatment of idiopathic adhesive capsulitis, or frozen shoulder, is arthroscopic capsular release.",
+      "OBJECTIVE: To describe treatment of frozen shoulder syndrome (adhesive capsulitis) via conservative chiropractic treatment to the shoulder joint, utilizing specific contact, low force, instrumental adjusting procedures.",
+      "Various treatment options have been adopted including physiotherapy, manipulation under anaesthetic, hydrodilatation and arthroscopic or open capsular release but the optimal form of management remains uncertain.OBJECTIVES: The purpose of the study was to assess the clinical outcome of glenohumeral hydrodilatation in three cohorts of patients with different aetiologies with adhesive capsulitis.STUDY DESIGN & METHODS: We carried out a retrospective study of patient who underwent hydrodilatation for adhesive capsulitis between 2013 and 2015."
+    ],
+    "ideal_answer": [
+      "The treatment for Adhesive Capsulitis, or 'Frozen Shoulder,' includes a variety of conservative and surgical options. First-line treatments often involve non-steroidal anti-inflammatory drugs (NSAIDs) and corticosteroid injections to manage pain and inflammation. Physical therapy is essential for improving range of motion and shoulder function. Hydrodilatation and capsular release are procedural options that can enhance mobility. Additionally, ultrasound-assisted hydrodistention, suprascapular nerve block, extracorporeal shockwave therapy, and manipulation are effective alternatives for managing symptoms and improving outcomes.",
+      "The treatments for adhesive capsulitis, or frozen shoulder, include a combination of conservative and, if necessary, surgical approaches. Conservative treatments are typically first-line and include physical therapy, exercises, manual therapy, and corticosteroid injections to enhance range of motion and reduce pain. Hydrodilatation (or capsular distension), which involves injecting fluid into the joint capsule to stretch it, is also a common treatment. Additionally, suprascapular nerve block and ultrasound-assisted hydrodistention are utilized to relieve pain and improve functionality. In some cases, more invasive options like manipulation under anesthesia or capsulotomy might be considered if conservative measures are ineffective.",
+      "Adhesive capsulitis, commonly known as frozen shoulder, can be managed with a range of treatments. These include physical therapy and exercises, which help in improving mobility. Medical treatments often feature corticosteroid injections and NSAIDs to reduce inflammation. More invasive options include hydrodilatation, manipulation under anesthesia, and capsular release or capsulotomy when necessary. Other therapies like suprascapular nerve blocks, extracorporeal shockwave therapy, and acupuncture can also be beneficial, especially in chronic cases or when conventional treatments are inadequate.",
+      "Adhesive capsulitis, or frozen shoulder, can be treated with several effective approaches. Common treatments include physical therapy and the use of non-steroidal anti-inflammatory drugs (NSAIDs). Hydrodilatation and corticosteroid injections are often used to reduce pain and increase shoulder mobility. Additionally, exercise and manual therapy from physical rehabilitation are integral. Techniques such as ultrasound-assisted hydrodistention, extracorporeal shockwave therapy, and pharmacopuncture also offer promising results in managing the condition. Suprascapular nerve block can be utilized for pain relief.",
+      "The treatments for Adhesive Capsulitis, also known as 'Frozen Shoulder', include physical therapy and exercises, non-steroidal anti-inflammatory drugs (NSAIDs), corticosteroid injections, ultrasound-assisted hydrodistention, hydrodilatation, suprascapular nerve block, extracorporeal shockwave therapy, acupuncture, pharmacopuncture, and oral steroids. These treatments aim to decrease pain and improve the range of motion and shoulder function, with some therapies like corticosteroid injections providing short-term relief.",
+      "Adhesive Capsulitis, or 'Frozen Shoulder', can be treated using a variety of methods. Common treatments include physical therapy and non-steroidal anti-inflammatory drugs (NSAIDs) to improve movement and reduce pain. Corticosteroid injections and hydrodilatation help decrease inflammation and increase joint space. Ultrasound-assisted hydrodistention and suprascapular nerve block are also effective in managing symptoms. Additionally, manual therapy, acupuncture, and electrotherapy provide alternative or complementary treatment options.",
+      "Adhesive capsulitis, also known as frozen shoulder, is a challenging condition to treat clinically. Common first-line treatment options include suprascapular nerve block, intra-articular corticosteroid injection, hydrodilatation, and physical therapy. Combining these treatment options has been shown to improve patient outcomes, such as pain, range of motion, and shoulder function. Additionally, ultrasound-assisted hydrodistention of the glenohumeral joint combined with targeted exercise has been successful in improving pain relief, reducing disability, and increasing range of motion in patients with stage 1 and 2 adhesive capsulitis. Other treatments, such as gleno-humeral hydrodistension associated with physical therapy, have also been effective in improving pain and range of motion. Furthermore, homoeopathic remedies and angiotensin receptor blockers have also been explored as potential treatments for adhesive capsulitis.",
+      "The treatment of Adhesive Capsulitis, also known as 'Frozen Shoulder', involves a range of approaches tailored to the severity and stage of the condition. Common initial treatments include physical therapy to improve range of motion and NSAIDs to alleviate pain and inflammation. Corticosteroid injections can be used for inflammation control. Ultrasound-assisted hydrodistention, hydrodilatation, and suprascapular nerve block are also valuable techniques used to improve shoulder function. Extracorporeal shockwave therapy and pharmacopuncture represent adjunctive therapies enhancing pain and mobility outcomes. If conservative measures fail, surgical interventions or shoulder manipulation under anesthesia may be considered.",
+      "Treatment for Adhesive Capsulitis or 'Frozen Shoulder' encompasses a spectrum of conservative and surgical interventions. Conservative treatments include manual therapy, exercise, corticosteroid injections, hydrodilatation, and physical therapy focusing on pain alleviation, improved range of motion, and enhanced functionality. More severe cases or those unresponsive to conservative management may benefit from surgical options like arthroscopic or open capsular release. Additional treatment strategies include manipulation under anesthesia and arthrographic distension.",
+      "Treatment for Adhesive Capsulitis, or 'Frozen Shoulder', encompasses a range of conservative and surgical options. Non-invasive methods include manual therapy, exercise, corticosteroid injections, and physical therapy to alleviate pain and restore shoulder function. When conservative treatments fail, more invasive procedures like arthroscopic or open capsular releases can be performed. Chiropractic adjustments involving mechanical force and manual techniques are also utilized in some cases.",
+      "Treatment for Adhesive Capsulitis or 'Frozen Shoulder' encompasses a spectrum of conservative and surgical interventions. Conservative treatments include manual therapy, exercise, corticosteroid injections, physical therapy modalities, and extracorporeal shockwave therapy. Surgical options comprise arthroscopic or open capsular release, manipulation under anesthesia, and hydrodilatation. The approach varies depending on the etiology and severity of the condition, with idiopathic cases responding well to non-operative therapy or closed manipulation, and post-traumatic or postsurgical cases potentially requiring more aggressive interventions."
+    ],
+    "exact_answer": [
+      [
+        "non-steroidal anti-inflammatory drugs (NSAIDs)",
+        "physical therapy",
+        "corticosteroid injections",
+        "hydrodilatation",
+        "capsular release",
+        "manipulation",
+        "capsulotomy",
+        "intraarticular steroid injections",
+        "arthroscopic capsular release",
+        "extracorporeal shockwave therapy",
+        "suprascapular nerve block"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d2e006a2ea257c000019",
+    "question_text": "Should gender-affirming surgery be performed in people under 18 years of age?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The decision to perform gender-affirming surgery (GAS) on individuals under 18 years of age involves balancing medical, psychological, and ethical considerations. Data indicates that breast and chest surgeries are the most common procedures in adolescents aged 12-18, often aimed at alleviating gender dysphoria and improving mental health outcomes. Hormonal therapy plays a preparatory role for some patients, though its long-term impact on surgical results is still under study. More complex procedures, such as genital reconstruction, are primarily performed on older patients due to additional medical and psychological considerations. The appropriateness of GAS for minors requires a multidisciplinary approach, careful assessment of individual circumstances, and comprehensive informed consent to ensure the best possible outcomes.",
+      "Gender-affirming surgery can be performed on individuals under 18 under specific circumstances, supported by international guidelines and when deemed appropriate for the individual's mental health and quality of life. While restrictions and legal guidelines often set 18 as the age of consent, there are instances where these surgeries, such as chest wall masculinization, have been provided to individuals under 18 to support their gender identity and improve mental health outcomes.",
+      "Studies suggest that gender-affirming surgeries are being increasingly performed on transgender adolescents, with many undergoing procedures such as mastectomies before the age of 18. These interventions, when conducted in accordance with international guidelines, have been associated with improvements in mental health and quality of life for gender-diverse individuals. However, the legal and regulatory landscape varies, with some regions requiring individuals to be at least 18 years old for certain surgical procedures. This highlights a tension between current medical practices and legal restrictions, underscoring the need for further discussion and clarification on the appropriate age for such interventions.",
+      "While there is a lack of consensus, current evidence suggests that gender-affirming surgeries should generally be reserved for those aged 18 and over due to the irreversible nature of the procedures and ethical concerns regarding maturity and consent. However, puberty blockers and hormone therapies are commonly used in adolescents to support gender transitions.",
+      "Gender-affirming surgery may be considered in carefully selected individuals under 18 years of age, particularly adolescents diagnosed with clear and persistent gender dysphoria, following thorough evaluation and multidisciplinary team assessment. However, the decision to proceed with surgery should take into account the individual's physical and emotional maturity, potential long-term implications, and available evidence-based guidelines. In some cases, such as clitoroplasty for clitoromegaly, surgical intervention during infancy has been shown to yield highly satisfactory outcomes, suggesting that early intervention can be beneficial when medically indicated. Nevertheless, each case requires a nuanced consideration of the unique circumstances, weighing the potential benefits against the risks and uncertainties associated with irreversible surgical interventions in minors."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593d9fe06a2ea257c00001c",
+    "question_text": "What is the best approach to evaluate learning disabilities in children?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The best approach to evaluating learning disabilities in children involves a multifaceted strategy that combines various assessment tools and methods. It begins with comprehensive medical examinations, including vision and hearing tests, along with an analysis of school performance. Standardized assessments such as the Strengths and Difficulties Questionnaire (SDQ) and the Wechsler Intelligence Scale for Children-Revised (WISC-R) are valuable for identifying specific challenges. Additionally, computer game-based modules like YALU Learning Disability Evaluation Kit offer an engaging way to diagnose disabilities with 85% accuracy, which can be enhanced by parental input. To ensure unbiased results, regression approaches are employed to minimize the influence of intelligence test scores. Early identification through these methods supports timely intervention and personalized rehabilitative strategies, addressing conditions such as dyslexia, dyspraxia, dysgraphia, and dyscalculia effectively. This comprehensive approach ensures a well-rounded evaluation, leading to better outcomes for children with learning disabilities.",
+      "The best approach to evaluate learning disabilities in children involves a comprehensive and multidisciplinary method, considering various factors such as medical examination, vision and hearing tests, and analysis of school performance. Studies suggest that regression approaches can be effective in diagnosing co-occurring learning disabilities, as they are less likely to be biased by the child's intelligence test score. Additionally, the use of software-based evaluation kits, such as YALU, which incorporates computer game modules, can help identify learning disabilities with an accuracy of 85%. These kits can screen for different types of learning disabilities, including Dyslexia, Dyspraxia, Dysgraphia, and Dyscalculia, and provide a customized rehabilitative approach. Early diagnosis, ideally from age 3 to 6, is crucial in starting early medical treatments and helping children return to a normal condition, highlighting the importance of a thorough and timely evaluation process."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593dce006a2ea257c00001d",
+    "question_text": "Which pathophysiological pathways are involved in the symptom FATIGUE?",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Physical fatigue was negatively correlated with GABA+ in SMC and PFC (r = -0.428 and -0.472 respectively, p ≤  0.04) and positively with PFC Glx (r = 0.480, p =  0.028).CONCLUSION: The associations between fatigue and GABA + and Glx suggest that there might be dysregulation of GABAergic/glutamatergic neurotransmission in the pathophysiological mechanism of central fatigue in MS.",
+      "These studies provide new insight into the diverse actions of IFN-γ in fatigue, energy metabolism, and autoimmunity.",
+      "igued than in nonfatigued patients. Serum IL-6 levels (pg/mL) were higher in the fatigued group (5.1 ± 3.4) than in the nonfatigued group (1.6 ± 1.5; P < 0.001); serum albumin and creatin",
+      "Results also replicated several specific genomic effects previously observed in fatigued cancer survivors, including upregulated expression of α-synuclein (SNCA) and hemoglobin subunits (HBA and HBB).CONCLUSIONS: Cancer survivors' heightened fatigue levels may be partially explained by activation of specific immune cell subsets, thereby providing a potential molecular biomarker for clinical interventions targeting the remediation of fatigue."
+    ],
+    "ideal_answer": [
+      "Fatigue is a complex symptom with multiple pathophysiological pathways. Key mechanisms include alterations in gut-brain axis activity, gut dysbiosis, and increased gut permeability, as seen in conditions like chronic fatigue syndrome. In fibromyalgia, metabolic disruptions such as tyrosine, purine, and pyrimidine pathway changes, as well as glutaminergic neurotransmission abnormalities, play a role. Cancer-related fatigue involves phospholipid metabolism disturbances, endocannabinoid system changes, and glycerophospholipid imbalances. Post-COVID-19 fatigue is linked to dysautonomia, micro-clotting, impaired oxygen delivery, and disruptions in cellular energy metabolism. These pathways highlight the importance of tailored therapeutic strategies to address the underlying causes of fatigue.",
+      "Fatigue involves multiple pathophysiological pathways, including central nervous system dysfunction characterized by inflammation, reduced glucose metabolism, brain atrophy, demyelination, and axonal damage. It also implicates hypofunction of the glutamatergic system due to decreased acetyl-carnitine uptake in specific brain regions. Additionally, metabolic changes, particularly in response to stress, play a role. Abnormalities in neuromuscular junctions and myotendinous junctions contribute to fatigue symptoms, especially in conditions like major depressive disorder. The involvement of inflammation, the hypothalamic-pituitary-adrenal (HPA) axis, and the autonomic nervous system is suggested, though further research is needed. In fibromyalgia, fatigue is linked to chronic widespread pain and disruptions in both ascending pain and descending inhibitory sensory pathways. These mechanisms underscore the complexity of fatigue across various chronic illnesses.",
+      "Studies suggest that fatigue is a complex symptom involving multiple pathophysiological pathways, including chronic inflammation, autonomic imbalance, HPA-axis dysfunction, and mitochondrial damage. Pro-inflammatory cytokines, such as interleukin-1 and -6, tumor necrosis factor-alpha, and tryptophan catabolites, are implicated in the mechanisms causing fatigue. Additionally, dysregulation of neurotransmitter systems, including GABAergic/glutamatergic transmission, and alterations in brain networks involved in cognitive/attentional processes are also associated with fatigue. Mitochondrial dysfunction, driven by immune dysfunction-related changes in myocyte mitochondria, is proposed as a critical role in fatigue-related pathogenesis. Furthermore, studies indicate that inflammation may be a common link between fatigue, pain, and depression, and that biologic agents targeting inflammatory cytokines can be effective in alleviating fatigue.",
+      "Fatigue involves various pathophysiological pathways, including neuromuscular and myotendinous junction aberrations, non-dopaminergic and extrastriatal dopaminergic pathways, and disruptions in networks connecting the basal ganglia, thalamus, limbic system, and cortex. It is linked with hypocortisolemia impacting the hypothalamic-pituitary-adrenal axis and increased pro-inflammatory cytokine levels. There is dysregulation involving the central and autonomic nervous systems, neurotransmitter imbalances like GABAergic/glutamatergic signaling, and alterations in metabolic pathways such as galactose metabolism and phenylalanine, tyrosine, and tryptophan biosynthesis."
+    ],
+    "exact_answer": [
+      [
+        "elevated adrenocorticotropin (ACTH) levels HPA axis dysfunction activation of proinflammatory cytokines (TNF-alpha, IL-1beta and IL-6) disturbances of astroglia metabolism decreased levels of noradrenaline decreased levels of serotonin proinflammatory cytokines (TNF-alpha, IL-1beta, IL-6) glutaminergic transmission astroglia metabolism disturbances decreased neurotransmitters noradrenaline and serotonin dysregulation of GABAergic/glutamatergic neurotransmission tyrosine metabolism purine metabolism pyrimidine metabolism glutaminergic metabolism aberrations in neuromuscular and myotendinous junctions tyrosine pathway purine pathway pyrimidine pathway p38 MAPK signaling pathway functional and structural changes of cerebral gray matter oxidative stress IO&NS pathways central serotoninergic system",
+        "Gut dysbiosis, altered gut-brain axis activity, increased gut permeability, bacterial translocation, abnormal tryptophan metabolism, and reduced activity of the kynurenine pathway",
+        "Disrupted tyrosine, purine, and pyrimidine metabolism, and glutaminergic neurotransmission abnormalities in fibromyalgia",
+        "Disruptions in phospholipid metabolism, endocannabinoid system alterations, glycerophospholipid abnormalities, and anandamide level changes in cancer-related fatigue",
+        "Dysautonomia, micro-clotting, impaired oxygen delivery, and cellular energy metabolism changes in Long COVID-related fatigue"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc949c6c7d4d31b000019",
+    "question_text": "Is Deferiprone effective for Parkinson’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Although 30 mg/kg deferiprone treated patients showed a trend for improvement in motor-UPDRS scores and quality of life, this did not reach significance."
+    ],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "677ecc12592fa48873000028",
+    "question_text": "How does Gene Set Enrichment Analysis (GSEA) work?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "35143610"
+    ],
+    "relevant_snippets": [
+      "Gene set enrichment analysis (GSEA) is the most commonly used algorithm to calculate the significance of the relevancy of an annotated gene set with a differential expression signature."
+    ],
+    "ideal_answer": [
+      "Gene Set Enrichment Analysis (GSEA) works by using predefined gene sets to analyze and identify significant biological changes in gene expression data. It ranks genes to determine which predefined sets are overrepresented at the top or bottom of a rank-ordered list of genes from microarray data, indicating potential functional categories of interest.",
+      "Gene Set Enrichment Analysis (GSEA) works by calculating the significance of the association between an annotated gene set and a differential expression signature. It typically uses a running sum statistic and permutation tests to assess the enrichment of gene sets across high-throughput expression data, identifying pathways and biological processes relevant to the data.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that evaluates whether an a priori defined set of genes displays statistically significant, concordant differences in expression between two biological states. It ranks these genes based on expression levels from genome-wide mRNA datasets, identifying significant biological changes and processes linked to specific phenotypes or conditions.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that assesses whether a predefined set of genes shows statistically significant, concordant differences between two biological states. It uses ranks of gene expression to identify significant biological changes in microarray data, aiding in the interpretation of gene set-phenotype associations and pathway-level expression changes.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method that evaluates whether a predefined set of genes shows statistically significant, concordant differences between two biological states. By ranking genes based on differential expression, it identifies enrichment related to biological functions or pathways, revealing significant dependencies between gene sets and observed phenotypes.",
+      "Gene Set Enrichment Analysis (GSEA) is a computational method used to determine if a pre-defined set of genes exhibits statistically significant, concordant differences between two biological states. It achieves this by ranking genes based on differential expression and identifying enrichment in specific gene sets, enabling the discovery of significant biological processes and pathways.",
+      "Gene Set Enrichment Analysis (GSEA) works by utilizing pre-defined gene sets, ranking genes based on their expression levels, calculating an enrichment score reflecting the degree of overrepresentation, and employing permutation tests to determine statistical significance, ultimately revealing significant biological changes and patterns within genomic data."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "63adca9ec6c7d4d31b00001d",
+    "question_text": "Is Cinpanemab effective for Early Parkinson’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "6593d3ab06a2ea257c00001a",
+    "question_text": "What is the percentage of women that have successfully undergone fertility treatment in the European Union?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "In the European Union, around 24% of women have successfully achieved at least one viable pregnancy after undergoing fertility treatment. This percentage reflects the success rate after an average of 2.48 treatment cycles per individual in a study cohort.",
+      "In the European Union, the success rate of fertility treatments such as in vitro fertilization is typically reported as around 21-22% deliveries per ART cycle and clinical pregnancy rates between 29% and 32.4% per embryo transfer, as per recent reports.",
+      "In the European Union, the clinical pregnancy rates per embryo transfer for in vitro fertilization range from approximately 29% to 35.44%, while the live birth rates per embryo transfer are around 26% to 26.78%.",
+      "According to recent studies, the clinical pregnancy rate per embryo transfer was 35.44% while the live birth rate per embryo transfer was 26.53%. Additionally, a study from our institution reported that IUI-H in women below 40 years of age resulted in 10.6% twin and 0.6% triplet pregnancies. Furthermore, it is noted that the number of ART cycles has increased in Europe over the past few years, with a reported percentage of deliveries per ART cycle being 21-22%. These statistics suggest that approximately 26.53% of women undergoing fertility treatment successfully achieve a live birth, although the overall success rate may vary depending on the specific treatment and age group.",
+      "In the European Union, the success rates for fertility treatments, such as assisted reproductive technologies (ART), show that the percentage of deliveries per ART cycle is around 21% to 22%, according to recent reports."
+    ],
+    "exact_answer": [
+      [
+        "24%",
+        ""
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc82ec6c7d4d31b000016",
+    "question_text": "Bepirovirsen was developed for treatment of which disease?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Participants with CHB infection ≥6 months and serum HBsAg ≥50 IU ml-1 were enrolled from seven centers across Hong Kong and the Republic of Korea and randomized (3:1 within each dose cohort) to receive bepirovirsen or placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (HBV) infection.",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (H",
+      "INTRODUCTION: Bepirovirsen (GSK3228836) is an antisense oligonucleotide that induced rapid and prolonged hepatitis B surface antigen (HBsAg) reduction with a favorable safety profile following 4 weeks of treatment in participants with chronic hepatitis B virus (HB",
+      "Bepirovirsen, an antisense oligonucleotide, induces sustained reductions in hepatitis B surface antigen (HBsAg) and HBV DNA to below the lower limit of quantification (<LLOQ) in a subset of patients",
+      "Bepirovirsen, an antisense oligonucleotide (ASO) targeting all HBV RNA species, showed dose-dependent antiviral effects in the RHTC mouse model"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "hepatitis b"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc90bc6c7d4d31b000018",
+    "question_text": "What is geniospasm?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Geniospasm is a rare genetic disorder characterized by paroxysmal rhythmic or irregular movements of the chin and lower lip due to repetitive contractions of the mentalis muscle"
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6777bb95592fa48873000010",
+    "question_text": "What is the optimal age to start screening for learning disorders?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "The optimal age to start screening for learning disorders is usually between the ages of 3 and 6. Starting at this age is beneficial because it coincides with significant developmental milestones and schooling begins, allowing for early interventions that can be crucial for the child's educational and developmental success.",
+      "Studies suggest that six years old is considered a key age for screening children for learning disabilities, as early diagnosis at this stage can facilitate timely medical interventions and help kids return to a normal condition.",
+      "The ideal age to start screening for learning disorders is before school entry, typically between ages 3 to 6. Screening at this early age can help in the early identification of disorders like dyslexia and ADHD, which allows for more effective interventions during a period of high brain plasticity.",
+      "The optimal age to start screening for learning disorders is between age 3 and 6. Early screening, even before children start school, can facilitate timely interventions, with age 6 being a critical period as children begin elementary education.",
+      "The optimal age for screening learning disorders begins as early as three years old and continues up to six years old. Early diagnosis during this period is crucial for initiating timely medical interventions, which can significantly improve the effectiveness of treatments and help children return to a normal developmental trajectory. Screening at the age of six, when children typically start elementary school, is particularly key, as it aligns with their entry into formal education and allows for early identification of potential learning challenges.",
+      "Screening for learning disorders should ideally begin between the ages of 3 to 6, as this timeframe allows for early identification and intervention during critical periods of development and the onset of formal education, thereby facilitating timely support and accommodations for affected children."
+    ],
+    "exact_answer": [
+      [
+        "3 to 6 years"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772c43b592fa48873000006",
+    "question_text": "Please list the agricultural chemicals related to Parkinson's Disease.",
+    "question_type": "list",
+    "relevant_docs": [
+      "28689109",
+      "21505849",
+      "32919961",
+      "30558363"
+    ],
+    "relevant_snippets": [
+      "The animal models most relevant to PD include those generated by neurotoxic chemicals that selectively disrupt the catecholaminergic system such as 6-hydroxydopamine; 1-methyl-1,2,3,6-tetrahydropiridine; agricultural pesticide toxins, such as rotenone and paraquat; the ubiquitin proteasome system inhibitors; inflammatory modulators; and several genetically manipulated models, such as α-synuclein, DJ-1, PINK1, Parkin, and leucine-rich repeat kinase 2 transgenic or knock-out animals.",
+      "Exposure to pyrethroids, a significant class of the most widely used agricultural chemicals, has been associated with an increased risk of Parkinson's disease (PD). However, although many different pyrethroids induce roughly the same symptoms of Parkinsonism, the underlying mechanisms remain unknown. To find the shared key features among these mechanisms, we focused on 3-phenoxybenzoic acid (3-PBA), a common and prominent metabolite of most pyrethroids produced via hydrolysis by CEs in mammals. To determine the contribution of 3-PBA to the initiation and progression of PD, we performed in vivo and in vitro experiments, respectively, and found that 3-PBA not only accumulates in murine brain tissues over time but also further induces PD-like pathologies (increased α-syn and phospho-S129, decreased TH) to the same or even greater extent than the precursor pyrethroid.",
+      "cattle) to 1.79 (peas), P < 0.05]. Rotenone, diquat, paraquat and several dithiocarbamates were associated with an increased risk of PD [OR = 1.31 (cuprobam) to 1.57 (rotenone)], especially in",
+      "Parkinson's disease (PD) is a complex disorder that arises from genetic and environmental factors. The current investigation endeavors to investigate the role of exposure to organochlorine (OCPs) and organophosphate pesticides (OPPs), recognized as the",
+      "Glyphosate, the world's most heavily applied herbicide, and an active ingredient in Roundup® and Paraquat, a toxic herbicide, has shown to be associated with the odds of premature mortality from PD.",
+      "PD risk was also elevated for applicators in the highest category of IWLD for dichlorvos, permethrin (animal use), and benomyl.CONCLUSIONS: We found evidence of increased PD risk for some pesticides.",
+      "Organophosphate (OP) pesticides and PON1 L55M, which influences OP metabolism, have been implicated in multiple mechanisms related to neuronal cell death and may influence PD symptom progression.OBJECTIVE: To investigate whether ambient agricultural OP exposure and PON1 L55M influence the rate of motor, cognitive, and mood-related symptom progression in PD.METHODS: We followed a longitudinal cohort of 246 incident PD patients on average over 5years (7.5years after diagnosis), repeatedly measuring symptom progression with the Mini-Mental State Exam (MMSE), Unified Parkinson's Disease Rating Scale (UPDRS), and Geriatric Depressive Scale (GDS).",
+      "Combined ambient exposure to ziram and paraquat as well as combined ambient exposure to maneb and paraquat at both workplaces and residences increased PD risk substantially.",
+      "At workplaces, combined exposure to ziram, maneb, and paraquat increased risk of PD three-fold (OR: 3.09; 95% CI: 1.69, 5.64) and combined exposure to ziram and paraquat, excluding maneb exposure, was associated with a 80% increase in risk (OR:1.82; 95% CI: 1.03, 3.21).",
+      "Those exposed to ziram, maneb, and paraquat together experienced the greatest increase in PD risk."
+    ],
+    "ideal_answer": [
+      "Agricultural chemicals such as Paraquat, Rotenone, Maneb, Ziram, Dieldrin, Glyphosate, Permethrin, Dichlorvos, and Pyrethroids have been associated with an increased risk of Parkinson's Disease. These chemicals may contribute to the neurodegenerative processes underlying the disease.",
+      "Several agricultural chemicals have been associated with an increased risk of Parkinson's Disease. These include Glyphosate, Paraquat, Dichlorvos, Permethrin (specifically for animal use), and Benomyl. While the exact mechanisms are not fully understood, exposure to these chemicals is linked to a higher likelihood of developing Parkinson's Disease.",
+      "There is evidence linking several agricultural chemicals to an increased risk of Parkinson's Disease, including paraquat, maneb, ziram, dieldrin, rotenone, pyrethroids, organophosphates, and endosulfan. These pesticides might contribute to the development of the disease through their neurotoxic effects.",
+      "Agricultural chemicals such as paraquat, maneb, ziram, dieldrin, pyrethroids, and rotenone have been associated with an increased risk of Parkinson's Disease. These substances are believed to contribute to the disease's development due to their neurotoxic effects, particularly affecting dopaminergic neurons.",
+      "Agricultural chemicals that have been associated with an increased risk of Parkinson's Disease include ziram, paraquat, maneb, dieldrin, pyrethroids, and rotenone. These chemicals are thought to contribute to Parkinson's Disease due to their neurotoxic effects, which may lead to dopaminergic neuron damage.",
+      "Paraquat, rotenone, maneb, ziram, dieldrin, pyrethroids, and mancozeb are agricultural chemicals that have been associated with an increased risk of Parkinson's disease. These chemicals are believed to have neurotoxic effects that may play a role in the onset or progression of the disease.",
+      "Pesticides and fungicides linked to Parkinson's disease include rotenone, paraquat, maneb, ziram, dieldrin, pyrethroids, and mancozeb. Chronic exposure to these chemicals has been associated with an increased risk of developing Parkinson's disease due to their potential neurotoxic effects.",
+      "The agricultural chemicals linked to Parkinson's Disease include paraquat, rotenone, maneb, ziram, dieldrin, pyrethroids (such as permethrin), organophosphate pesticides like dichlorvos and dimethoate, triazole fungicides including propiconazole and tebuconazole, and glyphosate. Additionally, diquat is another herbicide associated with PD. Exposure to combinations of these chemicals, particularly paraquat combined with maneb or ziram, has been shown to significantly increase the risk of developing Parkinson's Disease compared to individual exposures.",
+      "Several agricultural chemicals have been associated with an increased risk of Parkinson's disease. These include the herbicides paraquat and rotenone, the fungicide maneb, and the insecticide dieldrin. Other involved chemicals are ziram, organophosphates like diazinon, chlorpyrifos, parathion, and pyrethroids. These chemicals are believed to contribute to the development of Parkinson's disease through their neurotoxic properties, although the specific mechanisms are still under study.",
+      "The agricultural chemicals related to Parkinson's Disease mentioned in the provided research papers are: \n1. Rotenone \n2. Maneb \n3. Paraquat \n4. Herbicides \n5. Insecticides \n6. Industrial chemicals, including light stabilizers used in the production of polyolifins used in plastics. \n7. 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) \n8. Pesticides used in the tree fruit sector of the agricultural industry, including those associated with handling or directly contacting pesticides.\n\nIt's essential to note that the pathogenesis of Parkinson's Disease is multifactorial, and the exact mechanisms by which these chemicals contribute to the development of the disease are not fully understood.",
+      "Rotenone, Paraquat, Maneb, Ziram, Dieldrin, and Pyrethroids are agricultural chemicals that have been associated with an increased risk of developing Parkinson's Disease. These chemicals are often used as pesticides or fungicides in farming, and their potential neurotoxic effects contribute to PD risk.",
+      "Rotenone, Paraquat, Maneb, Ziram, and pyrethroids are agricultural chemicals that have been associated with an increased risk of developing Parkinson's Disease. These chemicals are often used as pesticides and herbicides in farming.",
+      "Agricultural chemicals associated with Parkinson's Disease include paraquat, rotenone, maneb, ziram, dieldrin, glyphosate, pyrethroids, 3-phenoxybenzoic acid (3-PBA), organochlorine insecticides, carbamate insecticides, and fungicides.",
+      "Paraquat, rotenone, maneb, ziram, dieldrin, glyphosate, pyrethroids, organochlorine pesticides, organophosphate pesticides, fungicides, and fumigants have been associated with an increased risk of Parkinson's Disease. These findings are supported by both human and animal studies, highlighting the importance of considering environmental factors in the etiology of this complex disorder."
+    ],
+    "exact_answer": [
+      [
+        "Paraquat",
+        "Rotenone",
+        "Maneb",
+        "Ziram",
+        "Dieldrin",
+        "lyphosate",
+        "Permethrin",
+        "Dichlorvos",
+        "Pyrethroids",
+        "Benomyl",
+        "diquat",
+        "endosulfan",
+        "organophosphates",
+        "Chlordecone",
+        "2,4-dichlorophenoxyacetic acid (2,4-D)"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adc8d8c6c7d4d31b000017",
+    "question_text": "Is Lecanemab effective for early Alzheimer’s Disease?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "37213538",
+      "39487946",
+      "39304744",
+      "39688567"
+    ],
+    "relevant_snippets": [
+      "In June 2021, the FDA approved aducanumab, an anti-Aβ monoclonal antibody for early AD based on its ability to reduce brain amyloid plaques, while two other amyloid-clearing antibodies (lecanemab and donanemab) have recently produced encouraging cognitive and clinical results.",
+      "BACKGROUND: Lecanemab, a humanized IgG1 monoclonal antibody that targets soluble aggregated Aβ species (protofibrils), has demonstrated robust brain fibrillar amyloid reduction and slowing of clinical decline ",
+      "BACKGROUND: Lecanemab, a humanized IgG1 monoclonal antibody that targets soluble aggregated Aβ species (protofibrils), has demonstrated robust brain fibrillar amyloid reduction and slowing of clinical decline in",
+      "2021, the FDA approved aducanumab, an anti-Aβ monoclonal antibody for early AD based on its ability to reduce brain amyloid plaques, while two other amyloid-clearing antibodies (lecanemab and donanemab) have recently produced encouraging cognitive and clinical results. We reviewed",
+      "[Mechanism of action and clinical trial results of Lecanemab (Leqembi® 200 ‍mg, 500 ‍mg for Intravenous Infusion), a novel treatment for Alzheimer's disease].",
+      "In the OLE, lecanemab 10 mg/kg biweekly treatment produced dose-dependent reductions in amyloid PET SUVr, improvements in plasma Aβ42/40 ratio, and reductions in plasma p-tau181.CONCLUSIONS: Lecanemab treatment resulted in significant reduction in amyloid plaques and a slowing of clinical decline.",
+      "Furthermore, lecanemab has been shown to effectively reduce Aβ accumulation in patients with early Alzheimer's disease, which might contribute not only to delaying the progression of cognitive decline, but also to improving the quality of life of patients and their families.",
+      "The introduction of lecanemab has dramatically changed the field of dementia medicine. Lecanemab, defined as an anti-amyloid-β (Aβ) drug, comprises an antibody against Aβ, a protein structure believed to cause Alzheimer's disease. This drug represents a new direction in dementia treatment. In a phase III study, lecanemab was found to significantly slow cognitive decline, while showing manageable levels of amyloid-related imaging abnormalities, wh",
+      "n the USA. Lecanemab is anti-Aβ monoclonal antibody approved for the treatment of early Alzheimer's disease but is only marginally",
+      "Lecanemab (BAN2401), an IgG1 monoclonal antibody, preferentially targets soluble aggregated amyloid beta (Aβ), with activity across oligomers, protofibrils, and insoluble fibrils. BAN2401-G000-201, a randomized double-blind clinical trial, utilized a Bayesian design with response-adaptive randomization to assess 3 doses across 2 regimens of lecanemab versus placebo in early Alzheimer's disease, mild cognitive impairment due to Alzheimer's disease (AD) and mild AD dementia.",
+      "There is no cure for Alzheimer's disease, which is the sixth leading cause of death in the USA. Lecanemab is anti-Aβ monoclonal antibody approved for the treatment of early Alzheimer's disease but is only marginally effective. Other antibodies are being developed including solanezumab.",
+      "Lecanemab, defined as an anti-amyloid-β (Aβ) drug, comprises an antibody against Aβ, a protein structure believed to cause Alzheimer's disease. This drug represents a new direction in dementia treatment. In a phase III study, lecanemab was found to significantly slow cognitive decline, while showing manageable levels of amyloid-related imaging abnormalities, which are side-effects of lecanemab. Furthermore, lecanemab has been shown to effectively reduce Aβ accumulation in patients with early Alzheimer's disease, which might contribute not only to delaying the progression of cognitive decline, but also to improving the quality of life of patients and their families.",
+      "Lecanemab (Leqembi®) is approved in the United States for the treatment of Alzheimer's disease (AD) to be initiated in early AD (mild cognitive impairment [MCI] due to AD or mild AD dementia) with confirmed brain amyloid pathology.",
+      "Lecanemab (Leqembi©, Biogen), a humanized anti-amyloid-beta monoclonal antibody, has been approved for early-stage Alzheimer's disease (AD) in several countries, including the US and Japan.",
+      "The approval of anti-amyloid β (Aβ) monoclonal antibodies (lecanemab) for the treatment of patients with early preclinical stage of Alzheimer's disease (AD) by the Food and Drug Administration, suggests the reliability and importance of brain Aβ clearance for AD therapy.",
+      "Lecanemab's Path Forward: Navigating the Future of Alzheimer's Treatment in Europe Amidst the EMA's Rejection.",
+      "More recently, advances in the development of Lecanemab, an anti-amyloid-β monoclonal antibody, have shown positive results in reducing brain A burden and slowing cognitive decline in patients with early- stage Alzheimer's disease in the Phase III clinical trial (Clarity Alzheimer's disease).",
+      "Objective: We performed a systematic review and meta-analysis of the cognitive effectiveness and safety of lecanemab on subjects with Alzheimer's disease (AD)",
+      "Lecanemab (Leqembi®) is approved in the United States for the treatment of Alzheimer's disease (AD) to be initiated in early AD",
+      "The recently published results of the 18-month randomized controlled trial of lecanemab, reporting the efficacy of the drug in slowing the progression of early Alzheimer disease"
+    ],
+    "ideal_answer": [],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "63ac45e4c6c7d4d31b000015",
+    "question_text": "What are the causes of depression in children under 11?",
+    "question_type": "list",
+    "relevant_docs": [
+      "28733886",
+      "31203106",
+      "17199054",
+      "23357441",
+      "22305766"
+    ],
+    "relevant_snippets": [
+      " with depressive symptoms in both cohorts. Low paternal age was a risk factor for depressive symptoms in the less developed city, São Luís, whereas low birth weight was a risk factor for depressive symptoms ",
+      "These findings suggest that, among children with a history of parent depression, children's use of cognitive reappraisal may influence their own risk for developing depression and highlights the potential utility of early interventions that focus on improving the use of emotion regulation strategies like cognitive reappraisal among children of depressed parents.",
+      "Although decades of research have documented that children whose parents have a history of Major Depressive Disorder (MDD) are at a higher risk of developing depression themselves, not all of these children go on to develop depression themselves, thus highlighting the need to understand potential moderators of risk.",
+      "BACKGROUND: Depression is often reported as co-occurring with post-traumatic stress disorder in children and adolescents, but its prevalence within trauma-exposed child and adolescent samples is not well understood.METHODS: Our meta-analyses addressed two questions: I.",
+      "CONTEXT: Few prospective longitudinal studies have examined the relationship between abuse or neglect in childhood and depression in adulthood.OBJECTIVE: To determine whether abused and neglected children were at elevated risk of major depressive disorder (MDD) and psychiatric comorbidity, compared with matched control subjects, when followed up into young adulthood.DESIGN: Prospective cohort design study.SETTING: Midwestern metropolitan county area.PARTICIPANTS: Children with substantiated cases of physical and sexual abuse and neglect (before the age of 11 years) from January 1, 1967, to December 31, 1971 (n = 676) were matched based on age, race, sex, and approximate family social class with a group of non-abused and non-neglected children (n = 520) and followed up into young adulthood (mean age, 28.7 years).MAIN OUTCOME MEASURES: Between October 20, 1989, and December 22, 1995, 2-hour in-person interviews were conducted, using the National Institute of Mental Health Diagnostic Interview Schedule, Version III Revised, to determine DSM-III-R MDD and other psychiatric diagnoses.RESULTS: Child abuse and neglect were associated with an increased risk for current MDD (odds ratio [OR], 1.51; 95% confidence interval [CI], 1.06-2.14; P< or=.05) in young adulthood.",
+      "Gender-nonconforming heterosexuals and males were at particularly elevated risk for depressive symptoms.CONCLUSION: Gender nonconformity was a strong predictor of depressive symptoms beginning in adolescence, particularly among males and heterosexuals.",
+      "Children who were physically abused (OR, 1.59; 95% CI, 1.00-2.52; P< or =.05) or experienced multiple types of abuse (OR, 1.75; 95% CI, 1.01-3.02; P< or =.05) were at increased risk of lifetime MDD, whereas neglect increased risk for current MDD (OR, 1.59; 95% CI, 1.10-2.29; P<.01)."
+    ],
+    "ideal_answer": [
+      "Depression in children under 11 is influenced by multiple factors. Psychological causes include internalizing disorders and emotional dysregulation, as reflected in increased prevalence with self-reported emotional disorders. Biological causes involve dysregulations in the hypothalamus-pituitary-adrenal (HPA) axis, with alterations in cortisol and immune biomarkers observed in children with ADHD. Additionally, environmental stressors, such as high parental stress and caregiver burden, can negatively impact children's emotional well-being, increasing their risk for developmental and mood disorders.",
+      "Depression in children under 11 can be caused by various interrelated factors. Key causes include the influence of parental depression or bipolar disorder, stressful events, and loss. Children with psychological conditions such as attention, learning, conduct, or anxiety disorders are at a higher risk of depression. External influences like traumatic experiences and socioeconomic stress, such as community poverty and unemployment, also play a role. Children's self-perception, specifically a tendency towards depressive attributional styles and low self-perceived competence, are additional contributors.",
+      "Research suggests that various factors contribute to the development of depression in children under 11. Studies indicate that children who experience stress, loss, or have attention, learning, conduct, or anxiety disorders are at higher risk for depressive disorders. Additionally, children living with a parent who has depression are more likely to develop depression themselves. Other significant predictors include family history of depression, subclinical depressive symptoms, anxiety, stressful life events, and neurobiological dysregulation. Furthermore, being female, having low paternal age or low birth weight, experiencing negative events in the family, childhood emotional abuse, and adverse socioeconomic conditions are also associated with an increased risk of depression in children.",
+      "Depression in children under 11 can be caused by a variety of factors including child abuse and neglect, bullying, chronic stress, parental depression, loss of significant relationships, and pre-existing mental health disorders like attention, learning, conduct, or anxiety disorders. Additionally, broader socio-economic factors such as community poverty and unemployment, as well as low self-perceived competence, can contribute to the development of depressive symptoms in children.",
+      "Depression in children under 11 is influenced by a combination of factors, including parental mental health issues such as maternal depression and anxiety, which can affect children both during pregnancy and postpartum. Maternal stress during pregnancy is particularly linked to increased risks of depression in later childhood, especially if the child was born small for gestational age. Exposure to abuse, neglect, or intimate partner violence also significantly elevates the risk of depressive symptoms. Bullying at school further contributes to such risks, along with young maternal age and lower intelligence test scores. Additionally, cognitive factors like a child's ability to regulate emotions play a role, while post-traumatic stress disorder often co-occurs with depression in trauma-exposed children. Together, these genetic, environmental, and social elements create a multifaceted landscape of risk factors for childhood depression.",
+      "Depression in children under 11 can be caused by various factors, including parental intimate partner violence, maternal depression, and paternal concurrent affective symptoms. Studies have shown that increasing maternal stress during pregnancy is associated with an increased risk of symptoms of moderate to severe depression in 11-year-old children, especially those who were born small for gestational age (SGA). Additionally, child abuse and neglect are linked to a higher risk of developing depression, with physically abused children and those experiencing multiple types of abuse being at increased risk of lifetime major depressive disorder (MDD). Furthermore, gender nonconformity is a strong predictor of depressive symptoms in children, particularly among males and heterosexuals. Other factors such as being bullied at school, lower intelligence test scores, and young maternal age can also contribute to the development of depression in children under 11. Overall, these studies suggest that a combination of genetic, environmental, and social factors can contribute to the onset of depression in young children."
+    ],
+    "exact_answer": [
+      [
+        "parental mental health issues",
+        "socioeconomic factors",
+        "Risk factors include family history of depression, trauma or abuse, neglect, parental conflict, social isolation, chronic illness, learning disabilities, and substance abuse",
+        "combination of genetic, environmental, and psychological factors",
+        "school stress",
+        "Bullying"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d1f206a2ea257c000018",
+    "question_text": "In which childhood cancers has CAR-T cell therapy been used?",
+    "question_type": "list",
+    "relevant_docs": [
+      "29320890",
+      "31723747",
+      "39900318"
+    ],
+    "relevant_snippets": [
+      "Tremendous clinical regressions have been achieved using CAR-T cells against a variety of cancers both in numerous preclinical studies and in several clinical trials, most notably against acute lymphoblastic leukemia, and resulted in a very recent United States Food and Drug Administration approval of the first CAR-T-cell therapy.",
+      "In the pediatric, adolescent, and young adult (P-AYA) populations, Tisagenlecleucel (Kymriah®) exemplifies the success of CAR T-cell therapy, demonstrating significant efficacy in treating relapsed or refractory acute lymphoblastic leukemia (r/r ALL).",
+      "Tisagenlecleucel (formerly CTL019) is an anti-CD19 CAR-T cell therapy that was recently approved in the United States for the treatment of pediatric and young adult patients with relapsed/refractory B-cell acute lymphoblastic leukemia (B-ALL)."
+    ],
+    "ideal_answer": [
+      "CAR-T cell therapy has been used in treating childhood cancers such as acute lymphoblastic leukemia (ALL), diffuse midline glioma (DMG), and diffuse intrinsic pontine glioma (DIPG). These therapies have shown promise, particularly in pediatric hematologic malignancies like ALL, where they have achieved high remission rates. However, the application in solid tumors like DMG and DIPG is still in the experimental stages and has shown limited success with significant challenges.",
+      "CAR-T cell therapy has been used in the treatment of pediatric sarcomas, medulloblastoma, relapsed/refractory childhood B-cell acute lymphoblastic leukemia (B-ALL), and rhabdomyosarcoma.",
+      "CAR-T cell therapy has been used in childhood cancers including acute lymphoblastic leukemia (ALL), osteosarcoma, medulloblastoma, and Ewing sarcoma. It has shown significant efficacy in treating relapsed or refractory acute lymphoblastic leukemia, and preclinical studies suggest potential benefits in pediatric solid tumors such as osteosarcoma, medulloblastoma, and Ewing sarcoma.",
+      "CAR-T cell therapy has been utilized in treating childhood cancers, notably acute lymphoblastic leukemia (ALL) and neuroblastoma. It has shown high efficacy in pediatric B-cell ALL, achieving complete remission rates and offering a promising approach for cases that are resistant or refractory to standard treatments.",
+      "CAR-T cell therapy has been successfully used in various childhood cancers, particularly in B-cell acute lymphoblastic leukemia (B-ALL), where it has achieved high remission rates of up to 90%. Studies have also explored its application in solid tumors such as neuroblastoma, with some patients showing good responses to GD2-targeting CAR-T cell therapy. Additionally, researchers are investigating the use of CAR-T cells against other pediatric cancers, including those that express HER2, NY-ESO, GD2, EGFR, GPC3, B7-H3, and MAGE-A4 antigens. Furthermore, CAR-T cells have been tested in combination with other treatments for diffuse intrinsic pontine glioma (DIPG), a universally fatal childhood cancer, showing promising results in preclinical models.",
+      "CAR-T cell therapy has primarily focused on hematological malignancies such as acute lymphocytic leukemia (ALL). However, recent studies suggest potential applications in solid pediatric tumors like neuroblastoma, osteosarcoma, and medulloblastoma, although data remains limited compared to ALL. Notably, research exploring CAR-T cell therapies specifically targeting Ewing's Sarcoma and Diffuse intrinsic pontine glioma shows promising early-stage clinical trials indicating some success but further investigation is warranted due to their rarity and complexity.",
+      "CAR-T cell therapy has been most notably used in childhood B-cell acute lymphoblastic leukemia (B-ALL), where it has shown remarkable success with high remission rates, particularly for relapsed or refractory cases. It is also being applied to neuroblastoma targeting GD2 and explored in other solid tumors such as diffuse intrinsic pontine glioma (DIPG) using HER2-targeted cells. Additionally, research is expanding its use to various sarcomas and other cancers by targeting antigens like NY-ESO, EGFR, GPC3, B7-H3, and MAGE-A4. The FDA has approved CAR-T therapy for pediatric and young adult B-ALL and diffuse large B-cell lymphoma (DLBCL)."
+    ],
+    "exact_answer": [
+      [
+        "B-cell acute lymphoblastic leukemia B cell acute lymphoblastic leukemia acute lymphoblastic leukemia pediatric midline gliomas diffuse midline glioma (DMG) diffuse intrinsic pontine glioma (DIPG) diffuse midline glioma diffuse intrinsic pontine glioma pediatric sarcomas including osteosarcoma and alveolar rhabdomyosarcomas medulloblastoma childhood B-cell acute lymphoblastic leukemia (B-ALL) rhabdomyosarcoma",
+        "B cell cancers"
+      ]
+    ]
+  },
+  {
+    "question_id": "6584593f06a2ea257c000008",
+    "question_text": "Which is the most common pathogen in paediatric sepsis?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "31607572"
+    ],
+    "relevant_snippets": [
+      "Sepsis due to the most resistant organisms (A. baumannii and K. pneumoniae Carbapenemase [KPC]-producing bacteria, n = 20; 39%) was associated with higher mortality (P = 0.001) and significantly associated with exposure to carbapenem and vancomycin before onset of sepsis (cases exposed = 13/20; 65%, P < 0.001).CONCLUSION: MDROs are the most common cause of sepsis at our NICU and are associated with higher mortality compared with non-MDROs.",
+      "Echoviruses and coxsackievirus B viruses are most common serotypes associated with the neonatal sepsis"
+    ],
+    "ideal_answer": [
+      "The most common pathogen in paediatric sepsis may vary depending on the geographic location and the population studied. However, Staphylococcus aureus is commonly reported as a leading cause of sepsis. Other pathogens such as Group B Streptococcus (GBS), Klebsiella species, Enterobacter, Escherichia coli, Pseudomonas aeruginosa, and Acinetobacter baumannii have also been identified in various studies as common causative agents of sepsis in children.",
+      "The most common pathogen in pediatric sepsis varies depending on the geographic area and the patient's age and health conditions, but Escherichia coli, Klebsiella pneumoniae, and Staphylococcus aureus are frequently reported. GBS (Group B streptococcus) is considered the leading pathogen in early-onset sepsis in neonates.",
+      "Staphylococcus aureus (S. aureus) is one of the most frequently isolated pathogens in pediatric cases of sepsis, including both early and late-onset sepsis. It is a common gram-positive microorganism and plays a significant role as a pathogen associated with sepsis and toxic shock. In addition to Staphylococcus aureus, other common pathogens that can cause sepsis in pediatric patients are various species of Streptococcus, Enterococcus, and Gram-negative organisms like Klebsiella pneumoniae, the latter being associated with the highest mortality in the context of sepsis as per the provided snippets. The prevalence of specific pathogens may vary by region and by specific patient populations such as neonates in intensive care units, where CONS (coagulase-negative staphylococci) has emerged as a common pathogen. This suggests that while Staphylococcus aureus is commonly implicated, the etiology of pediatric sepsis can be broad and influenced by various factors including geography and healthcare settings.",
+      "The most common pathogens involved in pediatric sepsis vary depending on the patient population and the geographical location, but generally, Gram-positive bacteria like Staphylococcus spp (including Staphylococcus aureus and coagulase-negative Staphylococci such as S. epidermidis and S. haemolyticus), and Enterococcus spp are among the leading causes of sepsis in children. In neonates, particularly very low birth weight (VLBW) infants, Gram-negative bacteria such as E. coli can be prevalent causes of early-onset sepsis (EOS). Other Gram-negative bacteria like Klebsiella pneumoniae are also significant, and often associated with late-onset sepsis (LOS) in preterm infants. The presence of antibiotic-resistant strains, such as extended-spectrum β-lactamase (ESBL) producing E. coli and K. pneumoniae, adds to the complexity of treating pediatric sepsis.",
+      "The most common pathogen in pediatric sepsis can vary depending on the age group and region, but overall, Escherichia coli (E. coli) and Staphylococcus aureus are frequently identified as significant causative agents in infants with clinical suspicion of serious invasive infections. In very low birth weight (VLBW) infants, Gram-negative organisms, particularly E. coli, are documented as leading pathogens of early onset sepsis (EOS), whereas Group B Streptococcus (GBS) is the most common pathogen in EOS, especially in infants with a gestational age of less than 28 weeks. Additionally, Klebsiella pneumoniae is also notable as a common pathogen in pediatric sepsis cases. These findings stress the need for accurate diagnostic tools and effective management strategies to address pediatric sepsis.",
+      "The most common pathogen in pediatric sepsis is Staphylococcus aureus, a gram-positive microorganism that is frequently isolated in cases of neonatal and pediatric sepsis.",
+      "Escherichia coli, Coagulase-negative staphylococci, Staphylococcus aureus, and Klebsiella pneumoniae are the most common pathogens in paediatric sepsis.",
+      "The most common pathogens in pediatric sepsis are Escherichia coli and Group B Streptococcus. These bacteria are frequently identified in cases of invasive bacterial infections in young children, with Escherichia coli being particularly common in community-acquired infections.",
+      "The most common pathogens associated with pediatric sepsis include Coagulase-negative Staphylococcus (especially in neonatal and late-onset sepsis), Staphylococcus aureus, and Klebsiella pneumoniae. The prevalence of these pathogens can vary based on location and specific patient populations.",
+      "Staphylococcus aureus, Klebsiella pneumoniae, and coagulase-negative staphylococci are among the most common pathogens responsible for pediatric sepsis, with variations depending on the age of the child and the onset of sepsis.",
+      "Pediatric sepsis is commonly caused by pathogens such as Staphylococcus aureus, Group B Streptococcus (GBS), Klebsiella pneumoniae, and coagulase-negative staphylococci (CoNS). These pathogens vary depending on factors such as the age and health status of the child, as well as the timing of the infection, with some being more prevalent in early-onset versus late-onset sepsis.",
+      "The most common pathogens in paediatric sepsis vary depending on factors such as gestational age and the setting of infection acquisition. Staphylococcus aureus and Coagulase-negative staphylococci (CoNS) are frequently identified as leading causes, particularly in preterm neonates and cases of late-onset sepsis. Group B Streptococcus (GBS) is prominent in early-onset sepsis among full-term infants. Additionally, Klebsiella pneumoniae and Escherichia coli are significant, especially in hospital-acquired and community-acquired infections, respectively. While different pathogens dominate specific contexts, Staphylococcus aureus emerges as a consistently common cause across various paediatric populations.",
+      "The most common pathogens in pediatric sepsis are Staphylococcus aureus, coagulase-negative staphylococci, and Group B streptococcus, with the prevalence varying based on factors such as the age of the child and onset type of sepsis.",
+      "The most common pathogens responsible for paediatric sepsis include Staphylococcus aureus, Streptococcus pneumoniae, Escherichia coli, Coagulase-negative staphylococci, and Group B Streptococcus. These pathogens vary based on the patient's age and onset time of the sepsis.",
+      "While Staphylococcus aureus is a common pathogen in pediatric sepsis, Coagulase-negative staphylococci (CoNS) and Group B Streptococcus (GBS) are also frequently isolated in specific age groups or settings.",
+      "Group B Streptococcus and Escherichia coli are the most common pathogens in pediatric sepsis, particularly in neonatal sepsis, accounting for approximately two-thirds of invasive bacterial infections in this age group."
+    ],
+    "exact_answer": []
+  },
+  {
+    "question_id": "63adc9e7c6c7d4d31b00001a",
+    "question_text": "What is the mechanism of action of Tofersen?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "39783194"
+    ],
+    "relevant_snippets": [
+      "Background: In April 2023, the antisense oligonucleotide tofersen was approved by the U.S. Food and Drug Administration (FDA) for treatment of SOD1-amyotrophic lateral sclerosis (ALS), after a decrease of neurofilament light chain (NfL) levels had been demonstrated.Methods: Between 03/2022 and 04/2023, 24 patients with SOD1-ALS from ten German ALS reference centers were followed-up until the cut-off date for ALS functional rating scale revised (ALSFRS-R), progression rate (loss of ALSFRS-R/month), NfL, phosphorylated neurofilament heavy chain (pNfH) in cerebrospinal fluid (CSF), and adverse events.Findings: During the observation period, median ALSFRS-R decreased from 38.0 (IQR 32.0-42.0) to 35.0 (IQR 29.0-42.0), corresponding to a median progression rate of 0.11 (IQR -0.09 to 0.32) points of ALSFRS-R lost per month."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "677e80fd592fa48873000018",
+    "question_text": "Is focused ultrasound safe for blood brain barrier opening in treatment of glioblastoma?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "36116720"
+    ],
+    "relevant_snippets": [
+      "Focused ultrasound (FUS) combined with microbubbles (MBs) can locally and transiently open the BBB, providing a potential strategy for drug delivery across the BBB into the brain.",
+      "This review gives an overview of the basic mechanisms, ultrasound contrast agents, evaluation or monitoring methods, and medical applications of FUS-mediated BBB opening in glioblastoma, Alzheimer's disease, and Parkinson's disease."
+    ],
+    "ideal_answer": [],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "677e8514592fa48873000020",
+    "question_text": "What is the mechanism of action of Ponsegromab?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "In a small, open-label, phase 1b study involving patients with cancer cachexia, ponsegromab, a humanized monoclonal antibody inhibiting GDF-15, was associated with improved weight, appetite, and physical activity, along with suppressed serum GDF-15 levels.METHODS: In this phase 2, randomized, double-blind, 12-week trial, we assigned patients with cancer cachexia and an elevated serum GDF-15 level (≥1500 pg per milliliter) in a 1:1:1:1 ratio to receive ponsegromab at a dose of 100 mg, 200 mg, or 400 mg or to receive placebo, administered subcutaneously every 4 weeks for three doses."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6772e4ed592fa4887300000a",
+    "question_text": "Please summarize what is known about the cause of Cutaneous T cell lymphoma",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "The results implicate mutations in 17 genes in CTCL pathogenesis, including genes involved in T cell activation and apoptosis, NF-κB signaling, chromatin remodeling and DNA damage response."
+    ],
+    "ideal_answer": [
+      "The cause of Cutaneous T-cell lymphoma (CTCL) is not fully understood, but it involves the malignant transformation of T-cells. Factors such as T-cell receptor engagement and possibly the microbiota seem to be crucial for the progression of the disease. Additionally, activation of proteins like STAT3, NFAT, and NF-κB has been associated with advanced stages of the disease.",
+      "Cutaneous T-cell lymphoma (CTCL) is believed to arise from a combination of genetic mutations and environmental factors. Studies have identified mutations in 17 genes that contribute to its pathogenesis, particularly those involved in T cell activation, apoptosis, NF-κB signaling, chromatin remodeling, and DNA damage response. While HTLV-I is a known cause of adult T-cell leukemia/lymphoma (ATLL), it does not appear to play a significant role in CTCL. The disease is also hypothesized to stem from chronic antigenic stimulation, potentially triggered by chemical or microbial exposures that activate malignant T cells through their receptors. However, no specific antigens have been definitively identified as causative triggers for this lymphoma.",
+      "The exact cause of Cutaneous T cell lymphoma (CTCL) remains unknown. It is hypothesized to be linked to chronic antigenic stimulation possibly due to environmental exposures such as chemicals or microbes. Additionally, genetic mutations and factors influencing T cell signaling, such as immune system processes and NF-kB signaling, have been implicated. However, the precise triggers or causes are still not fully understood.",
+      "The cause of cutaneous T-cell lymphoma (CTCL), which includes forms like mycosis fungoides and Sezary syndrome, is not well understood. It is believed to involve chronic antigen stimulation from unknown exposures such as chemicals or microbes. While genetic mutations and environmental triggers have been implicated, no specific cause is conclusively identified.",
+      "Cutaneous T-cell lymphoma (CTCL) is a group of non-Hodgkin T-cell lymphomas that primarily affect the skin but can spread to other organs. The cause of CTCL is not fully understood, but chronic antigen stimulation from chemical or microbial exposures is considered a key factor. Antigenic triggers may activate malignant T cells through TCR signaling, leading to the disease. The condition is also linked to immune dysfunction, inflammatory cytokines, and neuroimmune interactions. Additionally, CTCL is associated with severe pruritus, diagnostic delays, and an increased risk of cutaneous and systemic infections.",
+      "The exact cause of Cutaneous T cell lymphoma (CTCL) remains unknown. However, it involves the clonal expansion of malignant T cells in the skin, potentially triggered by chronic antigen stimulation from unidentified environmental factors such as chemicals and microbes. Genetic mutations related to T cell activation and NF-κB signaling also play a role in its pathogenesis.",
+      "Cutaneous T-cell lymphoma (CTCL), including Sézary syndrome and mycosis fungoides, appears to have a multifactorial etiology involving both environmental and genetic factors. While specific triggers remain unknown, UV exposure has been implicated as a potential risk factor, particularly in the development of Sezary syndrome. Additionally, certain viral infections may contribute to the pathogenesis of CTCL. Familial clustering suggests a hereditary component, although no clear-cut familial pattern or mendelian inheritance has been established. Genetic predisposition, possibly through polygenic mechanisms, may heighten susceptibility to the disease, especially in individuals exposed to environmental insults such as UV light.",
+      "Cutaneous T-cell lymphoma (CTCL), also known as mycosis fungoides, has been linked to various genetic and environmental factors. Research suggests that CTCL may arise due to a combination of somatic mutations and epigenetic alterations, leading to the clonal expansion of malignant T-cells. Studies have identified specific genetic abnormalities, such as NOTCH2 and JAK3 mutations, which contribute to the pathogenesis of CTCL. Additionally, chronic exposure to certain chemicals, like polychlorinated biphenyls (PCBs) and pesticides, has been implicated in increasing the risk of developing CTCL. However, no definitive causal link between any particular agent and CTCL has been established, indicating that the etiology of this malignancy remains multifactorial and complex. Further research is needed to fully elucidate the underlying causes of CTCL.",
+      "Cutaneous T cell lymphoma (CTCL) involves a clonal proliferation of malignant T cells in the skin, often hypothesized to be initiated or sustained by chronic antigen stimulation due to unknown exposures. Factors implicated in CTCL pathogenesis include mutations in genes related to T cell activation, apoptosis, NF-kB signaling, chromatin remodeling, and DNA damage response. Additionally, chemical and microbial stimuli may serve as antigenic triggers of the malignancy.",
+      "Cutaneous T-cell lymphoma (CTCL) is characterized by the clonal expansion of malignant T cells in the skin. The exact causes are not fully understood, but factors potentially include genetic mutations in genes involved in T cell activation, apoptosis, and chromatin remodeling, as well as chronic antigen stimulation from unknown exposures such as chemicals or microbes.",
+      "Cutaneous T-cell lymphoma (CTCL) arises from a clonal expansion of malignant T cells in the skin, driven primarily by chronic antigen stimulation. While the exact triggers remain unidentified, they may include chemical or microbial agents that activate T cell receptor signaling. Although HTLV-I is linked to other T-cell disorders, it isn't strongly associated with CTCL. Instead, mutations in genes involved in T cell activation, apoptosis, and DNA repair pathways contribute to its pathogenesis. Thus, CTCL's development involves a combination of environmental triggers and genetic alterations affecting immune regulation.",
+      "Cutaneous T-cell lymphoma (CTCL) involves a clonal expansion of malignant T-cells in the skin, possibly triggered by chronic antigen stimulation from environmental exposures such as chemicals or microbes, although the specific antigens remain unidentified. Genetic mutations in genes related to T-cell activation, apoptosis, and other pathways play a role in its pathogenesis. The role of viruses like HTLV in CTCL is less clear compared to other regions-specific T-cell lymphomas.",
+      "Cutaneous T-cell lymphoma (CTCL) is a multifactorial disorder with an uncertain etiology. Proposed contributors include viral infections, such as retroviruses and human herpesviruses, chemical antigens, chronic antigen stimulation, and genetic mutations impacting T-cell regulation and DNA integrity. Research has identified diverse driver mutations, including somatic copy number variants, but a definitive causal link remains elusive. Further investigation is necessary to clarify the complex interplay of factors leading to CTCL.",
+      "Cutaneous T-cell lymphoma (CTCL) is believed to be caused or perpetuated by chronic antigen stimulation due to unknown exposures, with potential triggers ranging from chemicals to microbes. Studies have implicated mutations in 17 genes in CTCL pathogenesis, including those involved in T cell activation and apoptosis, NF-?B signaling, chromatin remodeling, and DNA damage response. While the exact cause of CTCL remains unclear, it is thought to involve a clonal expansion of malignant cells accumulating in the skin, with chronic antigen stimulation playing a key role. The condition has been linked to various immune cells, inflammatory cytokines, and neuroimmune interactions, although the precise mechanisms underlying its development are still not fully understood. Unlike adult T-cell leukemia/lymphoma (ATLL), which is caused by human T-lymphotropic virus type I (HTLV-I), CTCL does not appear to be associated with this or other herpesviruses, and its etiology remains a subject of ongoing investigation."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6593d46c06a2ea257c00001b",
+    "question_text": "Are there clinical trials on hormonal male birth control methods?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "OBJECTIVE: To assess men's preferences for healthcare provider from whom they would obtain hormonal male contraceptive (HMC) methods.STUDY DESIGN: We asked participants from 3 clinical trials of investigational HMC methods-an oral pill (11β-Methyl-19-nortestosterone-17β-dodecylcarbonate, 11β-MNTDC), intramuscular or subcutaneous injection (Dimethandrolone undecanoate), and transdermal gel (Nestorone and testosterone)-to rank their top 3 preferred"
+    ],
+    "ideal_answer": [
+      "Yes, there are clinical trials on hormonal male birth control methods. These trials have evaluated combinations such as testosterone undecanoate and etonogestrel, as well as monthly depot medroxyprogesterone acetate with testosterone esters, showing effectiveness in suppressing spermatogenesis and promising potential as reversible contraception methods for men.",
+      "Yes, there are clinical trials on hormonal male birth control methods. These trials focus on evaluating the effectiveness and acceptability of various hormonal substances for male fertility regulation, including different combinations of androgens and gestagens, as well as cyproterone acetate.",
+      "Yes, there are clinical trials on hormonal male birth control methods. As of June 2023, two hormonal male contraceptive methods are undergoing phase II clinical trials for safety and efficacy. These methods involve the use of a long-acting combination of an androgen plus a progestin, which have been shown to be efficacious, reversible, and well-tolerated in clinical trials with healthy men. Additionally, a randomized, placebo-controlled clinical trial by the pharmaceutical industry has demonstrated the effectiveness of a combination of testosterone undecanoate and etonogestrel in suppressing spermatogenesis in volunteers. Overall, these developments suggest that the first marketed male hormonal contraceptive method is likely to be a long-acting hormonal method.",
+      "Yes, there are ongoing clinical trials on hormonal male birth control methods. Studies have shown that these methods, which involve administering hormones such as testosterone alone or in combination with a progestin, can effectively and reversibly suppress sperm production in men, making them a potential new option for male contraception. Several regimens, including injectable testosterone undecanoate, dimethandrolone undecanoate, and transdermal Nestorone plus testosterone gel, have been tested in clinical trials with promising results, demonstrating high efficacy and reversibility. However, further research is needed to identify the best delivery system and formulation for widespread use. Several large-scale phase IIb and III trials are ongoing or planned to evaluate the safety, efficacy, and feasibility of these methods in preventing pregnancies.",
+      "Yes, there are clinical trials on hormonal male birth control methods. Recent advancements in male contraception have led to the development of various hormonal approaches, including combinations of androgens and progestins. Clinical trials have demonstrated the efficacy and reversibility of these hormonal methods, with some formulations showing contraceptive efficacy rates higher than condoms. Notable agents currently in clinical trials include dimethandrolone undecanoate and testosterone combined with segesterone acetate. These trials are crucial for expanding contraceptive options for men and addressing the global need for effective male contraceptives."
+    ],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "63adca12c6c7d4d31b00001b",
+    "question_text": "What is the target of Ublituximab?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "This review provides an updated overview of the involvement of B cells in the immune pathophysiology and pathology of MS. We summarize the rationale regarding the use of anti-CD20 therapies and the results of the main randomized controlled trials and observational studies investigating the efficacy and safety profile of rituximab, ocrelizumab, ofatumumab and ublituximab.",
+      "rovides an updated overview of the involvement of B cells in the immune pathophysiology and pathology of MS. We summarize the rationale regarding the use of anti-CD20 therapies and the results of the main randomized controlled trials and observational studies investigating the efficacy and safety profile of rituximab, ocrelizumab, ofatumumab and ublituximab. Suggestions r",
+      "Ublituximab (ublituximab-xiiy; BRIUMVI™) is a glycoengineered anti-CD20 monoclonal antibody developed by TG Therapeutics, Inc. for the treatment of multiple sclerosis (MS).",
+      "Ublituximab (ublituximab-xiiy; BRIUMVI™) is a glycoengineered anti-CD20 monoclonal antibody developed by TG Therapeutics, Inc.",
+      "Ublituximab, a novel monoclonal antibody (mAb) targeting a unique epitope on the CD20 antigen, is glycoengineered for enhanced B-cell targeting through antibody-dependent cellular cytotoxicity (ADCC)",
+      "Ublituximab is a monoclonal antibody that binds to the B-cell antigen CD20 with enhanced B-cell targeting"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "CD20"
+      ]
+    ]
+  },
+  {
+    "question_id": "677ed8b8592fa4887300002b",
+    "question_text": "How does Over-Representation Analysis (ORA) work?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "Over-Representation Analysis (ORA) works by determining the biological processes or pathways that are enriched in a set of genes of interest, typically genes that are differentially expressed or co-expressed under certain conditions. It involves comparing the frequency of certain gene sets within the list to their expected frequency in a reference set to identify statistically significant enrichment.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine whether certain genes or biological attributes are more prevalent in predefined sets, such as pathways, than would be expected by chance. It typically employs the hypergeometric test to analyze each term or set in isolation. However, it doesn't account for the dependence structure of hierarchical relationships within sets, like those found in Gene Ontology terms.",
+      "Over-Representation Analysis (ORA) is used to determine if certain genes or variables are more prevalent in a set than expected by chance. It compares a list of interest, often derived from high-throughput experiments, to predefined sets or pathways to assess enrichment in functional categories.",
+      "Over-Representation Analysis (ORA) is a statistical method used to assess whether a predefined set of genes, variables, or pathways is more prevalent or enriched in a specific list of interest than expected by chance, relative to a background list. It is commonly applied to identify functional categories or pathways linked to biological significance based on gene enrichment.",
+      "Over-Representation Analysis (ORA) is a statistical method used to assess the enrichment of functional categories, such as gene sets or pathways, in a list of interest compared to a background list. It aims to determine if these categories are more prevalent than expected by chance, helping to identify biological relevance.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine if a set of variables, such as genes in a gene list, are more prevalent in a specific category or pathway compared to a background list. It objectively assesses whether these functional categories are enriched beyond what is expected by chance.",
+      "Over-Representation Analysis (ORA) compares a set of genes of interest to a background list to assess if certain functional categories are more prevalent than expected by chance. It applies statistical methods to determine the significance of the enrichment of these functional categories.",
+      "Over-Representation Analysis (ORA) works by assessing whether specific functional categories, like pathways or gene sets, are more prevalent in a gene list of interest compared to a background list, using statistical methods to determine significance compared to what would be expected by chance.",
+      "Over-Representation Analysis (ORA) is a statistical method used to determine if a set of genes or pathways is significantly represented in a list of differentially expressed or co-expressed genes compared to a reference set. It identifies enrichments by calculating the difference between observed and expected frequencies of specific gene sets, providing insights into underlying biological processes and functions. By addressing challenges such as the 'background problem' and 'false discovery rate issue, new approaches incorporating prior biological knowledge and machine learning continue to improve ORA's accuracy and utility in omics data interpretation."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "677e8136592fa48873000019",
+    "question_text": "What is VANCOUVER syndrome.",
+    "question_type": "summary",
+    "relevant_docs": [
+      "39911745"
+    ],
+    "relevant_snippets": [
+      "Compression of the sensory component will cause a neurogenic cough called VANCOUVER syndrome - an acronym for Vagus Associated Neurogenic Cough Occurring due to Unilateral Vascular Compression of its Root."
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "658447ca06a2ea257c000001",
+    "question_text": "Which tools are used to predict mortality in paediatric sepsis?",
+    "question_type": "list",
+    "relevant_docs": [
+      "38562275",
+      "39610635",
+      "15815062",
+      "32165955",
+      "39028682"
+    ],
+    "relevant_snippets": [
+      "PDW≥14.1% at admission increases the risk of mortality by 5.7 times.Conclusion: Admission PDW is a fast and specific tool to predict the outcome of children with sepsis.",
+      "Conclusion This study highlights the link between elevated serum resistin levels and increased mortality risk in neonatal sepsis, supported by strong multivariate analysis, indicating an independent predictive role.",
+      "Elevated lactate levels were a risk factor for mortality.CONCLUSION: The pSOFA and PELOD2 scores had superior predictive performance for mortality.",
+      "Conclusion Serum NGAL is reliable in the early prediction of mortality in children admitted with sepsis."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "lactate",
+        "plasma lactate",
+        "lactate levels"
+      ],
+      [
+        "Pediatric Risk of Mortality (PRISM) III score",
+        "PRISM III"
+      ],
+      [
+        "pediatric Sequential Organ Failure Assessment (pSOFA) score",
+        "pSOFA"
+      ],
+      [
+        "machine learning models such as Random Forest (RF)"
+      ],
+      [
+        "Interleukin-8"
+      ],
+      [
+        "PIM-3"
+      ],
+      [
+        "Vascular Reactivity Index (VRI)",
+        "VRI"
+      ],
+      [
+        "high-sensitivity C-reactive protein (hs-CRP)",
+        "hs-CRP"
+      ],
+      [
+        "procalcitonin (PCT)",
+        "PCT"
+      ],
+      [
+        "PD-1 expression",
+        ""
+      ],
+      [
+        "T regulatory cells",
+        "Tregs"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adcb54c6c7d4d31b00001f",
+    "question_text": "What disease is associated with chalk-stick fracture?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "ankylosing spondylitis"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e821c592fa4887300001c",
+    "question_text": "Which four genes account to the majority of the familial ALS cases?",
+    "question_type": "list",
+    "relevant_docs": [
+      "25613506",
+      "20577002"
+    ],
+    "relevant_snippets": [
+      "About two-third of familial cases are triggered by mutations of four genes that are chromosome 9 open reading frame 72 (C9ORF72), Cu/Zn superoxide dismutase (SOD1), fused in sarcoma/translocated in liposarcoma (FUS/TLS), TAR-DNA binding protein 43 (TDP43).",
+      "BACKGROUND: Mutations in SOD1, ANG, VAPB, TARDBP and FUS genes have been identified in amyotrophic lateral sclerosis (ALS).METHODS: The relative contributions of the different mutations to ALS were estimated by systematically screening a cohort of 162 families enrolled in France and 500 controls (1000 chromosomes) using molecular analysis techniques and performing phenotype-genotype correlations.RESULTS: 31 pathogenic missense mutations were found in 36 patients (20 SOD1, 1 ANG, 1 VAPB, 7 TARDBP and 7 FUS)."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "SOD1"
+      ],
+      [
+        "FUS"
+      ],
+      [
+        "TARDBP"
+      ],
+      [
+        "C9orf72"
+      ]
+    ]
+  },
+  {
+    "question_id": "63adca61c6c7d4d31b00001c",
+    "question_text": "What is the mechanism of action of Prasinezumab?",
+    "question_type": "summary",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "'s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every ",
+      "s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's",
+      "Prasinezumab, a monoclonal antibody that binds aggregated α-synuclein, is being investigated as a potential disease-modifying therapy in early-stage Parkinson's disease.",
+      "The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every 4 weeks for 52 weeks.",
+      "BACKGROUND: Aggregated α-synuclein plays an important role in the pathogenesis of Parkinson's disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.METHODS: In this phase 2 trial, we randomly assigned participants with early-stage Parkinson's disease in a 1:1:1 ratio to receive intravenous placebo or prasinezumab at a dose of 1500 mg or 4500 mg every 4 weeks for 52 weeks. The primary end point was the change from baseline to week 52 in the sum of scores on parts I, II, and III of the Movement Disorder Society-sponsored revision of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS; range, 0 to 236, with higher scores indicating greater impairment). Secondary end points included the dopamine transporter",
+      "'s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinso",
+      "Aggregated α-synuclein plays an important role in the pathogenesis of Parkinson's disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson's disease.",
+      "s disease. The monoclonal antibody prasinezumab, directed at aggregated α-synuclein, is being studied for its effect on Parkinson"
+    ],
+    "ideal_answer": [],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6772c17f592fa48873000004",
+    "question_text": "Please list the symptoms that differentiate mucopolysaccharidosis-plus syndrome (MPSPS) from mucopolysaccharidosis.",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) differs from typical mucopolysaccharidosis (MPS) because patients exhibit additional symptoms such as congenital heart defects, renal disorders, and hematopoietic system disorders. These symptoms are not ordinarily found in classical MPS cases, making them distinctive for MPSPS.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) is differentiated from typical mucopolysaccharidosis by symptoms such as hyperactivity, aggressiveness, delayed development, and progressive mental deterioration, which may not be as prominent in the general mucopolysaccharidosis spectrum.",
+      "Studies suggest that mucopolysaccharidosis-plus syndrome (MPSPS) is differentiated from conventional mucopolysaccharidosis by its additional symptoms, including congenital heart defects, renal abnormalities such as high urinary excretion of protein and impairments in renal filtration, and hematopoietic system disorders characterized by progressive anemia, thrombocytopenia, and hypoplastic bone marrow.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) differs from mucopolysaccharidosis because it includes additional symptoms such as congenital heart defects, renal disorders, and hematopoietic system disorders. These are not typically present in standard forms of mucopolysaccharidosis.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) is distinguished from conventional mucopolysaccharidosis by additional features such as congenital heart defects, renal disorders, and hematopoietic system disorders. This includes symptoms like progressive anemia, thrombocytopenia, and secondary hemophagocytic lymphohistiocytosis (HLH).",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) is a rare lysosomal storage disorder caused by a mutation in the VPS33A gene. Unlike conventional mucopolysaccharidosis (MPS), MPSPS presents with additional symptoms including renal dysfunction (high urinary protein excretion, hypoalbuminemia, and glomerular damage), hematopoietic abnormalities (progressive anemia, thrombocytopenia, and hypoplastic bone marrow), and congenital heart defects. Patients with MPSPS do not exhibit the typical lysosomal enzyme deficiencies seen in MPS, despite glycosaminoglycan (GAG) accumulation. The disease has a severe and rapidly progressive course, often leading to early mortality, and is currently managed through symptomatic treatment rather than curative therapies.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) differs from classic mucopolysaccharidosis by exhibiting additional symptoms such as congenital heart defects, renal dysfunction, and hematopoietic system disorders. These additional symptoms are termed the 'plus' symptoms and are not usually present in conventional MPS cases.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) differentiates from classical mucopolysaccharidosis by featuring symptoms such as congenital heart defects, renal disorders, and hematopoietic system disorders. Additionally, MPSPS can be associated with severe cases of secondary hemophagocytic lymphohistiocytosis (HLH), which is not typical in classical mucopolysaccharidosis.",
+      "Mucopolysaccharidosis-plus syndrome (MPSPS) differs from conventional mucopolysaccharidosis due to the presence of additional symptoms like congenital heart defects, renal and hematopoietic system disorders, progressive anemia, thrombocytopenia, high urinary protein excretion, and hypoalbuminemia.",
+      "Symptoms that differentiate mucopolysaccharidosis-plus syndrome (MPSPS) from mucopolysaccharidosis include congenital heart defects, renal disorders, hematopoietic system disorders, excessive glycosaminoglycan excretion in the urine, high levels of heparan sulfate in the plasma, and a more aggressive disease course with poor prognosis, often not surviving past the second year of life."
+    ],
+    "exact_answer": [
+      [
+        "hematopoietic system disorders",
+        "renal disorders",
+        "ongenital heart defects",
+        "progressive mental deterioration",
+        "aggressiveness",
+        "delayed development",
+        "secondary hemophagocytic lymphohistiocytosis (HLH)",
+        "Hematopoietic abnormalities: progressive anemia, thrombocytopenia, hypoplastic bone marrow",
+        "Renal dysfunction: high urinary protein excretion, hypoalbuminemia, glomerular damage",
+        "progressive anemia",
+        "thrombocytopenia",
+        "secondary hemophagocytic lymphohistiocytosis (HLH)"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772c615592fa48873000007",
+    "question_text": "Is morphomics associated with the study of body image or body dysmorphia?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "Only visceral fat area retained its predictive ability in patients with a BMI > 30 kg/m(2).CONCLUSIONS: Morphomic measurements correlate with the likelihood of developing postoperative donor site dehiscence after DIEP flap breast reconstruction."
+    ],
+    "ideal_answer": [
+      "Morphomics is not associated with the study of body image or body dysmorphia. Instead, it is focused on analyzing body composition, specifically through medical imaging techniques like CT scans, to assess and predict health outcomes related to body fat and muscle content.",
+      "No, morphomics is not associated with the study of body image or body dysmorphia. It involves analyzing 3D medical imaging data to assess anatomical features, often for predicting health outcomes or assessing risk in medical situations.",
+      "Morphomics involves the study and analysis of body composition through medical imaging techniques, primarily focusing on biological markers in muscle and adipose tissues. It does not concern itself with psychological aspects such as body image or body dysmorphia.",
+      "Morphomics is not associated with the study of body image or body dysmorphia. It involves the analysis of body composition using imaging techniques to assess muscle and fat tissues, primarily for diagnosing health conditions and predicting medical outcomes, not for studying body image issues.",
+      "Morphomics is not directly associated with the study of body image or body dysmorphia. It involves the analysis of body composition through medical imaging to assess biomarkers related to muscle and adipose tissues, primarily for medical diagnostic and prognostic purposes.",
+      "No, morphomics is related to the measurement and analysis of body composition through biomarkers, not the psychological study of body image or body dysmorphia.",
+      "Morphomics is not primarily associated with the study of body image or body dysmorphia. Its main focus lies in the analytical measurement of body composition and anatomical features through medical imaging, although it might incidentally intersect with conditions affecting body perception like muscle dysmorphia.",
+      "While morphomics may incidentally intersect with the study of body image or body dysmorphia, primarily through its application in assessing individuals with body dysmorphic disorders, its main focus lies in the objective measurement of body composition using medical imaging techniques, making it distinct from the subjective realm of body perception and image disturbances."
+    ],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "6777b5e1592fa4887300000d",
+    "question_text": "Most common physical signs of self-harm in pre-teenagers.",
+    "question_type": "list",
+    "relevant_docs": [
+      "20038924",
+      "19566774"
+    ],
+    "relevant_snippets": [
+      "Self-harm is a self destructive behavior which most frequently takes the form of cutting and burning.",
+      "Categorical regression analysis showed that a small amount of variance in self-harm by sharp object was explained by DSRSC and A-DES scores.CONCLUSIONS: Self-harm with a sharp object was prevalent among pre-adolescents and adolescents and was associated with depressive and dissociative tendencies."
+    ],
+    "ideal_answer": [
+      "Studies indicate that among adolescent girls, cutting is the most common method of self-harm, with 76% also reporting skin tearing, and 72% scratching/pinching. In contrast, boys tend to exhibit different methods, including wound-healing hindrance (85%) and striking objects (80%), but also report high rates of cutting.",
+      "The most common physical signs of self-harm in pre-teenagers are cutting, burning, scratching, carving, skin tearing, and pinching. These actions are typically non-suicidal, repetitive, and may be linked with mental health challenges such as depression or dissociation.",
+      "The most common physical signs of self-harm in pre-teenagers include cutting, scratching, burning, and carving. These behaviors typically occur without suicidal intent and are often used as a coping mechanism to manage emotional distress."
+    ],
+    "exact_answer": [
+      [
+        "cutting",
+        "scratching",
+        "burning"
+      ],
+      [
+        "scratching/pinching",
+        "wound-healing hindrance"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593debd06a2ea257c00001f",
+    "question_text": "Are there new European Union formal efforts to increase the number of clinical trials aimed at improving the mental health of children?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "The aim of this multi-site randomised controlled trial is to determine the clinical and cost-effectiveness of adding a modular psychological intervention to usual care for the mental health disorders in comparison to assessment-enhanced usual care alone.METHODS: In total, 334 participants aged 3-18 years attending epilepsy services will be screened for mental health disorders with the Strengths and Difficulties Questionnaire (SDQ) and the diagnostic Development and Wellbeing Assessment (DAWBA).",
+      "This Randomized Controlled Trial (RCT) was conducted in eleven European countries, with Sweden as the coordinating centre, and was designed to identify an effective way to promote mental health and reduce suicidality and risk taking behaviours among adolescents.OBJECTIVE: To describe the methodological and field procedures in the SEYLE RCT among adolescents, as well as to present the main characteristics of the recruited sample.METHODS: Analyses were conducted to determine: 1) representativeness of study sites compared to respective national data; 2) response rate of schools and pupils, drop-out rates from baseline to 3 and 12 month follow-up, 3) comparability of samples among the four Intervention Arms; 4) properties of the standard scales employed: Beck Depression Inventory, Second Edition (BDI-II), Zung Self-Rating Anxiety Scale (Z-SAS), Strengths and Difficulties Questionnaire (SDQ), World Health Organization Well-Being Scale (WHO-5).RESULTS: Participants at baseline comprised 12,395 adolescents (M/F: 5,529/6,799; mean age=14.9±0.9) from Austria, Estonia, France, Germany, Hungary, Ireland, Israel, Italy, Romania, Slovenia and Spain.",
+      "This is the protocol of a multi-centre, open label, blind-rated, randomised controlled effectiveness trial of clozapine vs TAU (any other oral antipsychotic monotherapy licenced in the British National Formulary) for 12 weeks in 260 children and young people with TRS (12-24 years old)."
+    ],
+    "ideal_answer": [
+      "No, the snippets do not provide evidence of new formal efforts by the European Union to increase the number of clinical trials specifically aimed at improving the mental health of children. The snippets describe a focused trial on refugee families, which involves a mental health intervention, but it does not mention a broader EU initiative targeting children's mental health.",
+      "No, there are no explicit mentions of new European Union formal efforts specifically aimed at increasing clinical trials for improving the mental health of children in the provided snippets. The snippets discuss initiatives like Improve-MH focused on mental health interventions for refugee families, but they do not indicate an EU-wide formal effort targeting children's mental health clinical trials exclusively.",
+      "No, there are no specific new formal efforts by the European Union mentioned in the snippets to increase the number of clinical trials focused on improving children's mental health. The snippets discuss various studies and research efforts, but none indicate a new EU initiative targeting children's mental health clinical trials specifically.",
+      "No, there are no new formal efforts by the European Union specifically aimed at increasing the number of clinical trials to improve the mental health of children according to the provided information.",
+      "There is limited evidence suggesting any recent or ongoing European Union formal efforts specifically targeting an increase in clinical trials focused on enhancing the mental health of children. While the provided abstracts cover various aspects of child development, such as the impact of nutritional status, minimal brain dysfunction, and early trauma on cognitive and emotional outcomes, none directly mention EU initiatives for increasing clinical trials in pediatric mental health. Research and interventions discussed pertain to specific developmental challenges like language delays, hyperactivity, and post-traumatic stress, often focusing on educational or therapeutic approaches rather than large-scale clinical trial programs driven by EU policy. Therefore, it appears that no significant EU-driven push towards expanding clinical trials in this domain has been highlighted in the given sources.",
+      "Based on the provided articles, there is no explicit mention of new formal efforts by the European Union specifically aimed at increasing the number of clinical trials for improving the mental health of children. However, Article 2 discusses the unmet needs and opportunities in psychopharmacological treatments for children and adolescents, highlighting the involvement of the European Medicines Agency and the European College of Neuropsychopharmacology-Child and Adolescent Network. This suggests ongoing discussions and potential interest in addressing mental health issues in this demographic, but it does not confirm any formal EU initiatives specifically targeting an increase in clinical trials for children's mental health."
+    ],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "63adcaefc6c7d4d31b00001e",
+    "question_text": "DNX-2401 Virus was tested for which tumors?",
+    "question_type": "list",
+    "relevant_docs": [],
+    "relevant_snippets": [
+      "PURPOSE: Testing safety of Delta24-RGD (DNX-2401), an oncolytic adenovirus, locally delivered by convection enhanced delivery (CED) in tumor and surrounding brain of patients with recurrent glioblastoma.PATIENTS AND METHODS: Dose-escalation phase I study with 3+3 cohorts, dosing 107 to 1 × 1011 viral particles (vp) in 20 patients."
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "Diffuse Intrinsic Pontine Glioma"
+      ],
+      [
+        "Glioma"
+      ],
+      [
+        "Glioblastoma"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8278592fa4887300001d",
+    "question_text": "Is trofinetide effective for the Rett Syndrome?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "39251501",
+      "39516357",
+      "38869952",
+      "39692836"
+    ],
+    "relevant_snippets": [
+      "INTRODUCTION: Trofinetide was recently approved for the treatment of Rett syndrome (RTT) on the basis of the efficacy and safety findings of the phase 3 LAVENDER study, which used a body weight-based dosing regimen. Exposure-response (E-R) efficacy modeling was used to characterize relationships between trofinetide exposure measures (maximum drug concentration and area under the concentration-time curve for the dosing interval of 0-12 h [AUC0-12]",
+      "Trofinetide was approved in March 2023 in the USA for the treatment of Rett syndrome in adult and pediatric patients 2 years of age and older.",
+      "Trofinetide, a synthetic analog of glycine-proline-glutamate, was approved by the US Food and Drug Administration for the treatment of RTT in adult and pediatric patients aged 2 years and older.",
+      "BACKGROUND: Trofinetide was approved for the treatment of Rett syndrome (RTT) in patients aged ≥2 years based on the results of the 12-week, randomized, phase 3 LAVENDER study.",
+      "Trofinetide is the first drug approved by the FDA to treat Rett Syndrome in children aged 2 years or above.",
+      "INTRODUCTION: Oral trofinetide administered using a body weight-banded dosing regimen was approved in the US for the treatment of Rett syndrome (RTT) in patients aged ≥ 2 years.",
+      "BACKGROUND AND OBJECTIVES: Trofinetide, the first approved treatment for Rett syndrome (RTT), is primarily excreted unchanged in the urine; therefore, it is important to assess the extent to which the exposure is affected in patients with renal impairment.",
+      "While some of these have been unrewarding such as sarizotan, others have been quite promising including the approval of trofinetide by the FDA in 2023 as the first agent available for specific treatment of RTT.",
+      "Trofinetide is the first drug approved by the FDA to treat Rett Syndrome in children aged 2 years or above. ",
+      "trofinetide provides benefit in treating the core symptoms of Rett syndrome",
+      "Trofinetide was approved by the USFDA on 10 March 2023 as the first RTT treatment",
+      "BACKGROUND: Trofinetide was approved by the US Food and Drug Administration for the treatment of Rett syndrome (RTT) in ",
+      "Trofinetide is a first-in-class pharmacological treatment proposed for patients with Rett Syndrome. It is a long half-life derivative of glycine-proline-glutam",
+      "INTRODUCTION: Trofinetide was recently approved for the treatment of Rett syndrome (RTT) on the basis of the"
+    ],
+    "ideal_answer": [],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "6777b471592fa4887300000c",
+    "question_text": "What is the best non-invasive method to diagnose endometriosis?",
+    "question_type": "factoid",
+    "relevant_docs": [
+      "31677747",
+      "29506961"
+    ],
+    "relevant_snippets": [
+      "Transvaginal ultrasonography has become the primary test in the diagnosis of pelvic endometriosis and adenomyosis"
+    ],
+    "ideal_answer": [
+      "The best non-invasive method to diagnose endometriosis is transvaginal sonography (TVS). TVS has been shown to have high diagnostic accuracy and reproducibility for detecting deep infiltrating endometriosis (DIE) and endometriomas, and it is well-regarded for its sensitivity and specificity when performed by skilled professionals.",
+      "The best non-invasive methods for diagnosing endometriosis include high-resolution ultrasound-based imaging, which enables visualization and tracking of lesion evolution, and MR relaxometry, which has proven effective in distinguishing endometriosis-associated ovarian cancer (EAOC) from ovarian endometriomas (OE). These methods provide valuable insights for clinical practice and treatment evaluation.",
+      "Currently, there are no established non-invasive methods to diagnose all subtypes of endometriosis, as clinical assessment, ultrasound, and MRI have not been formally recognized as replacements for surgery in this regard. Imaging techniques such as ultrasound perform well in diagnosing advanced stages (rASRM Stage 3 or 4) but are insufficient for early stages (Stage 1 or 2), where laparoscopy remains necessary. While alternatives like biomarkers, genetic tests, and miRNAs are under exploration, they are not yet established in clinical practice, leaving laparoscopic inspection with histological confirmation as the gold standard for diagnosis.",
+      "Based on a study, there is currently no best non-invasive method to diagnose endometriosis in clinical practice. While non-invasive diagnostic methods such as clinical assessment, ultrasound, and magnetic resonance imaging may be appropriate for advanced stages of endometriosis, they are not yet qualified as replacement tests for surgery in diagnosing all subtypes. There are also no established non-invasive methods to diagnose patients with endometriosis. Therefore, there is a need for non-invasive or minimally invasive tests to accurately diagnose the location and extent of endometriotic lesions. Low invasive tests including imaging, genetic tests, biomarkers, or miRNAs could be potential solutions. At present, the only conclusive way to diagnose endometriosis is through laparoscopic inspection with histological confirmation. Noninvasive markers of endometriosis have the potential to enable sooner diagnosis, leading to more timely treatment and better surgical planning, particularly for early-stage endometriosis.",
+      "MRI, transvaginal ultrasound with bowel preparation (TVUS-BP), and Raman spectroscopy are among the best non-invasive methods for diagnosing endometriosis. MRI and TVUS-BP provide reliable imaging to detect various forms of endometriosis, while Raman spectroscopy offers a promising diagnostic potential by analyzing blood sera.",
+      "The best non-invasive methods to diagnose endometriosis are transvaginal ultrasound (TVUS), magnetic resonance imaging (MRI), transrectal ultrasound (TRUS), and potentially Raman spectroscopy. These imaging modalities, particularly TVUS and MRI, provide high sensitivity and specificity and are effective alternatives to the invasive laparoscopy procedure. In addition, Raman spectroscopy is emerging as a non-invasive diagnostic technique for endometriosis.",
+      "The best non-invasive methods to diagnose endometriosis include transvaginal ultrasound (TVUS), MRI, Raman spectroscopy, and FTIR spectroscopy. TVUS and MRI are particularly good at detecting pelvic endometriosis and deep infiltrating endometriosis with high accuracy, whereas Raman and FTIR spectroscopy show promise as non-invasive diagnostic approaches using blood sera and cervical swabs, respectively.",
+      "Several studies have investigated non-invasive methods for diagnosing endometriosis, with varying degrees of success. Transvaginal ultrasonography (TVUS) has been found to be a highly accurate and reproducible method for diagnosing deep endometriosis, with sensitivity and specificity comparable to diagnostic laparoscopy. Additionally, studies have explored the use of biomarkers in plasma samples, such as annexin V, VEGF, CA-125, and sICAM-1/or glycodelin, which have shown promising results in diagnosing endometriosis with high sensitivity and acceptable specificity. Other non-invasive techniques, including MRI, FTIR spectroscopy, and Raman spectroscopy, have also been investigated, with MRI being capable of detecting many manifestations of endometriosis in a reliable manner. Overall, while no single method has emerged as the definitive non-invasive diagnostic tool, TVUS and biomarker analysis appear to be the most promising approaches, offering a balance of accuracy and invasiveness."
+    ],
+    "exact_answer": [
+      [
+        "transvaginal ultrasonography",
+        "MRI"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772beef592fa48873000003",
+    "question_text": "What is the function of a TMEM protein?",
+    "question_type": "factoid",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [
+      "TMEM proteins mainly act as channels or gates across cellular membranes, enabling the transport of ions and molecules. They play roles in various physiological processes, including acting as ion channels and potentially participating in pathways related to cancer metastasis, angiogenesis, and cardiac regeneration.",
+      "TMEM proteins have diverse functions, including helping to assemble ATP synthase and mitochondrial complex I, suppressing cancer metastasis via the Wnt/β-catenin signaling pathway, and being involved in angiogenesis by regulating endothelial cell survival.",
+      "TMEM proteins are transmembrane proteins that span cellular membranes and primarily function as channels or gates that control the transport of ions, signals, and other molecules across the membrane. They are involved in various physiological processes including ion transport, signaling, and have been implicated in cancer-related processes such as cell proliferation, migration, and metastasis.",
+      "TMEM proteins serve as channels or gates in cellular membranes, allowing the transport of ions, signals, and molecules. They play key roles in various physiological processes, including ion channel activity, cell signaling, and transport functions, and are implicated in cancer-related processes such as cell proliferation and metastasis.",
+      "TMEM proteins primarily function as transmembrane proteins that span biological membranes, acting as channels, gates, and mediators of various cellular processes including ion transport, signal transduction, and regulation of physiological functions, with emerging roles in disease states such as cancer, cardiovascular, and kidney diseases.",
+      "TMEM proteins are integral membrane proteins that perform a wide array of functions critical for maintaining cell homeostasis, including serving as channels, participating in various biochemical pathways, and playing roles in the development and progression of diseases such as cancer, as well as in normal cellular processes like muscle cell differentiation and lipid metabolism."
+    ],
+    "exact_answer": [
+      [
+        "ion channels",
+        "membrane gates",
+        "transport of molecules",
+        "Assembly of ATP synthase",
+        "Suppression of cancer metastasis"
+      ]
+    ]
+  },
+  {
+    "question_id": "677e8578592fa48873000021",
+    "question_text": "What are the targets of Teclistamab?",
+    "question_type": "list",
+    "relevant_docs": [
+      "37471687",
+      "39321344",
+      "37509726",
+      "37497430",
+      "37713090",
+      "38728378",
+      "37827964",
+      "39676006"
+    ],
+    "relevant_snippets": [
+      "Teclistamab (TECVAYLI®), a bispecific antibody that targets CD3 and B cell maturation antigen (BCMA), is being developed by Janssen Research and Development for the treatment of relapsed or refractory multiple myeloma.",
+      "ABSTRACT: Teclistamab, an off-the-shelf B-cell maturation antigen (BCMA) × CD3 bispecific antibody that mediates T-cell activation and subsequent lysis of BCMA-expressing myeloma cells, is approved for the treatment of patients with relapsed/refractory multiple myeloma",
+      "ABSTRACT: Teclistamab, an off-the-shelf B-cell maturation antigen (BCMA) × CD3 bispecific antibody that mediates T-cell activation and subsequent lysis of BCMA-expressing myeloma cells, is approved for the treatment of patients with relapsed/refractory multiple myelom",
+      "ABSTRACT: Teclistamab (Tec) is a first-in-class BCMA × CD3 bispecific T-cell engager antibody approved for treating multiple myeloma progressing after at least 4 lines o",
+      "Recent advancements also involve monoclonal antibodies targeting surface antigens, such as elotuzumab (anti-CS1) and daratumumab (anti-CD38), bispecific t-cell engagers such as teclistamab (anti-BCMA/CD3) and Chimeric antigen receptor T (CAR-T)-based strategies, with a growing focus on drugs that exhibit increasingly targeted action against neoplastic plasma cells and relevant effects on the tumor microenvironment.",
+      "Teclistamab is a BCMAxCD3 bispecific antibody, the first approved for the treatment of relapsed or refractory multiple myeloma.",
+      "We analyzed outcomes for 72 RRMM patients treated with teclistamab, a CD3 × BCMA bispecific antibody, 42% (30/72) of whom had prior BCMA-directed therapy exposure.",
+      "Currently, two B-cell maturation antigen (BCMA)-directed CAR T-cell therapies (idecabtagene vicleucel and ciltacabtagene autoleucel) as well as one BCMA/CD3 BsAb (teclistamab) have been approved for late-line (greater than four previous lines) R/R MM in the United States.",
+      "Bispecific antibodies are also emerging in the treatment of myeloma with teclistamab and elranatamab (anti-CD3 and anti-BCMA) or talquetamab (anti-GPRC5D and anti-CD3).",
+      "Teclistamab, elranatamab (both BCMA × CD3), and talquetamab (GPRC5D × CD3) are approved for treating MM patients who have received at least 3 prior lines of therapy, including a proteasome inhibitor, an immunomodulatory drug, and an anti-CD38 monoclonal antibody.",
+      "Correlative analyses of 163 patients treated with the anti-BCMA TCE teclistamab validated and further underscored the association between elevated baseline sBCMA (>400 ng/mL) and refractoriness.",
+      "Teclistamab (TECVAYLITM ) is the first T-cell redirecting bispecific antibody approved for patients with MM. Targeting both CD3 receptor complex on T cells and BCMA on myeloma cells, teclistamab leads to T-cell activation and subsequent lysis of BCMA+ cells",
+      "ABSTRACT: Teclistamab and other B-cell maturation antigen (BCMA)-targeting bispecific antibodies (BsAbs) have substantial activity in patients with heavily pretreated multiple myeloma (MM) but are associated with a high rate of ",
+      "ABSTRACT: Teclistamab, a B-cell maturation antigen (BCMA)- and CD3-targeting bispecific antibody, is an effective novel treatment for relapsed/refractory multiple myelo"
+    ],
+    "ideal_answer": [],
+    "exact_answer": [
+      [
+        "CD3"
+      ],
+      [
+        "B-cell maturation antigen"
+      ]
+    ]
+  },
+  {
+    "question_id": "6772e791592fa4887300000b",
+    "question_text": "What are the adverses effect of Rare earth elements (REEs) on the body?",
+    "question_type": "summary",
+    "relevant_docs": [
+      "28411498",
+      "36191706"
+    ],
+    "relevant_snippets": [
+      "BACKGROUND: Broad-ranging adverse effects are known for rare earth elements (REE), yet only a few studies tested the toxicity of several REE, prompting studies focusing on multi-parameter REE toxicity.METHODS: Trichloride salts of Y, La, Ce, Nd, Sm, Eu and Gd were tested in Paracentrotus lividus sea urchin embryos and sperm for: (1) developmental defects in either REE-exposed larvae or in the offspring of REE-exposed sperm; (2) fertilization success; (3) mitotic anomalies in REE-exposed embryos and in the offspring of REE-exposed sperm, and (4) reactive oxygen species (ROS) formation, and malondialdehyde (MDA) and nitric oxide (NO) levels.RESULTS: REEs affected P. lividus larvae with concentration-related increase in developmental defects, 10(-6) to 10(-4)M, ranking as: Gd(III)>Y(III)>La(III)>Nd(III)≅Eu(III)>Ce(III)≅Sm(III).",
+      "The results show La³+ had significant adverse effects on the growth and reproduction of worms above a concentration of 10 μmol L⁻¹.",
+      "Prenatal exposure to rare earth elements (REEs) may contribute to adverse birth outcomes in previous studies. Cord blood vitamin D has been suggested to modify or mediate the effects of environmental exposures. However, none has investigated these roles of cord blood vitamin D in the associations of prenatal exposure to REEs with fetal growth. Maternal trimester-specific urinary concentrations of 13 REEs, cord blood total 25-hydroxyvitamin D at delivery, and birth weight (BW)-for-gestational age (GA) were determined in 710 mother-newborn pairs from Wuhan, China. Higher maternal average urinary concentrations of europium (Eu), gadolinium (Gd), dysprosium (Dy), holmium (Ho), erbium (Er), and ytterbium (Yb) across three trimesters, either individually or jointly, were significantly associated with lower BW-for-GA Z-scores and higher odds of small for gestational age (SGA) [β = -0.092; 95 % confidence interval (CI): -0.149, -0.035 for BW-for-GA Z-scores, and odds ratio = 1.60; 95 % CI: 1.14, 2.24 for SGA involved in each unit increase in weighted quantile sum index of REEs mixture].",
+      "The comparative toxicities were tested of seven REEs, namely yttrium, lanthanum, cerium, neodymium, samarium, europium and gadolinium as chloride salts at concentrations ranging from 10-7 to 10-4 M. The evaluated endpoints included developmental defects and cytogenetic anomalies in REE-exposed embryos/larvae, and decreased fertilization success and offspring damage following sperm exposure.",
+      "Rare earth elements (REEs) can cause neoplasms, reduce bone density, affect children's intelligence, etc., and diet is an important way for the human body to absorb REEs.",
+      "A pilot study on the association between rare earth elements in maternal hair and the risk of neural tube defects in north China."
+    ],
+    "ideal_answer": [
+      "Rare earth elements (REEs) can have several adverse effects on the body, such as causing neoplasms, reducing bone density, and potentially affecting intelligence negatively. They have also been associated with neurotoxicity, neurodevelopmental toxicity, and hepatic alterations. Prenatal exposure to REEs has been linked to adverse birth outcomes and developmental defects.",
+      "Rare earth elements (REEs) can cause neoplasms, reduce bone density, affect children's intelligence, neurotoxicity, neurodevelopmental toxicity, and hepatic alterations. Additionally, chronic exposure to REEs, even at low doses, can lead to a wide range of adverse health effects.",
+      "Rare earth elements (REEs) have been associated with various adverse health effects. Studies indicate that REEs can cause neuronal toxicity, leading to behavioral defects and neurodevelopmental issues in children, such as lower mental and psychomotor development scores. Prenatal exposure has been linked to negative birth outcomes, including reduced birth weight and increased risk of small for gestational age babies. Additionally, REEs may induce cardiovascular problems like hypertension and disrupt thyroid function, which is crucial for metabolism and brain development. Oxidative stress and cellular damage are also potential effects, along with severe health issues such as nephrogenic systemic fibrosis, pneumoconiosis, cytotoxicity, anti-testicular effects, and male sterility. These findings highlight the multifaceted risks REEs pose to human health across different systems.",
+      "Rare earth elements (REEs) have various adverse effects on the body. They are associated with an increased risk of neoplasms, reduced bone density, and potential neurotoxicity and neurodevelopmental toxicity. Prenatal exposure can lead to adverse birth outcomes, and high intake might increase hypertension risk. REEs can also cause metabolic issues, impact intelligence in children, and result in hepatic alterations. Furthermore, they may affect embryogenesis and contribute to cardiovascular health risks.",
+      "Rare earth elements (REEs) can have several adverse effects on the body. They may cause neoplasms, reduce bone density, and affect children's intelligence. Additionally, high intake of REEs might increase the risk of hypertension, and they can cause neuronal toxic damage. There are also potential impacts on metabolic syndrome and prenatal exposure may lead to adverse birth outcomes.",
+      "Rare earth elements (REEs) can have several adverse effects on human health, particularly through occupational and environmental exposure. Key findings include respiratory tract damage from occupational exposure, increased risk of hypertension linked to REE accumulation in hair, and potential neurotoxic effects observed in animal studies. REEs have been associated with neoplasms, reduced bone density, and impaired immune function, particularly in children. Studies indicate that high levels of REEs can disrupt calcium metabolism, leading to various health issues. Additionally, proteomic analyses suggest that REE exposure may result in pathological changes, including neurovirulence and hepatotoxicity. Overall, while some studies indicate no immediate health risks at low exposure levels, the long-term effects and bioaccumulation of REEs warrant further investigation.",
+      "Rare earth elements (REEs) can cause a wide range of adverse effects on the body, including neurotoxicity, neurodevelopmental toxicity, reduced bone density, behavioral defects, and potential increase in risk for conditions like hypertension and neoplasms. They can affect children's intelligence and are associated with adverse birth outcomes. Prenatal exposure to REEs may contribute to lower birth weight for gestational age and increased risk for small for gestational age (SGA) infants.",
+      "Rare earth elements (REEs) can have adverse effects on the body, including increased risk of hypertension, neurotoxic damage, and behavioral defects. Prenatal exposure to REEs is associated with adverse birth outcomes, like lower birth weight and increased risk of small for gestational age infants and premature rupture of membranes. Furthermore, REEs have been linked to developmental defects and reproductive issues.",
+      "Adverse effects of rare earth elements (REEs) on the body include increased risk of hypertension, neurotoxic damage, developmental defects, mitotic anomalies, and adverse birth outcomes such as small for gestational age (SGA). Additional effects include potential cardiovascular issues and cytogenetic toxicity, as REEs can accumulate in the body and affect embryogenesis and fertility.",
+      "The adverse effects of rare earth elements (REEs) on the body can include hypertension, neurotoxic damage, adverse birth outcomes, increased risk of metabolic syndrome, and negative cardiovascular impacts.",
+      "The adverse effects of rare earth elements (REEs) on the body include potential lung, skin, and eye irritations, increased risks of hypertension, neurotoxic damage, adverse birth outcomes, and potential cardiovascular impacts. High levels can lead to bioaccumulation, metabolic disruptions, and impacts on the nervous and circulatory systems, contributing to broader systemic health risks.",
+      "Rare earth elements (REEs) have been shown to cause a broad spectrum of adverse health effects, including neoplasms, reduction in bone density, neurotoxicity, reproductive issues, and nephrological damage. These toxic effects are particularly pronounced following prolonged exposure, highlighting the need for cautious handling and regulation of REEs in various industries and applications.",
+      "The adverse effects of rare earth elements (REEs) on the body are multifaceted. Studies have shown that exposure to REEs can lead to neurotoxic damage, such as neuronal toxicity and behavioral defects in model organisms like C. elegans. Prenatal exposure has been associated with adverse birth outcomes, including lower birth weight and an increased risk of small for gestational age babies, potentially mediated by disruptions in cord blood vitamin D levels. REEs can also impair fetal neurodevelopment, affecting mental and psychomotor development in children. Additionally, these elements may disrupt maternal thyroid function, leading to hormonal imbalances. Other significant health risks include nephrogenic systemic fibrosis from gadolinium-based agents, oxidative stress, pneumoconiosis, cytotoxicity, anti-testicular effects causing male sterility, reduced bone density, and increased risk of neoplasms. Overall, REEs pose a range of systemic health risks affecting neurological, developmental, cardiovascular, endocrine, renal, and reproductive systems.",
+      "Rare earth elements (REEs) have been found to induce neoplasms, decrease bone density, impair cognitive functions, especially in children, and cause neurobehavioral abnormalities. They are also associated with severe kidney damage, nephrogenic systemic fibrosis, dysfunctional neurological disorders, fibrotic tissue injuries, oxidative stress, pneumoconiosis, cytotoxicity, anti-testicular effects, and male sterility. Moreover, prenatal exposure to REEs has been linked to adverse birth outcomes, including lower birth weights and altered fetal growth, potentially mediated by cord blood vitamin D levels.",
+      "Studies have shown that rare earth elements (REEs) can have adverse effects on the body, including increased risk of hypertension, neuronal toxic damage, and behavioral defects. Prenatal exposure to REEs has been linked to adverse birth outcomes, such as lower birth weight and smaller size for gestational age. Additionally, REEs have been found to affect children's neurodevelopment, with higher concentrations of certain REEs during pregnancy associated with decreased mental and psychomotor development indices. Other potential health effects of REE exposure include disruptions in thyroid function, nephrogenic systemic fibrosis, severe damage to nephrological systems, dysfunctional neurological disorders, fibrotic tissue injury, oxidative stress, pneumoconiosis, cytotoxicity, anti-testicular effects, and male sterility. Overall, the studies suggest that exposure to REEs can have significant negative impacts on human health, particularly in terms of reproductive and developmental outcomes."
+    ],
+    "exact_answer": ""
+  },
+  {
+    "question_id": "6772c2d4592fa48873000005",
+    "question_text": "Discoidin domain receptor (DDR)-1 has a crucial role in regulating vital processes, it is known to be associated with fibrosis?",
+    "question_type": "yesno",
+    "relevant_docs": [
+      "29483153",
+      "22057045",
+      "33340991",
+      "38171149",
+      "26800565"
+    ],
+    "relevant_snippets": [
+      "BACKGROUND: Discoidin domain receptor 1 (DDR1) is a receptor tyrosine kinase that is activated by collagens that is involved in the pathogenesis of fibrotic disorders.",
+      "Discoidin domain receptor 1 (DDR1) ablation promotes tissue fibrosis and hypoxia to induce aggressive basal-like breast cancers.",
+      "The receptor tyrosine kinase DDR1 has been implicated in multiple human cancers and fibrosis and is targeted by the leukemia drug Gleevec.",
+      "Inhibition of either TGF-β receptor-I or phospho-p38 reversed the fibrocalcific DDR-1(-/-) phenotype, corroborating a causal relationship between DDR-1 and TGF-β in EV-mediated vascular calcification.CONCLUSIONS: DDR-1 interacts with the TGF-β pathway to restrict calcifying EV-mediated mineralization and fibrosis by SMCs.",
+      "When DDRs are overexpressed, it has been associated with various diseases such as cancers, fibrotic disorders, and inflammation."
+    ],
+    "ideal_answer": [
+      "Yes, Discoidin domain receptor 1 (DDR1) is indeed associated with fibrosis. It is involved in the pathogenesis of fibrotic disorders by regulating extracellular matrix production, and its overexpression or dysregulation is linked to increased fibrosis in various tissues.",
+      "Yes, DDR1 is associated with fibrosis. It is involved in the pathogenesis of fibrotic disorders and interacts with pathways that regulate fibrosis, such as the TGF-β pathway.",
+      "Yes, discoidin domain receptor 1 (DDR1) is associated with fibrosis. It contributes to fibrosis by linking to collagen compaction in lesions, interacting with pathways such as TGF-β, and influencing fibroblast activity and extracellular matrix production.",
+      "Yes, Discoidin domain receptor (DDR)-1 is associated with fibrosis. It interacts with pathways such as TGF-β to restrict fibrosis, and its involvement in fibrotic processes is mediated through extracellular matrix regulation. Inhibition of DDR1 has been shown to reduce fibrosis in various pathological conditions.",
+      "Yes, DDR1 is associated with fibrosis and plays a crucial role by mediating processes like inflammation, collagen secretion, and matrix remodeling. This involvement makes it a potential therapeutic target for fibrotic conditions.",
+      "Discoidin domain receptor 1 (DDR1) is indeed associated with fibrosis, contributing to the regulation of extracellular matrix production and playing a role in the pathogenesis of fibrotic disorders in various tissues, including the kidneys, liver, and others.",
+      "Yes, Discoidin domain receptor 1 (DDR1) is indeed associated with fibrosis, contributing to the pathogenesis of fibrotic disorders by regulating extracellular matrix production and playing a role in various stages of fibrosis in different tissues and organs."
+    ],
+    "exact_answer": "yes"
+  },
+  {
+    "question_id": "677e83f0592fa4887300001f",
+    "question_text": "Is Asundexian superior to Apixaban for Atrial Fibrillation?",
+    "question_type": "yesno",
+    "relevant_docs": [],
+    "relevant_snippets": [],
+    "ideal_answer": [],
+    "exact_answer": "no"
+  },
+  {
+    "question_id": "6593e5c206a2ea257c000020",
+    "question_text": "Which new treatments are investigated for cerebral palsy?",
+    "question_type": "list",
+    "relevant_docs": [
+      "38776339",
+      "22151851",
+      "29764869",
+      "39033213"
+    ],
+    "relevant_snippets": [
+      "OBJECTIVE: To explore patients' experiences of a self-administered electrotherapy treatment for muscle spasticity in cerebral palsy and stroke; the Exopulse Mollii Suit®.DESIGN: Qualitative design with an inductive approach Subjects: Fifteen patients with spasticity due to stroke or cerebral palsy, participating in a previous randomized controlled trial evaluating the treatment concept.METHODS: Information letters were sent to all potential participants (n = 27) in the previous study.",
+      "For the transplantation group, a total of 30 cerebral palsy patients received an autologous NSC-like cells transplantation (1-2 × 107 cells into the subarachnoid cavity) and rehabilitation treatments whereas 30 patients in the control group only received rehabilitation treatment.RESULTS: We recorded the gross motor function measurement scores, language quotients, and adverse events up to 6 months post-treatment.",
+      "BACKGROUND: Spasticity is common in cerebral palsy and can result in pain and diminished health-related quality of life.OBJECTIVE: To evaluate the safety and efficacy of onabotulinumtoxinA for lower limb spasticity treatment in children with cerebral palsy.METHODS: In this registrational phase 3, multinational, randomized, double-blind, placebo-controlled trial (NCT01603628), children (2-< 17 years) with cerebral palsy and ankle spasticity (Modified Ashworth Scale-Bohannon [MAS] score≥2) were randomized 1 : 1 : 1 to standardized physical therapy and onabotulinumtoxinA (4 or 8 U/kg), or placebo.",
+      "BACKGROUND: Robotic-assisted gait training (RAGT) devices are effective for children with cerebral palsy (CP).",
+      "INTRODUCTION: A new rehabilitative approach, called UPper Limb Children Action Observation Training (UPCAT), based on the principles of action observation training (AOT), has provided promising results for upper limb rehabilitation in children with unilateral cerebral palsy (UCP).",
+      "We conclude that surgical releases augmented with electrical stimulation resulted in a satisfactory clinic outcome, and may offer a new approach to the treatment of patients with cerebral palsy.",
+      "Favorable therapeutic effects were observed in 54 out of 60 cell therapy trials, indicating a promising potential for cell treatments in cerebral palsy."
+    ],
+    "ideal_answer": [
+      "New treatments investigated for cerebral palsy include stem cell therapy, which shows promise in treating motor disabilities. Bone marrow derived mononuclear cells (MNCs) have been shown to be safe and effective for motor deficits. Botulinum toxin type A (BTX-A) is being used for spasticity management in children, while Intrathecal Baclofen Therapy (ITB) is also being developed. Additionally, there is encouraging evidence that Selective Serotonin Reuptake Inhibitors (SSRIs) might improve motor function in patients with cerebral palsy.",
+      "Recent advances in the treatment of cerebral palsy have led to the investigation of newer modalities such as constraint-induced movement therapy and robotic interventions, which show promise for achieving both short- and long-term functional gains. These innovative approaches aim to capitalize on neuroplasticity, offering potential benefits for individuals affected by cerebral palsy. As research continues to evolve, it is crucial for physicians, healthcare teams, and families managing cerebral palsy to stay informed about these emerging therapies, which hold great potential for improving outcomes in this population.",
+      "Recent investigations into new treatments for cerebral palsy include botulinum toxin type A for reducing muscle spasticity, robotic-assisted gait training devices to help improve mobility, and Rosiglitazone for activating specific biological pathways beneficial in CP. AiWalker-K devices are being utilized for rehabilitation, while allogeneic cord blood and erythropoietin therapies are being studied for their potential benefits in treating CP. Intrathecal baclofen and cellular therapies are also explored for their capacities to ameliorate symptoms and enhance life quality. Furthermore, social assistive robots are being tested as a novel intervention to engage and motivate children in therapy."
+    ],
+    "exact_answer": [
+      [
+        "Stem cell therapy Mesenchymal stem cells (MSCs) Allogeneic mesenchymal stem cells NSC-like cells Bone marrow derived mononuclear cells (MNCs) Botulinum toxin type A (BTX-A) Intrathecal Baclofen Therapy (ITB) Selective Serotonin Reuptake Inhibitors (SSRIs) Intrathecal baclofen infusion Advancements in genetic research for precision medicine. Mesenchymal stem cell therapy (MSCT) using umbilical cord-derived MSCs. Surgical interventions such as tendon transfers and muscle lengthening.",
+        "intravenous infusions of allogeneic AB0/Rh-identical UCB cells",
+        "UPper Limb Children Action Observation Training (UPCAT)"
+      ]
+    ]
+  },
+  {
+    "question_id": "6777bebf592fa48873000015",
+    "question_text": "Causes of borderline personality disorder.",
+    "question_type": "list",
+    "relevant_docs": [
+      "30840560",
+      "31574104",
+      "19379027"
+    ],
+    "relevant_snippets": [
+      "But the condition can also arise from adverse post-natal factors: parental cruelty or neglect, or incest.",
+      "Maladaptive parenting (including childhood maltreatment, abuse and neglect) has been implicated in the scientific literature exploring the aetiology of personality disorder, particularly borderline personality disorder (BPD)"
+    ],
+    "ideal_answer": [
+      "Borderline personality disorder (BPD) is attributed to a combination of genetic predisposition and early traumatic experiences including emotional, physical, and sexual abuse. An invalidating environment during development plays a significant role in the disorder. Additionally, brain dysfunctions, particularly in the orbitofrontal cortex, and cognitive inhibition impairments contribute to impulsivity and other symptoms associated with BPD.",
+      "Borderline Personality Disorder (BPD) can be caused by an interplay of genetic and environmental factors. Key causes include childhood trauma, such as emotional, physical, and sexual abuse, and emotional neglect. Other contributing factors include adverse family environments, negative parental behaviors like cruelty or incest, and an emotionally vulnerable temperament exacerbated by an invalidating environment. Genetic predispositions, especially those linking BPD to bipolar disorder, may also be involved.",
+      "The exact causes of borderline personality disorder (BPD) are still not fully understood, but research suggests that it is a complex interplay of genetic, environmental, and neurobiological factors. Childhood trauma, particularly emotional abuse and neglect, is a significant risk factor for developing BPD. Individuals with BPD often have difficulty regulating their emotions, which can lead to intense mood swings and impulsive behaviors. Additionally, studies have shown that BPD is associated with abnormalities in brain regions involved in emotional regulation, such as the amygdala and prefrontal cortex. Furthermore, research has identified a link between BPD and difficulties in mentalization, which refers to the ability to understand and interpret the thoughts, feelings, and behaviors of oneself and others. Other potential risk factors for BPD include genetic predisposition, family dynamics, and social learning. However, it is essential to note that BPD is a heterogeneous disorder, and each individual's experience may be unique."
+    ],
+    "exact_answer": [
+      [
+        "childhood trauma",
+        "genetic factors",
+        "emotionally vulnerable temperament",
+        "risk genes for bipolar disorder",
+        "maladaptive parenting",
+        "neurobiological abnormalities",
+        "Environmental influences"
+      ]
+    ]
+  },
+  {
+    "question_id": "6593d1b806a2ea257c000017",
+    "question_text": "What are the uses for faecal microbiota transplantation (FMT) in children under 19 years of age?",
+    "question_type": "list",
+    "relevant_docs": [
+      "36985379"
+    ],
+    "relevant_snippets": [
+      "FMT also reduced Childhood Autism Rating Scale (CARS) scores (WMD = -6.95; 95% CI, -8.76 to -5.14; P < 0.001; I 2 = 28.1%).Conclusion: Our results indicate that FMT can benefit children with autism by reducing ABC and CARS scores, but more high-quality studies are needed to verify these results.",
+      "FMT is a safe and effective treatment for recurrent CDI in immunocompetent children and adults.",
+      "Conclusion: Our findings suggest that FMT may offer a promising intervention for treating both behavioral and gastrointestinal symptoms in pediatric patients with autism."
+    ],
+    "ideal_answer": [
+      "Faecal microbiota transplantation (FMT) is primarily used in children under 19 years of age to treat recurrent Clostridioides difficile infection, where it is considered safe and effective. Additionally, it is being explored as a potential alternative treatment for adolescents with refractory irritable bowel syndrome (IBS). Further studies are needed to evaluate its efficacy in other conditions.",
+      "Faecal microbiota transplantation (FMT) is used in children under 19 years of age primarily for treating recurrent Clostridium difficile infection (RCDI) and has potential benefits for treating inflammatory bowel diseases such as IBD and ulcerative colitis. It is considered effective in restoring gut eubiosis and can provide a short-term response in managing these conditions.",
+      "Faecal microbiota transplantation (FMT) is primarily used in children under 19 years of age to treat recurrent Clostridium difficile infection (RCDI) and has been explored for its potential in managing pediatric inflammatory bowel diseases like ulcerative colitis. While its role is still being researched, FMT shows promise in these areas due to its ability to restore healthy gut microbiota.",
+      "Faecal microbiota transplantation (FMT) is utilized in children under 19 years of age primarily for the treatment of recurrent Clostridium difficile infection. It is also applied to manage symptoms associated with Autism Spectrum Disorder (ASD), functional gastrointestinal disorders (FGIDs), ulcerative colitis, and cytomegalovirus (CMV) colitis. FMT is appreciated for its ability to modulate the gut microbiome towards a healthier state, thereby alleviating gastrointestinal and behavioral symptoms linked to these conditions.",
+      "Studies suggest that faecal microbiota transplantation (FMT) is an effective and safe treatment option for various gastrointestinal disorders in children under 19 years of age. FMT has been shown to be beneficial in treating recurrent Clostridium difficile infection (rCDI), inflammatory bowel disease (IBD), functional gastrointestinal disorders (FGIDs), and even childhood autism. The procedure, which involves infusing donor fecal matter into the patient's digestive system via a nasogastric tube or endoscope, has been found to modulate the gut microbiome and metabolome towards a healthy state in children with these conditions. Additionally, FMT has been used successfully in pediatric patients with ulcerative colitis (UC) and can be considered as a feasible option for treatment of refractory CDI in pediatric oncology patients.",
+      "Faecal microbiota transplantation (FMT) has been found to be a safe and effective treatment for various conditions in children under 19 years of age. Studies have shown that FMT is efficacious in treating recurrent Clostridium difficile infection, ulcerative colitis, and refractory diarrhea in pediatric patients. Additionally, FMT has been used to treat pseudomembranous enteritis, and has been found to modulate the fecal microbiome and metabolome towards a healthy state in children with functional gastrointestinal disorders (FGIDs). Furthermore, FMT has been shown to reduce symptoms of autism, including Childhood Autism Rating Scale (CARS) scores and Aberrant Behavior Checklist (ABC) scores. Overall, FMT appears to be a well-tolerated and effective treatment option for a range of conditions in children, with high rates of symptom resolution and no serious adverse effects reported."
+    ],
+    "exact_answer": [
+      [
+        "Recurrent Clostridioides difficile infection Refractory Irritable Bowel Syndrome (IBS) recurrent Clostridioides difficile infection refractory IBS refractory irritable bowel syndrome decolonisation of multi-drug resistant organisms Treatment of recurrent Clostridioides difficile infections (CDI). Restoration of gut microbiota after conventional therapies fail.",
+        "refractory IBS in adolescents",
+        "Inflammatory Bowel Disease (IBD)"
+      ]
+    ]
+  }
+]
