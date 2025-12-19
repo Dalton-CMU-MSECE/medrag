@@ -1,0 +1,121 @@
+# Pipeline Configuration for Full 2.4M PubMed Run
+
+pipeline:
+  name: "Medical RAG Pipeline (2.4M)"
+  version: "1.0.0"
+  seed: 42
+
+ner:
+  model: "hf:d4data/biomedical-ner-all"
+  confidence_threshold: 0.7
+  enabled: true
+
+pubmed:
+  api_base: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+  max_results: 100
+  cache_ttl: 86400
+  retry_attempts: 3
+  retry_delay: 1.0
+
+encoder:
+  backend: "medcpt"   # options: medcpt | biobert
+  model: "ncbi/MedCPT-Query-Encoder"
+  embedding_dim: 768
+  batch_size: 64       # larger batch size for GPU
+  device: "cuda"       # force GPU if available
+
+faiss:
+  index_type: "IndexFlatIP"
+  nprobe: 32
+  save_path: "runs/run_2/faiss.index"
+
+bm25:
+  elasticsearch_host: "localhost"
+  elasticsearch_port: 9200
+  index_name: "medical_docs_2_4m"
+  k1: 1.2
+  b: 0.75
+
+retrieval:
+  top_k_dense: 200
+  top_k_sparse: 200
+  top_k_final: 50
+  faiss_entity_append: true
+  faiss_max_entities: 3
+  bm25_entity_boost: 2.0
+  bm25_max_entities: 5
+
+reranker:
+  model: "pritamdeka/S-PubMedBert-MS-MARCO"
+  batch_size: 16
+  top_k: 20
+  device: "cuda"
+
+mmr:
+  lambda_param: 0.7
+  top_k: 10
+  recency_weight: 0.3
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini-2024-07-18"
+  temperature: 0.7
+  max_tokens: 1024
+  system_prompt: |
+    You are a scientific medical assistant designed to synthesize responses from specific medical documents. Only use the information provided in the documents to answer questions. The first documents should be the most relevant. Do not use any other information except for the documents provided. When answering questions, always format your response as a JSON object with fields for 'response', 'used PMIDs'. Cite all PMIDs your response is based on in the 'used PMIDs' field. Please think step-by-step before answering questions and provide the most accurate response possible. Provide your answer to the question in the 'response' field.
+
+prompt:
+  max_context_tokens: 3000
+  include_citations: true
+  include_pub_dates: true
+
+evaluation:
+  metrics:
+    - "recall@5"
+    - "recall@10"
+    - "recall@20"
+    - "recall@50"
+    - "precision@5"
+    - "precision@10"
+    - "mrr"
+    - "rouge1"
+    - "rouge2"
+    - "rougeL"
+    - "f1@5"
+    - "f1@10"
+    - "f1@20"
+    - "f1@50"
+  llm_judge:
+    enabled: true
+    model: "gpt-4o-mini-2024-07-18"
+    temperature: 0.0
+    aspects:
+      - "factuality"
+      - "completeness"
+      - "relevance"
+      - "evidence_support"
+
+bioasq:
+  data_dir: "data/bioasq"
+  rounds: [1, 2, 3, 4]
+  question_types: ["yesno", "factoid", "list", "summary"]
+  pubmed_email: "jgibson2@andrew.cmu.edu"
+  cache_pubmed: true
+  pubmed_cache_dir: "data/pubmed_cache"
+
+temporal:
+  strategy: "recency_boost"
+  recency_decay: 0.1
+  time_bucket_windows: ["2020-2025", "2015-2019", "2010-2014"]
+
+logging:
+  level: "INFO"
+  format: "json"
+  output_dir: "runs/run_2/logs"
+
+data:
+  docs_path: "data/processed_2.4M/docs.jsonl"           # place 2.4M JSONL here
+  embeddings_path: "runs/run_2/embeddings.npy"
+  embeddings_manifest: "runs/run_2/embeddings_manifest.json"
+  results_path: "runs/run_2/results.jsonl"
+  run_manifest: "runs/run_2/run_manifest.json"

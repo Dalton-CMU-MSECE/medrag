@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-encode_documents.py — Encode documents using MedCPT encoder
+encode_documents.py — Batch-encode documents using configured encoder (GPU-ready)
 Reads docs.jsonl and generates embeddings.npy and embeddings_manifest.json
 """
 
@@ -13,7 +13,16 @@ from datetime import datetime
 
 import yaml
 import numpy as np
+from numpy.lib.format import open_memmap
 from tqdm import tqdm
+
+# Optional: use actual encoders when available
+try:
+    from src.encoder.medcpt_encoder import MedCPTEncoder
+    from src.encoder.biobert_encoder import BioBERTEncoder
+except Exception:
+    MedCPTEncoder = None
+    BioBERTEncoder = None
 
 
 def get_git_sha():
@@ -45,30 +54,94 @@ def load_config(config_path):
         return yaml.safe_load(f)
 
 
-def load_documents(docs_path):
-    """Load documents from JSONL file"""
-    documents = []
+def count_lines(docs_path: str) -> int:
+    """Count non-empty lines in a JSONL file"""
+    n = 0
     with open(docs_path, "r") as f:
         for line in f:
             if line.strip():
-                documents.append(json.loads(line))
-    return documents
+                n += 1
+    return n
+
+def stream_documents(docs_path):
+    """Yield documents from JSONL file one by one"""
+    with open(docs_path, "r") as f:
+        for line in f:
+            if not line.strip():
+                continue
+            yield json.loads(line)
 
 
-def encode_documents(documents, config):
+def build_encoder(config):
+    enc_cfg = config.get("encoder", {})
+    backend = enc_cfg.get("backend", "medcpt").lower()
+    model_name = enc_cfg.get("model", "ncbi/MedCPT-Query-Encoder")
+    device = enc_cfg.get("device", "auto")
+    if backend == "biobert" and BioBERTEncoder is not None:
+        return BioBERTEncoder(model_name=model_name, device=device)
+    if MedCPTEncoder is not None:
+        return MedCPTEncoder(model_name=model_name, device=device)
+    # Fallback: no encoders available
+    return None
+
+def batch_encode_to_memmap(docs_path: str, config: dict, output_path: Path) -> int:
+    """Encode documents in batches directly into a .npy memmap file.
+    Returns the number of documents processed.
     """
-    Encode documents using the configured encoder
-    In a real implementation, this would load the MedCPT model
-    """
-    # Placeholder: Generate random embeddings for demonstration
-    embedding_dim = config["encoder"]["embedding_dim"]
-    embeddings = np.random.randn(len(documents), embedding_dim).astype(np.float32)
-    
-    # Normalize embeddings for cosine similarity
-    norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
-    embeddings = embeddings / (norms + 1e-8)
-    
-    return embeddings
+    embedding_dim = int(config["encoder"]["embedding_dim"])
+    batch_size = int(config["encoder"].get("batch_size", 32))
+    total = count_lines(docs_path)
+    if total == 0:
+        # Create empty file
+        mm = open_memmap(str(output_path), mode="w+", dtype=np.float32, shape=(0, embedding_dim))
+        del mm
+        return 0
+
+    encoder = build_encoder(config)
+    mm = open_memmap(str(output_path), mode="w+", dtype=np.float32, shape=(total, embedding_dim))
+
+    def _encode_texts(texts: list[str]) -> np.ndarray:
+        if encoder is None:
+            # Placeholder: random embeddings
+            emb = np.random.randn(len(texts), embedding_dim).astype(np.float32)
+        else:
+            emb = encoder.encode(texts, batch_size=batch_size, normalize=True)
+        # Ensure float32 and normalized (defensive)
+        emb = emb.astype(np.float32)
+        norms = np.linalg.norm(emb, axis=1, keepdims=True)
+        emb = emb / (norms + 1e-8)
+        return emb
+
+    i = 0
+    buf_ids = []
+    buf_texts = []
+    for doc in tqdm(stream_documents(docs_path), total=total, desc="Encoding"):
+        # Prefer abstract; fallback to text/title
+        abstract = (doc.get("abstract") or doc.get("text") or "").strip()
+        if not abstract:
+            # write zeros for empty abstracts to keep alignment
+            buf_ids.append(doc.get("doc_id"))
+            buf_texts.append("")
+        else:
+            buf_ids.append(doc.get("doc_id"))
+            buf_texts.append(abstract)
+
+        # Flush batch
+        if len(buf_texts) >= batch_size:
+            emb = _encode_texts(buf_texts)
+            mm[i:i+len(emb), :] = emb
+            i += len(emb)
+            buf_ids.clear()
+            buf_texts.clear()
+
+    # Flush tail
+    if buf_texts:
+        emb = _encode_texts(buf_texts)
+        mm[i:i+len(emb), :] = emb
+        i += len(emb)
+
+    del mm  # flush to disk
+    return i
 
 
 def main():
@@ -80,32 +153,26 @@ def main():
     # Load configuration
     config = load_config(args.config)
     
-    # Load documents
+    # Source docs path
     docs_path = config["data"]["docs_path"]
-    print(f"Loading documents from {docs_path}...")
-    documents = load_documents(docs_path)
-    print(f"Loaded {len(documents)} documents")
-
-    # Encode documents
-    print(f"Encoding documents with {config['encoder']['model']}...")
-    embeddings = encode_documents(documents, config)
-    print(f"Generated embeddings with shape {embeddings.shape}")
+    print(f"Preparing to encode documents from {docs_path}...")
 
     # Create output directory
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Save embeddings
+    # Encode directly to .npy memmap on disk (GPU-ready, batched)
     embeddings_path = output_dir / "embeddings.npy"
-    np.save(embeddings_path, embeddings)
-    print(f"Saved embeddings to {embeddings_path}")
+    print(f"Encoding with {config['encoder']['model']} (device={config['encoder'].get('device','auto')})...")
+    n_docs = batch_encode_to_memmap(docs_path, config, embeddings_path)
+    print(f"Saved embeddings to {embeddings_path} (n_docs={n_docs})")
 
     # Create manifest
     manifest = {
         "git_sha": get_git_sha(),
         "encoder": config["encoder"]["model"],
         "embedding_dim": config["encoder"]["embedding_dim"],
-        "num_documents": len(documents),
+        "num_documents": n_docs,
         "created_at": datetime.utcnow().isoformat() + "Z",
         "data_sha256": compute_file_sha256(docs_path),
         "embeddings_sha256": compute_file_sha256(embeddings_path)

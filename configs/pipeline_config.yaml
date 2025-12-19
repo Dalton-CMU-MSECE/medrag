@@ -89,6 +89,10 @@ evaluation:
     - "rouge1"
     - "rouge2"
     - "rougeL"
+    - "f1@5"
+    - "f1@10"
+    - "f1@20"
+    - "f1@50"
   llm_judge:
     enabled: true  # Enable LLM-as-a-judge evaluation (NEW)
     model: "gpt-4o-mini-2024-07-18"

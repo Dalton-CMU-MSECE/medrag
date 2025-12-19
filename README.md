@@ -178,6 +178,24 @@ Outputs are saved to:
 - `results/round_1/predictions_biobert.json`
 - `results/round_1/metrics_biobert.json`
 
+### Hybrid MedCPT + BM25 Pipeline
+
+Run the MedCPT dense + BM25 sparse hybrid retriever variant:
+
+```bash
+python scripts/run_bioasq_pipeline_hybrid_medcpt.py \
+  --round 1 \
+  --email jgibson2@andrew.cmu.edu \
+  --config configs/pipeline_config.yaml \
+  --data-dir data/bioasq \
+  --output results \
+  --max-questions 10
+```
+
+Outputs are saved to:
+- `results/round_1/predictions_hybrid_medcpt.json`
+- `results/round_1/metrics_hybrid_medcpt.json`
+
 Notes:
 - Both encoders produce 768-d embeddings and use CLS token pooling.
 - If the HF model fails to load, the pipeline falls back to placeholder random embeddings (for dev/testing).
